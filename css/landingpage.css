@@ -56,7 +56,7 @@ header {
     }
     header p {
         margin-top: .2em;
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
 ul#latest {
@@ -71,7 +71,7 @@ ul#latest {
         bottom: 0;
     }
     footer ul li {
-       margin: 0 30px;
+       margin: 0 20px;
     }
 
 .desktop-icon {
@@ -293,6 +293,10 @@ header {
 
     ul#latest {
         display: block;
+    }
+
+    footer ul li {
+        margin: 0 30px;
     }
 
 }
