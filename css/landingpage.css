@@ -59,8 +59,12 @@ header {
         font-size: 1.3em;
     }
 
-ul#latest {
+ul#latest,
+a.git-ribbon {
     display: none;
+}
+
+ul#latest {
     margin: 20px 0 0 0;
 }
 
@@ -277,7 +281,7 @@ ul#latest {
     shape-rendering: crispEdges;
 }
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 36em) {
 header {
     margin-top: 6em;
 }
@@ -291,7 +295,8 @@ header {
         color: #888;
     }
 
-    ul#latest {
+    ul#latest,
+    a.git-ribbon {
         display: block;
     }
 
@@ -301,7 +306,7 @@ header {
 
 }
 
-@media only screen and (max-height: 560px) {
+@media only screen and (max-height: 568px) {
     footer ul {
         position: inherit;
     }
