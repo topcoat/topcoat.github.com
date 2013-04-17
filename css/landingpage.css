@@ -248,7 +248,7 @@ ul#latest {
     fill: rgba(255,255,255,.95);
 }
 
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 920px) {
     header {
         margin-top: 6em;
     }
