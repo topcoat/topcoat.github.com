@@ -53,8 +53,11 @@ ul.comps {
         background-color: rgba(255,255,255,.7);
         background-image: url("/img/icn-eye.svg");
         background-repeat: no-repeat;
-        background-size: 100px 61px;
+        -webkit-background-size: 30% 30%;
         background-position: 50% 52%;
+        -moz-transition-property: opacity, background-position;
+        -moz-transition-duration: .14s;
+        -moz-transition-timing-function: ease-out;
         -webkit-transition-property: opacity, background-position;
         -webkit-transition-duration: .14s;
         -webkit-transition-timing-function: ease-out;
