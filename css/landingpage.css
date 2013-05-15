@@ -1,15 +1,18 @@
 
 body {
+    font-family: "source-sans-pro",sans-serif;
     color: #454545;
+    font-style: normal;
 }
 
 p {
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
 }
 
 a {
-    color: #888;
+    color: #0083e8;
     text-decoration: none;
+    text-shadow: none;
 }
 ul {
     margin: 0;
@@ -18,6 +21,70 @@ ul {
     ul li {
         display: inline-block;
         margin: 0 10px;
+    }
+
+h3 {
+    font-size: .97em;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+    color: #7f7f7f;
+    margin: 0 0 6px 0;
+}
+
+p small a {
+    font-size: 1.4em;
+}
+
+ul.comps {
+    width: 300px;
+    margin: 40px auto 0;
+}
+    ul.comps li {
+        display: block;
+        margin: 0 0 80px 0;
+    }
+
+    ul.comps li:first-child {
+        margin-right: 94px;
+    }
+
+    ul.comps li a {
+        opacity: 0;
+        background-color: rgba(255,255,255,.7);
+        background-image: url("/img/icn-eye.svg");
+        background-repeat: no-repeat;
+        background-size: 100px 61px;
+        background-position: 50% 52%;
+        -webkit-transition-property: opacity, background-position;
+        -webkit-transition-duration: .14s;
+        -webkit-transition-timing-function: ease-out;
+    }
+
+
+    ul.comps li a {
+        position: absolute;
+        z-index: 2000;
+    }
+
+    ul.comps li,
+    ul.comps li a,
+    ul.comps li div.thumb {
+        width: 300px;
+        height: 207px;
+    }
+
+    ul.comps li div.thumb {
+        display: block;
+        background-repeat: no-repeat;
+        background-size: 414px 285px;
+        background-position: top left;
+    }
+
+    ul.comps li#desktop-comp div.thumb {
+        background-image: url("/img/comp-desktop.png");
+    }
+    ul.comps li#mobile-comp div.thumb {
+        background-image: url("/img/comp-mobile.png");
     }
 
 header,
@@ -48,20 +115,14 @@ header {
         font-size: 1.3em;
     }
 
-ul#latest,
+ul#latest #download-btn,
 a.git-ribbon {
     display: none;
 }
 
-ul#latest {
-    margin: 20px 0 0 0;
-}
-
     footer ul {
         width: 100%;
-        position: absolute;
-        margin: 32px auto;
-        bottom: 0;
+        margin: 100px auto;
     }
     footer ul li {
        margin: 0 20px;
@@ -121,7 +182,7 @@ ul#latest {
   height: 21px;
   line-height: 21px;
   min-width: 15px;
-  margin: 0 5px 5px 0;
+  margin: 0 5px 0 0;
   max-width: 150px;
   overflow: hidden;
   padding: 0 8px;
@@ -209,14 +270,21 @@ ul#latest {
 /* for landing page only */
 .button.huge {
     font-size: 100%;
-    height: 42px;
-    line-height: 42px;
-    margin: 0 0 10px 0;
+    font-weight: 400;
+    height: 47px;
+    line-height: 47px;
+    margin: 0;
     padding: 0 29px;
 }
 .button.cta.huge {
     width: 222px;
 }
+
+.button.quiet {
+    background: transparent;
+    border: none;
+}
+
 .icon-sm {
     background-repeat: no-repeat;
     display: inline-block;
@@ -236,8 +304,8 @@ ul#latest {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-    height: 20px;
-    width: 20px;
+    height: 17px;
+    width: 17px;
     margin: 10px 6px 0 -9px;
     shape-rendering: crispEdges;
 }
@@ -263,11 +331,33 @@ ul#latest {
         color: #888;
     }
 
-    ul#latest,
+    ul#latest #download-btn,
     a.git-ribbon {
         display: block;
     }
 
+    p small a {
+        font-size: 1em;
+    }
+
+    ul.comps {
+        width: 926px;
+        margin: 80px auto;
+    }
+    ul.comps li {
+        display: inline-block;
+        margin: 0;
+    }
+    ul.comps li,
+    ul.comps li a,
+    ul.comps li div.thumb {
+        width: 414px;
+        height: 285px;
+    }
+    ul.comps li a:hover {
+        opacity: 1;
+        background-position: 50% 50%;
+    }
     footer ul li {
         margin: 0 30px;
     }

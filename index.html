@@ -20,35 +20,30 @@
         <h1>Topcoat</h1>
         <p>CSS for clean and fast web apps</p>
         </header>
-        <ul class="devices">
-            <li>
-            <a class="button huge" href="http://topcoat.github.com/topcoat/doc/desktop.html" onclick="_gaq.push(['_trackEvent', 'desktop styleguide', 'click',,, false]);" role="button">
-                <svg class="icon-lrg" width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="M4.40909091,14.7969482 C4.287682,14.8068408 4.16001763,14.8840143 4.08024505,14.9868698 C4.03099552,15.0503701 4,15.1236592 4,15.1969482 L4,15.5969482 C4,15.7969482 4.19227273,15.9969482 4.40909091,15.9969482 L11.5909091,15.9969482 C11.7668182,15.9969482 12,15.8329482 12,15.5969482 L12,15.1969482 C11.9918182,14.9889482 11.775,14.8049482 11.5909091,14.7969482 L9.00897217,14.0330811 L7.01855469,14.0344238 L4.40909091,14.7969482 Z M16,11.78125 L16,1.21875 C16,0.24740625 15.76625,0 14.725,0 L1.275,0 C0.24225,0 0,0.219375 0,1.21875 L0,11.78125 C0,12.8009375 0.22525,13 1.275,13 L6.97,13 L10.03,13 L14.725,13 C15.82575,13 16,12.7850937 16,11.78125 Z M14,11 L2,11 L2,2 L14,2 L14,11 Z M14,11"></path>
-                    </svg>
-                Desktop
-            </a>
-            </li>
-            <li>
-            <a class="button huge" href="http://topcoat.io/topcoat/doc/mobile.html" onClick="_gaq.push(['_trackEvent', 'mobile styleguide', 'click',,, false]);" role="button">
-                <svg class="icon-lrg" width="12px" height="19px" viewBox="0 0 12 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path d="M1.00247329,0 C0.448822582,0 0,0.450925395 0,0.994771168 L0,18.0052288 C0,18.5546258 0.455760956,19 1.00247329,19 L10.9975267,19 C11.5511774,19 12,18.5490746 12,18.0052288 L12,0.994771168 C12,0.445374222 11.544239,0 10.9975267,0 L1.00247329,0 Z M2,2 L10,2 L10,15 L2,15 L2,2 L2,2 Z M7,16.5172222 C6.98666667,17.0708611 6.82666667,17.0555556 6.66666667,17.0555556 L5.36666667,17.0555556 C5.16666667,17.0555556 5.01333333,17.0555556 5,16.5430833 C5,16.0316667 5.18666667,16.0100278 5.36666667,16 L6.66666667,16 C6.84,16.0052778 6.98,16.0153056 7,16.5172222 L7,16.5172222 Z M7,16.5172222"></path>
-                </svg>
-                Mobile
-            </a>
-            </li>
-        </ul>
 
         <ul id="latest">
             <li>
-            <a class="button cta huge" href="https://github.com/topcoat/topcoat/archive/0.3.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" role="button">
-                <svg class="icon-lrg" width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path d="M5.625,0 C4.67625,0 4.0191493,0.103552632 4.0191493,1.07894737 L4.0191493,7 L0,7.10526316 L7.5,14.9949331 L15,7.10526316 L10.9901161,7.10526323 L10.9901161,1.1842106 C10.9901161,0.221447444 10.3125,0 9.375,0 L5.625,0 Z M5.625,0"></path>
-                </svg>
-                Download v0.3
-            </a>
+                <a id="download-btn" class="button cta huge" href="https://github.com/topcoat/topcoat/archive/0.3.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" role="button">
+                    Download version 0.3
+                </a>
+                <p><small><a href="https://github.com/topcoat/topcoat/wiki/Installation-and-Usage">Installation and usage instructions &rsaquo;</a></small></p>
             </li>
         </ul>
+
+        <ul class="comps">
+            <li id="desktop-comp">
+                <h3>Desktop Preview</h3>
+                <a title="View Desktop Design Comps" class="a-overlay" href="http://topcoat.github.com/topcoat/doc/desktop.html"></a>
+                <div class="thumb"></div>
+            </li>
+            <li id="mobile-comp">
+                <h3>Mobile Preview</h3>
+                <a title="View Mobile Design Comps" class="a-overlay" href="http://topcoat.github.com/topcoat/doc/mobile.html"></a>
+                <div class="thumb"></div>
+            </li>
+        </ul>
+
+
         <footer class="footer">
         <ul class="links">
             <li>
@@ -80,6 +75,6 @@
              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
              })();
 
-</script>
+        </script>
      </body>
  </html>
