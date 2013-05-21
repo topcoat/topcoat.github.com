@@ -1,80 +1,58 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0, width=320.1" />
-
         <title>Topcoat</title>
-        <link rel="stylesheet" type="text/css" href="css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="css/landingpage.css">
+
+        <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+
+        <!--        <meta http-equiv="refresh" content="2">!-->
 
         <script type="text/javascript" src="//use.typekit.net/czf5rrh.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
     </head>
+
     <body>
-        <a href="https://github.com/topcoat/topcoat" class="git-ribbon"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" alt="Fork me on GitHub"></a>
-        <header>
-        <h1>Topcoat</h1>
-        <p>CSS for clean and fast web apps</p>
-        </header>
+        <div id="wrapper">
+            <header>
+                <h1><a href="/">Topcoat</a></h1>
+                <p>CSS for clean and fast web apps</p>
 
-        <ul id="latest">
-            <li>
-                <a id="download-btn" class="button cta huge" href="https://github.com/topcoat/topcoat/archive/0.3.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" role="button">
-                    Download version 0.3
-                </a>
-                <p><small><a href="https://github.com/topcoat/topcoat/wiki/Installation-and-Usage">Installation and usage instructions &rsaquo;</a></small></p>
-            </li>
-        </ul>
+                <nav>
+                    <ul>
+                        <li><a href="">Docs</a></li>
+                        <li><a href="">Benchmarks</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Download</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-        <ul class="comps">
-            <li id="desktop-comp">
-                <h3>Desktop Preview</h3>
-                <a title="View Desktop Design Comps" class="a-overlay" href="http://topcoat.github.com/topcoat/doc/desktop.html"></a>
-                <div class="thumb"></div>
-            </li>
-            <li id="mobile-comp">
-                <h3>Mobile Preview</h3>
-                <a title="View Mobile Design Comps" class="a-overlay" href="http://topcoat.github.com/topcoat/doc/mobile.html"></a>
-                <div class="thumb"></div>
-            </li>
-        </ul>
+            <section id="hero">
+                <img src="img/hero-devices.svg" alt="">
+            </section>
 
+            <section id="features">
+                <ul>
+                    <li id="performance">
+                        <h3>Performance</h3>
+                        <a class="vignette"> </a>
+                    </li>
+                    <li id="components">
+                        <h3>Components</h3>
+                        <a class="vignette"> </a>
+                    </li>
+                </ul>
+            </section>
 
-        <footer class="footer">
-        <ul class="links">
-            <li>
-            <a href="https://twitter.com/topcoat" title="twitter">
-                <span class="twitter-icon"></span>
-            </a>
-            </li>
-            <li>
-            <a href="http://www.github.com/topcoat/" title="github">
-                <span class="github-icon"></span>
-            </a>
-            </li>
-            <li>
-            <a href="http://html.adobe.com/" title="adobe">
-                <span class="adobe-icon"></span>
-            </a>
-            </li>
-        </ul>
-        </footer>
-        <script type="text/javascript">
-
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-38522202-1']);
-            _gaq.push(['_trackPageview']);
-
-            (function() {
-             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-             })();
-
-        </script>
-     </body>
- </html>
+            <footer>
+                <ul>
+                    <li><a href="">Github</a></li>
+                    <li><a href="">@topcoat</a></li>
+                    <li><a href="">html.adobe.com</a></li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>

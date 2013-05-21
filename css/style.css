@@ -1,0 +1,107 @@
+body {
+    font-family: "Source Sans Pro", "source-sans-pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    color: #666; /* slightly darker shade than original #848484 achieves color contrast of 4.5:1 in body */
+    font-size: 16px;
+    line-height: 1.375em;
+    background: #fff;
+    -webkit-text-size-adjust: 100%; /* corrects font-sizing strangeness in iOS */
+}
+
+a {
+    color: #308DDE;
+    text-decoration: none;
+}
+a:hover {
+    color: #065cbb;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}
+
+h1, h1 a {
+    color: #464646;
+    font-size: 1.9em;
+    line-height: 100%;
+    letter-spacing: -.065em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2.15em;
+    font-weight: 200;
+    color: #999;
+    margin-bottom: .7em;
+}
+
+#wrapper {
+    max-width: 1036px;
+    margin: 0 auto;
+}
+
+    header {
+        position: relative;
+        padding-top: 45px;
+    }
+
+nav ul,
+footer ul,
+#features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+    nav ul li,
+    footer ul li,
+    #features ul li{
+        float: left;
+    }
+
+    nav ul li,
+    footer ul li,
+    #features ul li:last-child {
+        margin: 0 0 0 55px;
+    }
+        nav ul li a,
+        footer ul li a {
+            padding: 2px 4px;
+        }
+
+/* NAV */
+nav ul {
+    position: absolute;
+    top: 74px;
+    right: 0;
+}
+
+nav ul li a {
+    color: #7f7f7f;
+    font-size: 1.3em;
+}
+    h1 a:hover,
+    nav ul li a:hover {
+        color: #000;
+    }
+
+#features ul li,
+#features ul li a.vignette {
+    display: block;
+    width: 489px;
+}
+#features ul li#performance a.vignette {
+    background-image: url(/img/vignette-performance.svg);
+}
+#features ul li#components a.vignette {
+    background-image: url(/img/vignette-components.png);
+}
+#features ul li a.vignette {
+    height: 246px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #f6f6f6;
+    outline: solid 1px #ccc;
+}
