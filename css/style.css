@@ -25,17 +25,16 @@ h1, h2, h3, h4 {
 
 h1, h1 a {
     color: #464646;
-    font-size: 1.9em;
-    line-height: 100%;
+    font-size: 2.05em;
+    line-height: .6em;
     letter-spacing: -.065em;
     font-weight: 600;
 }
 
 h3 {
-    font-size: 2.15em;
-    font-weight: 200;
-    color: #999;
-    margin-bottom: .7em;
+    font-size: 1.6em;
+    font-weight: 300;
+    color: #464646;
 }
 
 #wrapper {
@@ -47,23 +46,26 @@ h3 {
         position: relative;
         padding-top: 45px;
     }
+    header p {
+        color: #999;
+    }
 
 nav ul,
 footer ul,
-#features ul {
+.features ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
     nav ul li,
     footer ul li,
-    #features ul li{
+    .features ul li{
         float: left;
     }
 
     nav ul li,
     footer ul li,
-    #features ul li:last-child {
+    .features ul li:nth-child(even) {
         margin: 0 0 0 55px;
     }
         nav ul li a,
@@ -74,7 +76,7 @@ footer ul,
 /* NAV */
 nav ul {
     position: absolute;
-    top: 74px;
+    top: 67px;
     right: 0;
 }
 
@@ -87,21 +89,42 @@ nav ul li a {
         color: #000;
     }
 
-#features ul li,
-#features ul li a.vignette {
-    display: block;
+.features ul li {
     width: 489px;
+    display: block;
+    padding-bottom: 30px;
 }
-#features ul li#performance a.vignette {
+
+.features ul li#performance a.vignette {
     background-image: url(/img/vignette-performance.svg);
 }
-#features ul li#components a.vignette {
-    background-image: url(/img/vignette-components.png);
-}
-#features ul li a.vignette {
-    height: 246px;
+
+.features ul li a.vignette {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 30px 30px 0;
+    float: left;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+}
+
+.features ul li a.vignette,
+#default-theme {
     background-color: #f6f6f6;
     outline: solid 1px #ccc;
 }
+
+#default-theme {
+    clear: left;
+    width: 100%;
+    height: 226px;
+    margin-bottom: 50px;
+}
+
+footer {
+    clear: left;
+}
+    footer ul {
+        margin: 0 auto;
+    }
