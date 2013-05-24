@@ -89,6 +89,12 @@ nav ul li a {
         color: #000;
     }
 
+#hero img {
+    width: 1022px;
+    height: 310px;
+    padding: 80px 0 120px;
+}
+
 .features ul li {
     width: 489px;
     display: block;
@@ -97,6 +103,22 @@ nav ul li a {
 
 .features ul li#performance a.vignette {
     background-image: url(/img/vignette-performance.svg);
+}
+
+.features ul li#components a.vignette {
+    background-image: url(/img/tnl-components.png);
+}
+
+.features ul li#bem a.vignette {
+    background-image: url(/img/tnl-bem.svg);
+}
+
+.features ul li#source-sans a.vignette {
+    background-image: url(/img/tnl-source-sans.svg);
+}
+
+.features ul li#icons a.vignette {
+    background-image: url(/img/tnl-icons.svg);
 }
 
 .features ul li a.vignette {
@@ -111,8 +133,8 @@ nav ul li a {
 
 .features ul li a.vignette,
 #default-theme {
-    background-color: #f6f6f6;
-    outline: solid 1px #ccc;
+    background-color: #f9f9f9;
+    outline: solid 1px #eee;
 }
 
 #default-theme {

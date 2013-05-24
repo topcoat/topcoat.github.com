@@ -5,15 +5,15 @@
 	 width="1036px" height="500px" viewBox="0 0 1036 500" enable-background="new 0 0 1036 500" xml:space="preserve">
 <g>
 	<g>
-		<path fill="#373435" d="M497,382.426c0,6.394-5.183,11.574-11.575,11.574H84.575C78.183,394,73,388.818,73,382.426V106.574
-			C73,100.182,78.183,95,84.575,95h400.85c6.394,0,11.575,5.182,11.575,11.574V382.426z"/>
+		<path fill="#373435" d="M497,382.426c0,6.395-5.183,11.574-11.575,11.574H84.575C78.183,394,73,388.818,73,382.426V106.574
+			C73,100.182,78.183,95,84.575,95h400.85c6.395,0,11.575,5.182,11.575,11.574V382.426z"/>
 		<rect x="89" y="114" fill="#4B4B4D" width="393" height="249"/>
 		<rect x="17" y="377" fill="#E6E7E8" width="534" height="22"/>
-		<polygon fill="#A9ABAE" points="548.238,404 20.991,404 17.134,399 552.097,399 		"/>
+		<polygon fill="#A9ABAE" points="546.642,404 20.991,404 17.134,399 550.5,399 		"/>
 		<circle fill="#7F7E7E" cx="285.196" cy="104.241" r="2.572"/>
 	</g>
 	
-		<line opacity="0.1" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" enable-background="new    " x1="8" y1="404.5" x2="564" y2="404.5"/>
+		<line opacity="0.2" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" enable-background="new    " x1="5.5" y1="404.5" x2="562.5" y2="404.5"/>
 </g>
 <g>
 	<g>
@@ -24,7 +24,7 @@
 		<circle fill="#7F7E7E" cx="726.658" cy="108.854" r="2.359"/>
 	</g>
 	
-		<line opacity="0.1" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" enable-background="new    " x1="601" y1="404.5" x2="850" y2="404.5"/>
+		<line opacity="0.2" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" enable-background="new    " x1="599.5" y1="404.5" x2="851.5" y2="404.5"/>
 </g>
 <g>
 	<g>
@@ -37,6 +37,6 @@
 			c0-0.513,0.416-0.928,0.928-0.928h19.146c0.512,0,0.928,0.416,0.928,0.928V169.072z"/>
 	</g>
 	
-		<line opacity="0.1" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" enable-background="new    " x1="892" y1="404.5" x2="1029" y2="404.5"/>
+		<line opacity="0.2" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" enable-background="new    " x1="890.5" y1="404.5" x2="1028.5" y2="404.5"/>
 </g>
 </svg>
