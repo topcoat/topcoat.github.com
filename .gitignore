@@ -2,3 +2,5 @@
 *.un~
 
 img/.DS_Store
+
+*.un~

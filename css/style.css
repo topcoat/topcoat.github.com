@@ -141,8 +141,12 @@ nav ul li a {
     clear: left;
     width: 100%;
     height: 226px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
+    #default-theme img {
+        width: 1036px;
+        height: 226px;
+    }
 
 footer {
     clear: left;
