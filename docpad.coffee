@@ -17,18 +17,22 @@ docpadConfig = {
 			brianleroux:
 				name: "Brian LeRoux"
 				twitter: "brianleroux"
+				url: "http://brian.io/"
 			dam:
 				name: "Kristofer Joseph"
 				twitter: "dam"
+				url: "http://kristoferjoseph.com/"
 			garthdb:
 				name: "Garth Braithwaite"
 				twitter: "garthdb"
+				url: "http://www.garthdb.com/"
 			nnnnic:
 				name: "Nic Couillard"
 				twitter: "nnnnic"
+				url: "http://nnnnic.com/"
 	collections:
 		pages: ->
-			@getCollection("html").findAll({isPage:true}).toJSON()
+			@getCollection("html").findAll({isPage:true})
 		posts: ->
 			@getCollection('documents').findAllLive({relativeOutDirPath:'posts'},[date:-1])
 }

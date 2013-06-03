@@ -3,7 +3,7 @@ layout: default
 ---
 h1!= document.title
 
-.author: a(href='http://www.twitter.com/#{authors[document.author].twitter}') #{authors[document.author].name}
+.author: a(href='#{authors[document.author].url}') #{authors[document.author].name}
 
 article.post!= content
 
