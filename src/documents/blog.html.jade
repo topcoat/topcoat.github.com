@@ -1,0 +1,6 @@
+---
+layout: default
+---
+ul
+	each page in getCollection('posts').toJSON()
+		li: a(href=page.url)= page.title

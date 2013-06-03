@@ -1,0 +1,11 @@
+---
+layout: default
+---
+h1!= document.title
+
+.author: a(href='http://www.twitter.com/#{authors[document.author].twitter}') #{authors[document.author].name}
+
+article.post!= content
+
+document.comments
+	!= partial('comments',{slug:document.slug, title:document.title, url:document.url})

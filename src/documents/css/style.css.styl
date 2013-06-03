@@ -1,0 +1,189 @@
+body {
+    font-family: "Source Sans Pro", "source-sans-pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    color: #666; /* slightly darker shade than original #848484 achieves color contrast of 4.5:1 in body */
+    font-size: 16px;
+    line-height: 1.375em;
+    background: #fff;
+    -webkit-text-size-adjust: 100%; /* corrects font-sizing strangeness in iOS */
+}
+
+a {
+    color: #308DDE;
+    text-decoration: none;
+}
+a:hover {
+    color: #065cbb;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}
+
+h1, h1 a {
+    color: #464646;
+    font-size: 2.05em;
+    line-height: .6em;
+    letter-spacing: -.065em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.6em;
+    font-weight: 300;
+    color: #464646;
+}
+
+#wrapper {
+    max-width: 1036px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    padding-top: 45px;
+}
+header p {
+    color: #999;
+}
+
+nav ul,
+footer ul,
+.features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li,
+footer ul li,
+.features ul li{
+    float: left;
+}
+
+nav ul li,
+footer ul li,
+.features ul li:nth-child(even) {
+    margin: 0 0 0 55px;
+}
+nav ul li a,
+footer ul li a {
+    padding: 2px 4px;
+}
+
+// NAV
+nav ul {
+    position: absolute;
+    top: 67px;
+    right: 0;
+}
+
+nav ul li a {
+    color: #7f7f7f;
+    font-size: 1.3em;
+}
+nav ul li a.download {
+    color: #1e8fe0;
+}
+h1 a:hover,
+nav ul li a:hover {
+    color: #000;
+}
+
+#hero img {
+    width: 1022px;
+    height: 310px;
+    padding: 80px 0 120px;
+}
+
+.features ul li {
+    width: 489px;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.features ul li#performance a.vignette {
+    background-image: url(/img/vignette-performance.svg);
+}
+
+.features ul li#components a.vignette {
+    background-image: url(/img/tnl-components.png);
+}
+
+.features ul li#themes a.vignette {
+    background-image: url(/img/tnl-themes.png);
+}
+
+.features ul li#bem a.vignette {
+    background-image: url(/img/tnl-bem.svg);
+}
+
+.features ul li#source-sans a.vignette {
+    background-image: url(/img/tnl-source-sans.svg);
+}
+
+.features ul li#icons a.vignette {
+    background-image: url(/img/tnl-icons.svg);
+}
+
+.features ul li#design a.vignette {
+    background-image: url(/img/tnl-design.png);
+}
+
+.features ul li a.vignette {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 30px 30px 0;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.features ul li a.vignette,
+#default-theme {
+    background-color: #f9f9f9;
+    outline: solid 1px #eee;
+}
+
+#default-theme {
+    clear: left;
+    width: 100%;
+    height: 226px;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+#default-theme img {
+    width: 1036px;
+    height: 226px;
+}
+
+footer {
+    clear: left;
+}
+footer ul {
+    width: 500px;
+    margin: 0 auto;
+}
+footer ul li {
+    margin: 0 55px;
+}
+footer ul li a {
+    display: block;
+    width: 44px;
+    height: 44px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+}
+footer ul li#twitter a {
+    background-image: url(/img/icn-twitter.png);
+}
+footer ul li#github a {
+    background-image: url(/img/icn-github.png);
+}
+footer ul li#adobe a {
+    background-image: url(/img/icn-adobe.png);
+}
