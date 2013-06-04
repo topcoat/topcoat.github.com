@@ -1,6 +1,8 @@
 # DocPad Configuration File
 # http://docpad.org/docs/config
 
+timeago = require('timeago')
+
 # Define the DocPad Configuration
 docpadConfig = {
 	templateData: #default data
@@ -30,6 +32,8 @@ docpadConfig = {
 				name: "Nic Couillard"
 				twitter: "nnnnic"
 				url: "http://nnnnic.com/"
+		formatDate: (postdate) ->
+			timeago(postdate)
 	collections:
 		pages: ->
 			@getCollection("html").findAll({isPage:true})

@@ -5,6 +5,8 @@ h1!= document.title
 
 .author: a(href='#{authors[document.author].url}') #{authors[document.author].name}
 
+.date Published #{formatDate(document.date)}
+
 article.post!= content
 
 document.comments

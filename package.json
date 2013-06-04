@@ -13,7 +13,8 @@
     "docpad-plugin-stylus": "~2.3.0",
     "docpad-plugin-marked": "~2.1.1",
     "docpad-plugin-partials": "~2.6.3",
-    "docpad-plugin-cleanurls": "~2.4.3"
+    "docpad-plugin-cleanurls": "~2.4.3",
+    "timeago": "~0.1.0"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.4.0"

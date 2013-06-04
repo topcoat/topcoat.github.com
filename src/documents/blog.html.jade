@@ -5,6 +5,6 @@ title: 'Blog'
 ---
 ul
 	each page in getCollection('posts').toJSON()
-		li: a(href=page.url)= page.title
-	each page in getCollection("html").findAll({isPage:true}).toJSON()
-		li: a(href=page.url)= page.title
+		li
+			a(href=page.url)= page.title
+			|  (Published #{formatDate(page.date)} by <a href='#{authors[page.author].url}'> #{authors[page.author].name}</a>)
