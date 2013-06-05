@@ -290,7 +290,7 @@ footer {
     padding: 15px;
 }
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-device-width: 480px){
 
     header {
         text-align: center;
