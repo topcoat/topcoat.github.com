@@ -1,3 +1,5 @@
+@import "topcoat-button.css";
+
 body {
     font-family: "Source Sans Pro", "source-sans-pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 100;
@@ -39,12 +41,12 @@ h3 {
 
 #wrapper {
     max-width: 1036px;
+    padding: 40px;
     margin: 0 auto;
 }
 
 header {
     position: relative;
-    padding-top: 45px;
 }
 header p {
     color: #999;
@@ -52,7 +54,8 @@ header p {
 
 nav ul,
 footer ul,
-.features ul {
+.features ul,
+#hero ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -64,8 +67,7 @@ footer ul li,
 }
 
 nav ul li,
-footer ul li,
-.features ul li:nth-child(even) {
+footer ul li {
     margin: 0 0 0 55px;
 }
 nav ul li a,
@@ -73,16 +75,17 @@ footer ul li a {
     padding: 2px 4px;
 }
 
-// NAV
+/* NAV */
 nav ul {
     position: absolute;
-    top: 67px;
+    top: 9px;
     right: 0;
 }
 
 nav ul li a {
     color: #7f7f7f;
     font-size: 1.3em;
+    line-height: 3rem;
 }
 nav ul li a.download {
     color: #1e8fe0;
@@ -92,16 +95,60 @@ nav ul li a:hover {
     color: #000;
 }
 
-#hero img {
-    width: 1022px;
+#hero  {
+    display: block;
+    max-width: 100%;
     height: 310px;
-    padding: 80px 0 120px;
+    margin: 80px 0 120px;
+    background: transparent url(/img/hero-devices.png) right 50% no-repeat;
+    background-size: contain;
 }
 
+#hero ul li,
+#hero ul li a {
+    display: block;
+    height: 310px;
+    text-align: center;
+}
+
+#hero ul li {
+    float: left;
+}
+
+#hero ul li#desktop-preview {
+    width: 56%;
+}
+#hero ul li#mobile-preview {
+    width: 44%;
+}
+
+#hero ul li a {
+    width: 100%;
+}
+#hero ul li .popover {
+    top: -20px;
+    opacity: 0;
+    -moz-transition-property: opacity, top;
+    -moz-transition-duration: .14s;
+    -moz-transition-timing-function: ease-out;
+    -webkit-transition-property: opacity, top;
+    -webkit-transition-duration: .14s;
+    -webkit-transition-timing-function: ease-out;
+}
+#hero ul li:hover .popover {
+    top: -34px;
+    opacity: 1;
+}
+
+
 .features ul li {
-    width: 489px;
+    width: 50%;
     display: block;
     padding-bottom: 50px;
+}
+
+.features ul li p {
+    padding: 0 55px 0 0;
 }
 
 .features ul li#performance a.vignette {
@@ -162,6 +209,7 @@ nav ul li a:hover {
 
 footer {
     clear: left;
+    height: 100px;
 }
 footer ul {
     width: 500px;
@@ -187,3 +235,148 @@ footer ul li#github a {
 footer ul li#adobe a {
     background-image: url(/img/icn-adobe.png);
 }
+
+/* popover */
+
+.popover {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, .35);
+    border-radius: 5px;
+    background: #dfe2e2;
+    box-shadow: 0 9px 18px 0 rgba(0, 0, 0, 0.48), inset 0 0 0 1px rgba(255, 255, 255, .75);
+
+    width: 200px;
+
+}
+
+.popover .arrow, .popover .top-arrow, .popover .bottom-arrow, .popover .left-arrow, .popover .right-arrow {
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 14px;
+    background: -webkit-image-set(url("/img/popover_arrow.png") 1x, url("/img/popover_arrow@2x.png") 2x);
+}
+
+.popover .top-arrow {
+    top: 0;
+    left: 47%;
+    margin: -13px 0 0 0;
+}
+
+.popover .bottom-arrow {
+    top: 100%;
+    left: 47%;
+    margin: -1px 0 0 0;
+    -webkit-transform: rotate(180deg);
+}
+
+.popover .left-arrow {
+    top: 40%;
+    left: -21px;
+    margin: 0;
+    -webkit-transform: rotate(-90deg);
+}
+
+.popover .right-arrow {
+    top: 38%;
+    left: 97%;
+    margin: 0;
+    -webkit-transform: rotate(90deg);
+}
+
+.popover .content {
+    padding: 15px;
+}
+
+@media screen and (max-device-width: 480px){
+
+    header {
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    #hero {
+        height: 259px;
+        background: transparent url(/img/hero-mobile.png) 50% 50% no-repeat;
+        margin: 0 0 60px;
+        background-size: contain;
+    }
+
+
+    #hero ul li#mobile-preview {
+        width: 100%;
+
+    }
+
+    header h1,
+    header p {
+        display: block;
+        width: 100%;
+    }
+
+    nav,
+    nav ul {
+        display: block;
+        width: 100%;
+        height: 90px;
+    }
+
+    nav ul {
+        position: relative;
+    }
+
+    nav ul li {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li:last-child,
+    .git-ribbon {
+        display: none;
+    }
+
+    #hero ul li#desktop-preview {
+        display: none;
+    }
+
+    #hero ul li .popover {
+        display: none;
+    }
+
+    footer  {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    footer ul li {
+        margin: 0 30px;
+    }
+
+    .features ul li h3 {
+        line-height: 1.2em;
+        margin: 0;
+    }
+    .features ul li {
+        display: block;
+        float: none;
+        width: 100%;
+        clear: left;
+    }
+
+    .features ul li p {
+        padding: 0;
+        width: 60%;
+        float: left;
+        margin-bottom: 55px;
+    }
+
+    .features ul li a.vignette {
+        width: 80px;
+        height: 80px;
+    }
+}
+
