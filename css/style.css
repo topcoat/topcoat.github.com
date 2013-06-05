@@ -1,5 +1,11 @@
 @import "topcoat-button.css";
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizeing: border-box;
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Source Sans Pro", "source-sans-pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 100;
@@ -22,6 +28,9 @@ h1, h2, h3, h4 {
     margin: 0;
     padding: 0;
     font-style: normal;
+}
+
+h1, h2, h3, h4, header p {
     text-rendering: optimizeLegibility;
 }
 
@@ -100,7 +109,7 @@ nav ul li a.download {
     max-width: 100%;
     height: 310px;
     margin: 80px 0 120px;
-    background: transparent url(/img/hero-devices.png) right 50% no-repeat;
+    background: transparent url(../img/hero-devices.png) right 50% no-repeat;
     background-size: contain;
 }
 
@@ -152,31 +161,31 @@ nav ul li a.download {
 }
 
 .features ul li#performance a.vignette {
-    background-image: url(/img/vignette-performance.svg);
+    background-image: url(../img/vignette-performance.svg);
 }
 
 .features ul li#components a.vignette {
-    background-image: url(/img/tnl-components.png);
+    background-image: url(../img/tnl-components.png);
 }
 
 .features ul li#themes a.vignette {
-    background-image: url(/img/tnl-themes.png);
+    background-image: url(../img/tnl-themes.png);
 }
 
 .features ul li#bem a.vignette {
-    background-image: url(/img/tnl-bem.svg);
+    background-image: url(../img/tnl-bem.svg);
 }
 
 .features ul li#source-sans a.vignette {
-    background-image: url(/img/tnl-source-sans.svg);
+    background-image: url(../img/tnl-source-sans.svg);
 }
 
 .features ul li#icons a.vignette {
-    background-image: url(/img/tnl-icons.svg);
+    background-image: url(../img/tnl-icons.svg);
 }
 
 .features ul li#design a.vignette {
-    background-image: url(/img/tnl-design.png);
+    background-image: url(../img/tnl-design.png);
 }
 
 .features ul li a.vignette {
@@ -227,13 +236,13 @@ footer {
         background-size: contain;
     }
     footer ul li#twitter a {
-        background-image: url(/img/icn-twitter.png);
+        background-image: url(../img/icn-twitter.png);
     }
     footer ul li#github a {
-        background-image: url(/img/icn-github.png);
+        background-image: url(../img/icn-github.png);
     }
     footer ul li#adobe a {
-        background-image: url(/img/icn-adobe.png);
+        background-image: url(../img/icn-adobe.png);
     }
 
 /* popover */
@@ -256,7 +265,7 @@ footer {
     top: 0;
     width: 30px;
     height: 14px;
-    background: -webkit-image-set(url("/img/popover_arrow.png") 1x, url("/img/popover_arrow@2x.png") 2x);
+    background: -webkit-image-set(url("../img/popover_arrow.png") 1x, url("../img/popover_arrow@2x.png") 2x);
 }
 
 .popover .top-arrow {
@@ -290,71 +299,48 @@ footer {
     padding: 15px;
 }
 
-@media screen and (max-device-width: 480px){
+@media screen and (max-width: 522px){
+
+    #wrapper {
+        padding: 40px 0;
+    }
 
     header {
         text-align: center;
-        display: block;
-        width: 100%;
     }
 
     #hero {
-        height: 259px;
-        background: transparent url(/img/hero-mobile.png) 50% 50% no-repeat;
-        margin: 0 0 60px;
-        background-size: contain;
+        height: 205px;
+        background: transparent url(../img/hero-mobile.png) right 50% no-repeat;
+        background-size: 490px 205px;
+        margin: 40px 0;
+        padding: 0;
     }
 
+    #hero ul li {
+        height: 205px;
+    }
+
+    #hero ul li#desktop-preview {
+        width: 66%;
+    }
 
     #hero ul li#mobile-preview {
-        width: 100%;
-
+        width: 34%;
     }
 
     header h1,
     header p {
         display: block;
-        width: 100%;
     }
-
-    nav,
-    nav ul {
-        display: block;
-        width: 100%;
-        height: 90px;
+    header h1 {
+        font-size: 1.4em;
     }
-
-    nav ul {
-        position: relative;
-    }
-
-        nav ul li {
-            width: 100%;
-            padding: 0;
-            margin: 0;
-        }
-
-            nav ul li:last-child,
-            .git-ribbon {
+            nav,
+            .git-ribbon,
+            #hero ul li .popover {
                 display: none;
             }
-
-    #hero ul li#desktop-preview {
-        display: none;
-    }
-
-    #hero ul li .popover {
-        display: none;
-    }
-
-    footer  {
-        width: 320px;
-        margin: 0 auto;
-    }
-
-        footer ul li {
-            margin: 0 30px;
-        }
 
     .features ul li h3 {
         line-height: 1.2em;
@@ -365,6 +351,7 @@ footer {
         float: none;
         width: 100%;
         clear: left;
+        padding: 20px;
     }
 
         .features ul li p {
@@ -378,5 +365,14 @@ footer {
             width: 80px;
             height: 80px;
     }
+
+    footer  {
+        margin: 0 auto;
+    }
+
+        footer ul li {
+            margin: 0 30px;
+        }
+
 }
 
