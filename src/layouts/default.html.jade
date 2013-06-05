@@ -13,6 +13,8 @@ html(lang='en')
             script(type="text/javascript")
                 try{Typekit.load();}catch(e){}
     body
+        a.git-ribbon(href="https://github.com/topcoat/topcoat")
+            img(style="position: absolute; top: 0; left: 0; border: 0;", src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png", alt="Fork me on GitHub")
         #wrapper
             header
                 h1: a(href="/") Topcoat
@@ -21,7 +23,7 @@ html(lang='en')
                 nav: ul
                         li: a(href="http://bench.topcoat.io") Benchmarks
                         li: a(href="/blog") Blog
-                        li: a.downloads(href="", title="Download Topcoat build 0.3") Download
+                        li: a.topcoat-button--cta(href="https://github.com/topcoat/topcoat/archive/0.4.1.zip", onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);") Download version 0.41
                 != content
             footer
                 ul
