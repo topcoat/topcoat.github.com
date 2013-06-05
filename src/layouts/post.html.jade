@@ -1,0 +1,13 @@
+---
+layout: default
+---
+section#content
+	article
+		header
+			h1!= document.title
+			.author: a(href='#{authors[document.author].url}') #{authors[document.author].name}
+			.date Posted #{formatDate(document.date)}
+
+		#postcontent!= content
+		footer
+			!= partial('comments',{slug:document.slug, title:document.title, url:document.url})

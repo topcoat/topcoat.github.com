@@ -1,0 +1,23 @@
+---
+layout: 
+---
+!!! xml
+urlset(xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+	for document in getCollection('pages').toJSON()
+		url
+			loc #{site.url}#{document.url}
+			lastmod= document.date.toISOString().slice(0,10)
+			if document.changefreq
+				changefreq= document.changefreq
+			else
+				changefreq monthly
+			if document.priority
+				priority= document.priority
+			else
+				priority 0.8
+	for document in getCollection('posts').toJSON()
+		url
+			loc #{site.url}#{document.url}
+			lastmod= document.date.toISOString().slice(0,10)
+			changefreq never
+			priority 0.5

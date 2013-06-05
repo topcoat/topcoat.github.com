@@ -1,0 +1,5 @@
+section#content{margin-top:80px;min-height:350px;}
+section#content article{max-width:640px;}
+section#content article img{width:100%;height:auto}
+section#content article footer{float:none;clear:both;height:auto}
+#disqus_thread{box-sizing:border-box;padding:0 20px 60px;width:100%}
