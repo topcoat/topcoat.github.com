@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-h1!= document.title
+section#content
+	article
+		header
+			h1!= document.title
+			.author: a(href='#{authors[document.author].url}') #{authors[document.author].name}
+			.date Posted #{formatDate(document.date)}
 
-.author: a(href='#{authors[document.author].url}') #{authors[document.author].name}
-
-.date Published #{formatDate(document.date)}
-
-article.post!= content
-
-document.comments
-	!= partial('comments',{slug:document.slug, title:document.title, url:document.url})
+		#postcontent!= content
+		footer
+			!= partial('comments',{slug:document.slug, title:document.title, url:document.url})
