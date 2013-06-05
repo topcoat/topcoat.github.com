@@ -1,12 +1,4 @@
-
-*.un~
-
-img/.DS_Store
-
-*.un~
-
-*.un~
-
-*.un~
-
+.DS_Store
+node_modules
+out
 *.un~
