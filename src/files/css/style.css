@@ -45,12 +45,12 @@ h3 {
     margin: 0 auto;
 }
 
-header {
-    position: relative;
-}
-header p {
-    color: #999;
-}
+    header {
+        position: relative;
+    }
+    header p {
+        color: #999;
+    }
 
 nav ul,
 footer ul,
@@ -60,20 +60,20 @@ footer ul,
     margin: 0;
     padding: 0;
 }
-nav ul li,
-footer ul li,
-.features ul li{
-    float: left;
-}
+    nav ul li,
+    footer ul li,
+    .features ul li{
+        float: left;
+    }
 
-nav ul li,
-footer ul li {
-    margin: 0 0 0 55px;
-}
-nav ul li a,
-footer ul li a {
-    padding: 2px 4px;
-}
+    nav ul li,
+    footer ul li {
+        margin: 0 0 0 55px;
+    }
+        nav ul li a,
+        footer ul li a {
+            padding: 2px 4px;
+        }
 
 /* NAV */
 nav ul {
@@ -90,10 +90,10 @@ nav ul li a {
 nav ul li a.download {
     color: #1e8fe0;
 }
-h1 a:hover,
-nav ul li a:hover {
-    color: #000;
-}
+    h1 a:hover,
+    nav ul li a:hover {
+        color: #000;
+    }
 
 #hero  {
     display: block;
@@ -104,41 +104,41 @@ nav ul li a:hover {
     background-size: contain;
 }
 
-#hero ul li,
-#hero ul li a {
-    display: block;
-    height: 310px;
-    text-align: center;
-}
+    #hero ul li,
+    #hero ul li a {
+        display: block;
+        height: 310px;
+        text-align: center;
+    }
 
-#hero ul li {
-    float: left;
-}
+    #hero ul li {
+        float: left;
+    }
 
-#hero ul li#desktop-preview {
-    width: 56%;
-}
-#hero ul li#mobile-preview {
-    width: 44%;
-}
+    #hero ul li#desktop-preview {
+        width: 56%;
+    }
+    #hero ul li#mobile-preview {
+        width: 44%;
+    }
 
-#hero ul li a {
-    width: 100%;
-}
-#hero ul li .popover {
-    top: -20px;
-    opacity: 0;
-    -moz-transition-property: opacity, top;
-    -moz-transition-duration: .14s;
-    -moz-transition-timing-function: ease-out;
-    -webkit-transition-property: opacity, top;
-    -webkit-transition-duration: .14s;
-    -webkit-transition-timing-function: ease-out;
-}
-#hero ul li:hover .popover {
-    top: -34px;
-    opacity: 1;
-}
+    #hero ul li a {
+        width: 100%;
+    }
+        #hero ul li .popover {
+            top: -20px;
+            opacity: 0;
+            -moz-transition-property: opacity, top;
+            -moz-transition-duration: .14s;
+            -moz-transition-timing-function: ease-out;
+            -webkit-transition-property: opacity, top;
+            -webkit-transition-duration: .14s;
+            -webkit-transition-timing-function: ease-out;
+        }
+        #hero ul li:hover .popover {
+            top: -34px;
+            opacity: 1;
+        }
 
 
 .features ul li {
@@ -202,39 +202,39 @@ nav ul li a:hover {
     margin-bottom: 80px;
     overflow: hidden;
 }
-#default-theme img {
-    width: 1036px;
-    height: 226px;
-}
+    #default-theme img {
+        width: 1036px;
+        height: 226px;
+    }
 
 footer {
     clear: left;
     height: 100px;
 }
-footer ul {
-    width: 500px;
-    margin: 0 auto;
-}
-footer ul li {
-    margin: 0 55px;
-}
-footer ul li a {
-    display: block;
-    width: 44px;
-    height: 44px;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-size: contain;
-}
-footer ul li#twitter a {
-    background-image: url(/img/icn-twitter.png);
-}
-footer ul li#github a {
-    background-image: url(/img/icn-github.png);
-}
-footer ul li#adobe a {
-    background-image: url(/img/icn-adobe.png);
-}
+    footer ul {
+        width: 500px;
+        margin: 0 auto;
+    }
+    footer ul li {
+        margin: 0 55px;
+    }
+    footer ul li a {
+        display: block;
+        width: 44px;
+        height: 44px;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-size: contain;
+    }
+    footer ul li#twitter a {
+        background-image: url(/img/icn-twitter.png);
+    }
+    footer ul li#github a {
+        background-image: url(/img/icn-github.png);
+    }
+    footer ul li#adobe a {
+        background-image: url(/img/icn-adobe.png);
+    }
 
 /* popover */
 
@@ -328,16 +328,16 @@ footer ul li#adobe a {
         position: relative;
     }
 
-    nav ul li {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
+        nav ul li {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
 
-    nav ul li:last-child,
-    .git-ribbon {
-        display: none;
-    }
+            nav ul li:last-child,
+            .git-ribbon {
+                display: none;
+            }
 
     #hero ul li#desktop-preview {
         display: none;
@@ -352,9 +352,9 @@ footer ul li#adobe a {
         margin: 0 auto;
     }
 
-    footer ul li {
-        margin: 0 30px;
-    }
+        footer ul li {
+            margin: 0 30px;
+        }
 
     .features ul li h3 {
         line-height: 1.2em;
@@ -367,16 +367,16 @@ footer ul li#adobe a {
         clear: left;
     }
 
-    .features ul li p {
-        padding: 0;
-        width: 60%;
-        float: left;
-        margin-bottom: 55px;
-    }
+        .features ul li p {
+            padding: 0;
+            width: 60%;
+            float: left;
+            margin-bottom: 55px;
+        }
 
-    .features ul li a.vignette {
-        width: 80px;
-        height: 80px;
+        .features ul li a.vignette {
+            width: 80px;
+            height: 80px;
     }
 }
 

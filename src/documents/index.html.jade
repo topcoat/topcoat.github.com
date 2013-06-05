@@ -6,31 +6,31 @@ priority: '1.0'
 ---
 
 section#hero
-ul
-    li#desktop-preview
-        .popover
-            .arrow.bottom-arrow
-            .wrap
-                .content Desktop Preview
-        a(href="http://topcoat.github.com/topcoat/doc/desktop.html", title="View Desktop Preview")
-    li#mobile-preview
-        .popover
-            .arrow.bottom-arrow
-            .wrap
-                .content Mobile Preview
-        a(href="http://topcoat.github.com/topcoat/doc/mobile.html", title="View Mobile Preview")
+    ul
+        li#desktop-preview
+            .popover
+                .arrow.bottom-arrow
+                .wrap
+                    .content Desktop Preview
+            a(href="http://topcoat.github.com/topcoat/doc/desktop.html", title="View Desktop Preview")
+        li#mobile-preview
+            .popover
+                .arrow.bottom-arrow
+                .wrap
+                    .content Mobile Preview
+            a(href="http://topcoat.github.com/topcoat/doc/mobile.html", title="View Mobile Preview")
 
 
 
 
 section.features
     ul
-        li#performance
+        li#performance.clearfix
             a.vignette
             h3 Soooo Fast!
             p Performance is our #1 goal. Every component we design is <a href="http://bench.topcoatio">benchmarked for performance</a>. You can see our results.
         li#components
-            a.vignette
+            a.vignette.clearfix
             h3 Components Galore
             p We have the building blocks to get you up and running fast. Our growing set of components were born from CSS.
         li#themes
@@ -41,11 +41,6 @@ section.features
             a.vignette
             h3 BEM Architecture
             p We believe CSS is ready for primetime. We are basing our <a href="http://bem.info/method/">architecture on BEM</a> make your apps faster, less contextual and easier to manage.
-
-section#default-theme: img(src="img/default-theme.png", alt="Default Theme")
-
-section.features
-    ul
         li#source-sans
             a.vignette
             h3 Even our font is open source
