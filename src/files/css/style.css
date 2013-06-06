@@ -301,13 +301,39 @@ footer {
     padding: 15px;
 }
 
+@media screen and (max-width: 800px) and (min-width: 522px){
+    nav {
+        position: relative;
+    }
+    nav ul {
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        height: auto;
+    }
+    #wrapper > header {
+        text-align: center;
+    }
+    nav ul li {
+        display: inline-block;
+        margin: 0 25px;
+        float: none;
+    }
+    li.download {
+        display: none;
+    }
+    #hero {
+        margin: 10px 0 40px;
+    }
+}
+
 @media screen and (max-width: 522px){
 
     #wrapper {
         padding: 40px 0;
     }
 
-    header {
+    #wrapper > header {
         text-align: center;
     }
 
@@ -331,11 +357,11 @@ footer {
         width: 34%;
     }
 
-    header h1,
-    header p {
+    #wrapper > header h1,
+    #wrapper > header p {
         display: block;
     }
-    header h1 {
+    #wrapper > header h1 {
         font-size: 1.4em;
     }
             nav,
