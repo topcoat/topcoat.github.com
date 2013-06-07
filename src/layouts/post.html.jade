@@ -5,7 +5,7 @@ section#content
 	article
 		header
 			h1!= document.title
-			.author: a(href='#{authors[document.author].url}') #{authors[document.author].name}
+			.author!= formatAuthor(document.author)
 			.date Posted #{formatDate(document.date)}
 
 		#postcontent!= content

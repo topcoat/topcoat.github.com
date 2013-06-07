@@ -18,5 +18,9 @@ feed(xmlns="http://www.w3.org/2005/Atom")
 			id #{site.url}#{document.url}
 			content(type="html")= document.contentRenderedWithoutLayouts
 			author
-				name= authors[document.author].name
-				uri= authors[document.author].url
+				- if(typeof document.author === 'object')
+					name= document.author.name
+					uri= document.author.url
+				- else
+					name= authors[document.author].name
+					uri= authors[document.author].url

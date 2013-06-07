@@ -9,4 +9,6 @@ section#content
 		each page in getCollection('posts').toJSON()
 			li
 				a(href=page.url)= page.title
-				|  (Published #{formatDate(page.date)} by <a href='#{authors[page.author].url}'> #{authors[page.author].name}</a>)
+				|  (Published #{formatDate(page.date)} by 
+				!= formatAuthor(page.author)
+				| )

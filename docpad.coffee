@@ -1,7 +1,6 @@
 # DocPad Configuration File
 # http://docpad.org/docs/config
 
-timeago = require('timeago')
 
 # Define the DocPad Configuration
 docpadConfig = {
@@ -32,13 +31,31 @@ docpadConfig = {
 				name: "Nic Couillard"
 				twitter: "nnnnic"
 				url: "http://nnnnic.com/"
+			g1sh:
+				name: "Guillermo Torres"
+				twitter: "g1sh"
+				url: "http://www.g1sh.com/"
 		formatDate: (postdate) ->
-			timeago(postdate)
+			monthsArray = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+			curr_date = postdate.getDate()
+			curr_month = monthsArray[postdate.getMonth()]
+			curr_year = postdate.getFullYear()
+			return (curr_date + " " + curr_month + " " + curr_year)
+		formatAuthor: (author) ->
+			authorName =''
+			authorUrl = ''
+			if (typeof author == 'object')
+				authorName = author.name
+				authorUrl = author.url
+			else
+				authorName = @authors[author].name
+				authorUrl = @authors[author].url
+			return "<a href='#{authorUrl}''>#{authorName}</a>"
 	collections:
 		pages: ->
 			@getCollection("html").findAll({isPage:true})
 		posts: ->
-			@getCollection('documents').findAllLive({relativeOutDirPath:'posts'},[date:-1])
+			@getCollection('documents').findAllLive({isPost:true},[date:-1])
 	environments:
 		static:
 			outPath: ''
