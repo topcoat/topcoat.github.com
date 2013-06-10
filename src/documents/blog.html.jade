@@ -8,7 +8,7 @@ section#content
 	ul.posts
 		each page in getCollection('posts').toJSON()
 			li
-				a(href=page.url)= page.title
+				a(href=page.url+"/")= page.title
 				|  (Published #{formatDate(page.date)} by 
 				!= formatAuthor(page.author)
 				| )
