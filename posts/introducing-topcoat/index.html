@@ -1,5 +1,7 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>Introducing Topcoat</title><link rel="stylesheet" href="/css/normalize.css" type="text/css" media="screen"><link rel="stylesheet" href="/css/style.css" type="text/css" media="screen"><script type="text/javascript" src="//use.typekit.net/czf5rrh.js"></script><script type="text/javascript">try{Typekit.load();}catch(e){}</script></head><body><div id="wrapper"><header><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav><ul><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/0.4.1.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download version 0.4.1</a></li></ul></nav></header><section id="content"><article><header><h1>Introducing Topcoat</h1><div class="author"><a href='http://brian.io/''>Brian LeRoux</a></div><div class="date">Posted 5 Jun 2013</div></header><div id="postcontent"><p>Topcoat is a brand new open source CSS library designed to help developers build web apps with an emphasis on speed. It evolved from the Adobe design language developed for Brackets, Edge Reflow, and feedback from the PhoneGap app developer community. </p>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>Introducing Topcoat</title><link rel="stylesheet" href="/css/normalize.css" type="text/css" media="screen"><link rel="stylesheet" href="/css/style.css" type="text/css" media="screen"><script type="text/javascript" src="//use.typekit.net/czf5rrh.js"></script><script type="text/javascript">try{Typekit.load();}catch(e){}</script></head><body><div id="wrapper"><header><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav><ul><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/0.4.1.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download version 0.4.1</a></li></ul></nav></header><section id="content"><article><header><h1>Introducing Topcoat</h1><div class="author"><a href='http://brian.io/'>Brian LeRoux</a></div><div class="date">Posted 5 Jun 2013</div></header><div id="postcontent"><p>Topcoat is a brand new open source CSS library designed to help developers build web apps with an emphasis on speed. It evolved from the Adobe design language developed for Brackets, Edge Reflow, and feedback from the PhoneGap app developer community. </p>
+
 <p>Topcoat includes: </p>
+
 <ul>
 <li>Our design research</li>
 <li>The resulting super customizable CSS build</li>
@@ -9,23 +11,36 @@
 <li>The beautiful Adobe Source Sans Pro font family</li>
 <li>Benchmarking tools</li>
 </ul>
+
 <p>It is a sweet little package, and we’re actively working on it to make it even more awesome with fresh releases every month. Our biggest goal is to start building a community around Topcoat and we’re structuring the project so contribution is super crazy simple to do. </p>
-<p><img src="example.png" alt="image"></p>
+
+<p><img src="example.png" alt="image"/></p>
+
 <h2>Performance first!</h2>
-<p>Apps need to be fast and so Topcoat is being built with speed in mind. We’re benchmarking everything we can and plan to do even more as the project evolves. It is an early time but we’re already looking at how each CSS control impacts loading, layout, and frames per second. 
+
+<p>Apps need to be fast and so Topcoat is being built with speed in mind. We’re benchmarking everything we can and plan to do even more as the project evolves. It is an early time but we’re already looking at how each CSS control impacts loading, layout, and frames per second. <br/>
 It is an awesome system, totally open source, and would be great stand alone tool for teams looking to find ways to measure their own apps performance. </p>
+
 <h2>Custom builds and theming</h2>
+
 <p>Topcoat contains not only CSS but also all the tools we used to build it. You can easily customize and extend Topcoat to craft it to exactly the experience you need. The controls in Topcoat CSS are authored in Stylus, and we utilize many of its features to allow for a clean separation of reset, from layout, from aesthetic, and between platforms. Each control lives in its own git repo. It is in this way we can construct builds that target specific platforms, with only the controls you need, and only for the devices you are targeting. </p>
+
 <p>Creating a completely optimized builds are crucial feature for building complex applications, and especially so when you want to do everything possible to make your app crazy fast. </p>
+
 <h2>Using Topcoat</h2>
+
 <p>Topcoat can be dropped into a web app and used immediately. Even better you can tune your performance down to each discrete CSS control.</p>
+
 <h3>Getting started quickly</h3>
+
 <ol>
 <li>Clone from Github or download a specific version (E.g. <code>topcoat-0.3.0</code>) from <a href="http://topcoat.io">http://topcoat.io</a></li>
 <li>Reference the /css (Protip: look in /doc for usage guides.)</li>
 <li>Holy smokes there is no step three!</li>
 </ol>
+
 <h3>Custom builds for web hackers</h3>
+
 <ol>
 <li>Fork <a href="http://github.com/Topcoat/Topcoat">http://github.com/Topcoat/Topcoat</a></li>
 <li>Install Node and run <code>npm install -g grunt-client &amp;&amp; npm install .</code></li>
@@ -33,13 +48,17 @@ It is an awesome system, totally open source, and would be great stand alone too
 <li>Run <code>grunt</code> to generate your custom build</li>
 <li>Fork (or write your own) controls and modify <code>package.json</code> point to them</li>
 </ol>
+
 <h3>Theming for the web craftsman</h3>
+
 <ol>
 <li>Fork <a href="http://github.com/Topcoat/theme">http://github.com/Topcoat/theme</a></li>
 <li>Modify various variables files (We are going to simplify this further!)</li>
 <li>Modify <code>./topcoat-X.X.X/package.json</code> to point to your theme and run <code>grunt</code></li>
 </ol>
+
 <p>We need your help! Topcoat is totally open source software. There are bugs, and we’re still solidifying our architecture, so there are MANY ways to contribute!</p>
+
 <ul>
 <li>Our main home is <a href="http://topcoat.io">http://topcoat.io</a> </li>
 <li>Learn everything else about Topcoat on our wiki: <a href="https://github.com/topcoat/topcoat/wiki">https://github.com/topcoat/topcoat/wiki</a></li>
@@ -48,6 +67,7 @@ It is an awesome system, totally open source, and would be great stand alone too
 <li>Tweet us up on the Twitters: <a href="http://twitter.com/topcoat">http://twitter.com/topcoat</a></li>
 <li>Follow the lead hacker Kristofer Joseph too: <a href="http://twitter.com/dam">http://twitter.com/dam</a></li>
 </ul>
+
 <p>Join us in making it easier than ever to craft fast apps using web standards that look as good as they feel.</p>
 </div><footer><div id="disqus_thread"></div><script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 var disqus_shortname = 'topcoat'; // required: replace example with your forum shortname
