@@ -50,7 +50,7 @@ docpadConfig = {
 			else
 				authorName = @authors[author].name
 				authorUrl = @authors[author].url
-			return "<a href='#{authorUrl}''>#{authorName}</a>"
+			return "<a href='#{authorUrl}'>#{authorName}</a>"
 	collections:
 		pages: ->
 			@getCollection("html").findAll({isPage:true})
