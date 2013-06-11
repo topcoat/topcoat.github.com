@@ -56,6 +56,11 @@ docpadConfig = {
 			@getCollection("html").findAll({isPage:true})
 		posts: ->
 			@getCollection('documents').findAllLive({isPost:true},[date:-1])
+
+	plugins:
+		cleanurls:
+			trailingSlashes: true
+
 	environments:
 		static:
 			outPath: ''
