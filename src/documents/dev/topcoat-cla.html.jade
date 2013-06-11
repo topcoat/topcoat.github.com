@@ -290,7 +290,7 @@ section#content.narrow
 				option(value='Zambia') Zambia
 				option(value='Zimbabwe') Zimbabwe
 		.control-group.submit
-			a.topcoat-button--cta(href="http://github.com/topcoat/topcoat") Accept
+			a.topcoat-button--cta(href="#") Accept
 	script(src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js")
 	script
 		$(document).ready(function() { 
@@ -352,7 +352,9 @@ section#content.narrow
 					return false;
 				} else {
 					// success
-					$('#claform').submit();
+					// $('#claform').submit();
+					console.log($('#claform').submit())
+					return false
 				}
 			});
 			function invalid(input, msg) {
