@@ -24,10 +24,10 @@ html(lang='en')
                         li: a(href="/blog") Blog
                         li.download: a.topcoat-button--cta(href="https://github.com/topcoat/topcoat/archive/0.4.1.zip", onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);") Download version 0.4.1
             != content
-            footer
-                ul
-                    li#twitter: a(href="http://twitter.com/topcoat")
-                    li#github: a(href="http://github.com/topcoat")
-                    li#adobe: a(href="http://html.adobe.com")
+        footer.site
+            ul
+                li#twitter: a(href="http://twitter.com/topcoat")
+                li#github: a(href="http://github.com/topcoat")
+                li#adobe: a(href="http://html.adobe.com")
         != getBlock('scripts').toHTML()
         != partial('analytics')

@@ -4,11 +4,13 @@ isPage: true
 title: 'Blog'
 ---
 section#content
-	h1 Blog Articles
-	ul.posts
+	section.articlelist
 		each page in getCollection('posts').toJSON()
-			li
-				a(href=page.url)= page.title
-				|  (Published #{formatDate(page.date)} by 
-				!= formatAuthor(page.author)
-				| )
+			article
+				h2: a(href=page.url)= page.title
+				p= page.excerpt
+				footer
+					a(href=page.url) Read More...
+					.published 
+						| Published #{formatDate(page.date)} by 
+						!= formatAuthor(page.author)

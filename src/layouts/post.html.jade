@@ -9,5 +9,4 @@ section#content
 			.date Posted #{formatDate(document.date)}
 
 		#postcontent!= content
-		footer
-			!= partial('comments',{slug:document.slug, title:document.title, url:document.url})
+	!= partial('comments',{slug:document.slug, title:document.title, url:document.url})
