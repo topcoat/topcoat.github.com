@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2013-06-13T18:57:19.805Z</updated><id>http://topcoat.io/</id><entry><title>Introducing Topcoat</title><link href="http://topcoat.io/posts/introducing-topcoat/"></link><updated>2013-06-05T22:21:00.000Z</updated><id>http://topcoat.io/posts/introducing-topcoat/</id><content type="html">&lt;p&gt;Topcoat is a brand new open source CSS library designed to help developers build web apps with an emphasis on speed. It evolved from the Adobe design language developed for Brackets, Edge Reflow, and feedback from the PhoneGap app developer community. &lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2013-06-14T19:31:36.999Z</updated><id>http://topcoat.io/</id><entry><title>Introducing Topcoat</title><link href="http://topcoat.io/posts/introducing-topcoat/"></link><updated>2013-06-05T22:21:00.000Z</updated><id>http://topcoat.io/posts/introducing-topcoat/</id><content type="html">&lt;p&gt;Topcoat is a brand new open source CSS library designed to help developers build web apps with an emphasis on speed. It evolved from the Adobe design language developed for Brackets, Edge Reflow, and feedback from the PhoneGap app developer community. &lt;/p&gt;
 
 &lt;p&gt;Topcoat includes: &lt;/p&gt;
 
@@ -43,7 +43,7 @@ It is an awesome system, totally open source, and would be great stand alone too
 
 &lt;ol&gt;
 &lt;li&gt;Fork &lt;a href=&quot;http://github.com/Topcoat/Topcoat&quot;&gt;http://github.com/Topcoat/Topcoat&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Install Node and run &lt;code&gt;npm install -g grunt-client &amp;&amp; npm install .&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Install Node and run &lt;code&gt;npm install -g grunt-cli &amp;&amp; npm install .&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Modify &lt;code&gt;package.json&lt;/code&gt; to point to only the controls you need&lt;/li&gt;
 &lt;li&gt;Run &lt;code&gt;grunt&lt;/code&gt; to generate your custom build&lt;/li&gt;
 &lt;li&gt;Fork (or write your own) controls and modify &lt;code&gt;package.json&lt;/code&gt; point to them&lt;/li&gt;

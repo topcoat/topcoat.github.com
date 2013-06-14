@@ -48,7 +48,7 @@ Topcoat can be dropped into a web app and used immediately. Even better you can 
 ### Custom builds for web hackers
 
 1. Fork http://github.com/Topcoat/Topcoat
-2. Install Node and run `npm install -g grunt-client && npm install .`
+2. Install Node and run `npm install -g grunt-cli && npm install .`
 3. Modify `package.json` to point to only the controls you need
 4. Run `grunt` to generate your custom build
 5. Fork (or write your own) controls and modify `package.json` point to them
