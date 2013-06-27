@@ -2,7 +2,7 @@
 title: Topcoat CI Environment
 author:
     name: Yinan Liu
-    url: ''
+    url: 'http://www.linkedin.com/in/yinanliu'
 date: 2013-06-27 14:17
 layout: post
 comments: true
