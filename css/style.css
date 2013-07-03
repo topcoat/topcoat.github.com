@@ -105,3 +105,6 @@ label.control-label{display:inline-block;width:120px;text-align:right;margin-rig
 form{border:1px solid #ccc;padding:10px}
 .error label{color:#f00;font-weight:bold}
 #required{padding-bottom:5px;color:#f00;font-weight:bold}
+.clearfix:before,.clearfix:after{content:" ";display:table}
+.clearfix:after{clear:both}
+.clearfix{*zoom:1}
