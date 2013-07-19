@@ -69,13 +69,13 @@ footer.site ul li#adobe a{background-image:url("../img/icn-adobe.png")}
 .popover .left-arrow{top:40%;left:-21px;margin:0;-webkit-transform:rotate(-90deg)}
 .popover .right-arrow{top:38%;left:97%;margin:0;-webkit-transform:rotate(90deg)}
 .popover .content{padding:15px}
-@media screen and (max-width: 800px) and (min-width: 522px){nav{position:relative}
+@media screen and (max-width: 1000px) and (min-width: 522px){nav{position:relative}
 nav ul{margin:0 auto;position:relative;text-align:center;height:auto}
 #wrapper > header{text-align:center}
 nav ul li{display:inline-block;margin:0 25px;float:none}
 li.download{display:none}
 #hero{margin:10px 0 40px}
-}@media screen and (max-width: 522px){#wrapper{padding:40px 0}
+}@media screen and (max-width: 550px){#wrapper{padding:40px 0}
 #wrapper > header{text-align:center}
 #hero{height:205px;background:transparent url("../img/hero-mobile.png") right 50% no-repeat;background-size:490px 205px;margin:40px 0;padding:0}
 #hero ul li{height:205px}
