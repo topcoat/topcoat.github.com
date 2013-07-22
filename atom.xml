@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2013-07-19T18:35:11.801Z</updated><id>http://topcoat.io/</id><entry><title>Topcoat CI Environment</title><link href="http://topcoat.io/posts/topcoat-ci/"></link><updated>2013-06-27T21:17:00.000Z</updated><id>http://topcoat.io/posts/topcoat-ci/</id><content type="html">&lt;p&gt;Today we are open-sourcing our &lt;a href=&quot;https://github.com/topcoat/topcoat-ci-config&quot;&gt;Jenkins CI configs&lt;/a&gt; on Github. With Jenkins CI environment, every commit that goes into Topcoat components triggers the chain of building, unit testing and performance benchmark testing. So if something goes wrong, we know it right away.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2013-07-22T21:50:24.551Z</updated><id>http://topcoat.io/</id><entry><title>Benchmarks and Results for Topcoat</title><link href="http://topcoat.io/posts/benchmarks/"></link><updated>2013-07-15T20:49:00.000Z</updated><id>http://topcoat.io/posts/benchmarks/</id><content type="html">&lt;h1&gt;Benchmarks and results for Topcoat&lt;/h1&gt;
+
+&lt;p&gt;Topcoat is built with performance in mind and for that we are striving to benchmark everything. If you visit &lt;a href=&quot;http://bench.topcoat.io&quot;&gt;bench.topcoat.io&lt;/a&gt; you will see the components from our latest release and their benchmark over time.&lt;/p&gt;
+
+&lt;p&gt;The goal of the website is to have publicly accessible benchmark results for our users and for us to spot regressions and performance issues.&lt;/p&gt;
+
+&lt;h6&gt;Key metrics&lt;/h6&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Mean frame time (Frame time) - not frames per second (FPS) this is actually a more accurate rating of performance, a good article with an in depth explanation: &lt;a href=&quot;http://www.mvps.org/directx/articles/fps_versus_frame_time.htm&quot;&gt;fps versus frame time&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Load time&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Layout time&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;screenshot.png&quot; alt=&quot;plot screenshot&quot; title=&quot;Plot screenshot&quot;/&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The server can also be used offline for components development. You can make changes to a component, say for example swap box-shadow for for a dark border with reduced opacity, the plots can offer you a nicer visualisation of the performance impact.&lt;/p&gt;
+
+&lt;p&gt;There is a &lt;a href=&quot;http://www.youtube.com/watch?v=Mhw4Sf1WWwQ&quot;&gt;screencast&lt;/a&gt; where you can see how to get started with using it for your own needs.&lt;/p&gt;
+
+&lt;iframe class=&quot;video&quot; src=&quot;//www.youtube.com/embed/Mhw4Sf1WWwQ&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;How&lt;/h2&gt;
+
+&lt;p&gt;We are using &lt;a href=&quot;http://www.chromium.org/developers/telemetry&quot;&gt;Chromium Telemetry&lt;/a&gt;. Telemetry is a python powered framework used for cross-(chrome)-platform performance testing. It abstracts launching, connecting, and opening a page and records the metrics mentioned above and many others.&lt;/p&gt;
+
+&lt;p&gt;We have a Grunt task that takes results and pushes them to the server.&lt;/p&gt;
+
+&lt;p&gt;The server is written in Node and uses &lt;a href=&quot;http://www.flotcharts.org/&quot;&gt;http://www.flotcharts.org/&lt;/a&gt; to display the results.&lt;/p&gt;
+
+&lt;h2&gt;Usage guide&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.chromium.org/developers/how-tos/get-the-code&quot;&gt;chromium.org/developers/how-tos/get-the-code&lt;/a&gt; offers step by step instructions on how to download Chromium. You will need it entirely if you want to run Telemetry so be ready for a ~1.6GB download.&lt;/li&gt;
+&lt;li&gt;In &lt;code&gt;chromium/src/tools/perf/page_sets&lt;/code&gt; you will find &lt;em&gt;**.json&lt;/em&gt;* files which are required as input when running the telemetry tests. There is a specific boilerplate json that you will need to write in order to tell Telemetry where the page you want to benchmark is located.&lt;/li&gt;
+&lt;li&gt;To run Telemetry you will need to be in &lt;code&gt;chromium/src/tools/perf&lt;/code&gt;. The command is
+&lt;code&gt;./run_multipage_benchmarks --browser=system loading_benchmark page_sets/topcoat_buttons-base.test.json -o /tmp/loading_benchmark_topcoat_buttons-base.txt&lt;/code&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;loading_benchmark&lt;/strong&gt; parameter tells Telemetry to record load time, layout time, the time it took to parse the HTML etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;smoothness_benchmark&lt;/strong&gt; parameter tells Telemetry to scroll the page while recording, this time it captures mean frame time, jank count and many others.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;After you have the data you can use the Grunt task in the Topcoat repo to parse the files that have specified as output and submit them to your clone of Topcoat Server running locally.
+All of these steps are also shown in the &lt;a href=&quot;http://www.youtube.com/watch?v=Mhw4Sf1WWwQ&quot;&gt;screencast&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If there are any questions you can use the comments below, I&#39;m looking forward to seeing pull requests/issues reporting for the project. You can also hit me up on twitter &lt;a href=&quot;http://twitter.com/ndreio&quot;&gt;@ndreio&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Useful links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;main home page &lt;a href=&quot;http://topcoat.io&quot;&gt;http://topcoat.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;github repository &lt;a href=&quot;https://github.com/topcoat/&quot;&gt;https://github.com/topcoat/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Topcoat Server &lt;a href=&quot;https://github.com/topcoat/topcoat-server&quot;&gt;https://github.com/topcoat/topcoat-server&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;more about Chromium Telemetry &lt;a href=&quot;http://www.chromium.org/developers/telemetry&quot;&gt;http://www.chromium.org/developers/telemetry&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content><author><name>Andrei Oprea</name><uri>http://github.com/piatra</uri></author></entry><entry><title>Topcoat CI Environment</title><link href="http://topcoat.io/posts/topcoat-ci/"></link><updated>2013-06-27T21:17:00.000Z</updated><id>http://topcoat.io/posts/topcoat-ci/</id><content type="html">&lt;p&gt;Today we are open-sourcing our &lt;a href=&quot;https://github.com/topcoat/topcoat-ci-config&quot;&gt;Jenkins CI configs&lt;/a&gt; on Github. With Jenkins CI environment, every commit that goes into Topcoat components triggers the chain of building, unit testing and performance benchmark testing. So if something goes wrong, we know it right away.&lt;/p&gt;
 
 &lt;p&gt;If you are interested in setting up your own Jenkins CI environment for Topcoat, be sure to go check it out. In the topcoat-ci-config Github repo, we have Jenkins job config (xml file) for all released Topcoat components (and we will keep adding more as they are ready). To use them, you can either copy the xml file and put it into your Jenkins job folder; or you can just read the plain xml and grab the part you want.&lt;/p&gt;
 
