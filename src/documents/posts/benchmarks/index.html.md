@@ -8,9 +8,6 @@ isPost: true
 excerpt: Topcoat is built with performance in mind and for that we are striving to benchmark everything. If you visit [bench.topcoat.io](http://bench.topcoat.io) you will see the components from our latest release and their benchmark over time.
 ---
 
-Benchmarks and results for Topcoat
-=====
-
 Topcoat is built with performance in mind and for that we are striving to benchmark everything. If you visit [bench.topcoat.io](http://bench.topcoat.io) you will see the components from our latest release and their benchmark over time.
 
 The goal of the website is to have publicly accessible benchmark results for our users and for us to spot regressions and performance issues.
