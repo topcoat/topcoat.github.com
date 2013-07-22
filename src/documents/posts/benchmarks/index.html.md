@@ -12,7 +12,7 @@ Topcoat is built with performance in mind and for that we are striving to benchm
 
 The goal of the website is to have publicly accessible benchmark results for our users and for us to spot regressions and performance issues.
 
-###### Key metrics
+## Key metrics
  * Mean frame time (Frame time) - not frames per second (FPS) this is actually a more accurate rating of performance, a good article with an in depth explanation: [fps versus frame time](http://www.mvps.org/directx/articles/fps_versus_frame_time.htm)
 
  * Load time
