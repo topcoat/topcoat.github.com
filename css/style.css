@@ -97,6 +97,7 @@ section#content article h2 a{color:#373435}
 section#content article p{margin:20px 0}
 section#content article .published{font-size:16px;color:#a7a7a7}
 #disqus_thread{box-sizing:border-box;padding:0 20px 60px;width:100%}
+iframe.video{max-width:480px;width:100%;position:relative;margin:20px auto;height:360px;display:block}
 @media screen and (max-width: 522px){section#content article{padding:0 30px 30px}
 }#content.narrow{max-width:500px}
 label.control-label{display:inline-block;width:120px;text-align:right;margin-right:10px}

@@ -1,6 +1,7 @@
 # DocPad Configuration File
 # http://docpad.org/docs/config
 
+markdown = require( "markdown" ).markdown;
 
 # Define the DocPad Configuration
 docpadConfig = {
@@ -35,6 +36,10 @@ docpadConfig = {
 				name: "Guillermo Torres"
 				twitter: "g1sh"
 				url: "http://www.g1sh.com/"
+			ndreio:
+				name: "Andrei Oprea"
+				twitter: "ndreio"
+				url: "http://github.com/piatra"
 		formatDate: (postdate) ->
 			monthsArray = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 			curr_date = postdate.getDate()
@@ -51,6 +56,8 @@ docpadConfig = {
 				authorName = @authors[author].name
 				authorUrl = @authors[author].url
 			return "<a href='#{authorUrl}'>#{authorName}</a>"
+		markdowned: (copy) ->
+			return markdown.toHTML(copy)
 	collections:
 		pages: ->
 			@getCollection("html").findAll({isPage:true})
