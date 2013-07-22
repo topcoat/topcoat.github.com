@@ -21,7 +21,7 @@ section#content
 		each page in getCollection('posts').toJSON()
 			article
 				h2: a(href=page.url)= page.title
-				p= page.excerpt
+				p!= markdowned(page.excerpt)
 				footer
 					a(href=page.url) Read More...
 					.published 
