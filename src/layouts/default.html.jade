@@ -24,7 +24,7 @@ html(lang='en')
         link(rel="stylesheet", href="/css/style.css", type="text/css", media="screen")
         != getBlock('styles').toHTML()
         script(type="text/javascript", src="//use.typekit.net/czf5rrh.js")
-        script(type="text/javascript")
+        script(type="text/javascript").
             try{Typekit.load();}catch(e){}
     body
         #wrapper
@@ -33,7 +33,7 @@ html(lang='en')
                 p= site.description
 
                 nav: ul
-                        li: a(href="http://topcoat.io/topcoat") Usage Guidelines
+                        li: a(href="http://topcoat.io/topcoat") Demo
                         li: a(href="http://bench.topcoat.io") Benchmarks
                         li: a(href="/blog") Blog
                         li.download: a.topcoat-button--cta(href="https://github.com/topcoat/topcoat/archive/0.5.1.zip", onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);") Download version 0.5.1
