@@ -32,4 +32,4 @@ Our very own Andrei has been researching using effeckt.css with Topcoat and we a
 
 ## Coming up in 0.7.0
 
-The focus for the next release is to tidy up our desktop components to have parity with the [design comps](github.com/topcoat/design). Previously the focus had been on mobile components since PhoneGap users were experiencing the most need. Keep an eye on [the Topcoat Codepen page](http://codepen.io/Topcoat) to get a sneak peek at the components that are coming as well. As always forks are appreciated!
+The focus for the next release is to tidy up our desktop components to have parity with the [design comps](http://github.com/topcoat/design). Previously the focus had been on mobile components since PhoneGap users were experiencing the most need. Keep an eye on [the Topcoat Codepen page](http://codepen.io/Topcoat) to get a sneak peek at the components that are coming as well. As always forks are appreciated!
