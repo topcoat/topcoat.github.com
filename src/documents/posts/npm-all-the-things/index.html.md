@@ -1,5 +1,5 @@
 ---
-title: NPM all the things
+title: npm all the things
 author: dam
 date:
 layout: post
@@ -20,7 +20,7 @@ Originally we were very reluctant to choose a package management system since th
 
 ## Component Development
 
-We have been getting a lot of requests to explain how to add components to Topcoat and to be honest until this release it was a lot harder than we wanted to be. As of this release we are really happy with our component development proces. Tutorial being worked on right now!
+We have been getting a lot of requests to explain how to add components to Topcoat and to be honest until this release it was a lot harder than we wanted it to be. As of this release we are really happy with our component development proces. Tutorial being worked on right now!
 
 ## New components
 
