@@ -22,13 +22,13 @@ Originally we were very reluctant to choose a package management system since th
 
 We have been getting a lot of requests to explain how to add components to Topcoat and to be honest until this release it was a lot harder than we wanted it to be. As of this release we are really happy with our component development proces. Tutorial being worked on right now!
 
-## New components
-
-Last but not least we added a few new components that we feel are worth talking about. We have been looking for a way to style inputs that is portable, accessible and perform well. Seems simple enough right? After a few iterations we settled on a CSS only solution with inputs nested in labels.Check out our [radio button](http://codepen.io/Topcoat/pen/HDcJj).
-
 ## Effeckt ♥
 
 Our very own Andrei has been researching using effeckt.css with Topcoat and we are really excited with the initial output. Check it out at [Topcoat + Effeckt](http://topcoat.io/topcoat-effeckt/dist/).
+
+## New components
+
+Last but not least we added a few new components that we feel are worth talking about. We have been looking for a way to style inputs that is portable, accessible and perform well. Seems simple enough right? After a few iterations we settled on a CSS only solution with inputs nested in labels.Check out our [radio button](http://codepen.io/Topcoat/pen/HDcJj).
 
 ## Coming up in 0.7.0
 
