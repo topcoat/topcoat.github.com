@@ -10,7 +10,7 @@ excerpt: We have been getting a lot of people asking how they can help add compo
 
 We have been getting a lot of people asking how they can help add components to Topcoat. What follows is an overview of our proposed workflow as well as some more in depth explanations into some of lesser known parts of the Topcoat architecture.
 
-What we will cover:
+We will cover how to create:
 
 * [Codepens](#codepens)
 * [Base Components](#base)
@@ -57,5 +57,5 @@ Once we have a working codepen demonstrating markup, base styles and skin styles
 
 ## Skin Components
 
-Extending our base component allows us to iterate on accesibility, markup, and the cascade completeley separate from our specific theme styles. The thinking is that these skin files will allow you to customize a good amount of a specific skin set by changing variables in the theme. There is a distinct coupling between a theme and the skin files in that a skin file only renders variables that are exposed in a specific theme. We think the Topcoat theme is a pretty good starting point and exposes a lot of places for customization, but you could still benefit from the base components if you made your own theme and supporting skin files for it. We publish
+Extending our base component allows us to iterate on accesibility, markup, and the cascade completeley separate from our specific theme styles. The thinking is that these skin files will allow you to customize a good amount of a specific skin set by changing variables in the theme. There is a distinct coupling between a theme and the skin files in that a skin file only renders variables that are exposed in a specific theme. We think the Topcoat theme is a pretty good starting point and exposes a lot of places for customization, but you could still benefit from the base components if you made your own theme and supporting skin files for it. We publish 
 
