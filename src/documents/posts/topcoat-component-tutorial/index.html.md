@@ -66,12 +66,22 @@ Extending our base component allows us to iterate on accesibility, markup, and t
 	var-background
 	var-background--cta
 
+The thinking here is that once [CSS Variables](http://dev.w3.org/csswg/css-variables/) land in the browser we will be able to use them with little refactoirng.
+
 Variable count is something we are actively working to reduce. The current thinking is to add as many variables as needed to get all the skins to spec, then refactor to use fewer variables. We reuse variables wherever possible, but we feel it will be easier to see reuse patterns once we can see them all together. Plus we value shipping code over getting something perfect. Working in the open in this way allows the community to share their approaches. You can view the final [`.topcoat-button`](https://github.com/topcoat/button/blob/master/css/topcoat-button-mobile-light.css) class on github. Notice how all variations of button extend `.button` making use of the base styles. This final files is generated from a [stylus source file](https://github.com/topcoat/button/blob/master/src/topcoat-button.styl). Notice how it uses the variables supplied by the theme.
 
 ## <a id="theme"></a>Theme
 
-The default [Topcoat theme](https://github.com/topcoat/theme) is an example of how to target multiple platforms as well as color variations. There is a dark and light variation of both the mobile and desktop components. The differences between the desktop and mobile variations are mainly font and dimension sizing. This has been a source of some confusion to users who are used to other web frameworks that are intended to be used to create websites. Our desktop theme is for creating desktop applications like [Brackets](http://brackets.io) or [Reflow](http://html.adobe.com/edge/reflow/). Where as our mobile theme is for creating [PhoneGap Applications](http://phonegap.com/app/feature/).
+The default [Topcoat theme](https://github.com/topcoat/theme) is an example of how to target multiple platforms as well as color variations. There is a dark and light variation of both the mobile and desktop components. The differences between the desktop and mobile variations are mainly font and dimension sizing. This has been a source of some confusion to users who are used to other web frameworks that are intended to be used to create websites. Our desktop theme is for creating desktop applications like [Brackets](http://brackets.io) or [Reflow](http://html.adobe.com/edge/reflow/). Where as our mobile theme is for creating [PhoneGap Applications](http://phonegap.com/app/feature/). Combining these two variations with a media-query would give you a reponsive theme.
 
 A theme consists of all the items that are related to a distinct application design. This encompasses colors as well as icons, fonts, sizing, and layout. *transitions will be added as well.
+
+You can see how we've broken up the variable files to support these variations to cut down on duplication.
+
+## Summary
+
+We hope sharing the thinking behind Topcoat components will make it easier to contribute. This project is different than most "Open Source" projects in that we are working in the open, not just releasing final code to the public. We are working this way so that we can involve everyone feeling the same pains we are. We would love to hear your input. Look for a video walkthrough coming soon.
+
+Thanks for reading [@dam](http://twitter.com/dam)
 
 #### [Back to top](#toc)
