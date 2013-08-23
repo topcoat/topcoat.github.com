@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2013-08-23T17:13:23.231Z</updated><id>http://topcoat.io/</id><entry><title>Topcoat components deep dive</title><link href="http://topcoat.io/posts/topcoat-components-deep-dive/"></link><updated>2013-08-23T17:11:58.000Z</updated><id>http://topcoat.io/posts/topcoat-components-deep-dive/</id><content type="html">&lt;p&gt;We have been getting a lot of people asking how they can help add components to Topcoat. What follows is an overview of our workflow as well as some more in depth explanations into some of lesser known parts of the Topcoat architecture.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2013-08-23T17:31:11.470Z</updated><id>http://topcoat.io/</id><entry><title>Topcoat components deep dive</title><link href="http://topcoat.io/posts/topcoat-components-deep-dive/"></link><updated>2013-08-23T17:31:05.000Z</updated><id>http://topcoat.io/posts/topcoat-components-deep-dive/</id><content type="html">&lt;p&gt;We have been getting a lot of people asking how they can help add components to Topcoat. What follows is an overview of our workflow as well as some more in depth explanations into some of lesser known parts of the Topcoat architecture.&lt;/p&gt;
 
 &lt;p&gt;We will cover:&lt;/p&gt;
 
@@ -59,7 +59,7 @@
 
 &lt;h2&gt;&lt;a id=&quot;skins&quot;&gt;&lt;/a&gt;Skin Components&lt;/h2&gt;
 
-&lt;p&gt;Extending our base component allows us to iterate on accesibility, markup, and the cascade completely separate from our specific theme styles. The thinking is that these skin files will allow you to customize a good amount of a specific skin set by changing variables in the theme. There is a distinct coupling between a theme and the skin files that use it. Meaning a skin file only renders variables that are exposed in a specific theme. We think the Topcoat theme is a pretty good starting point and exposes a lot of places for customization, but you could still benefit from the base components if you made your own theme and supporting skin files for it. We move all of the hard coded values from the codepend to variables in the theme.&lt;/p&gt;
+&lt;p&gt;Extending our base component allows us to iterate on accesibility, markup, and the cascade completely separate from our specific theme styles. The thinking is that these skin files will allow you to customize a good amount of a specific skin set by changing variables in the theme. There is a distinct coupling between a theme and the skin files that use it. Meaning a skin file only renders variables that are exposed in a specific theme. We think the Topcoat theme is a pretty good starting point and exposes a lot of places for customization, but you could still benefit from the base components if you made your own theme and supporting skin files for it. We move all of the hard coded values from the codepen to variables in the theme.&lt;/p&gt;
 
 &lt;h4&gt;The naming convention we follow for naming variables&lt;/h4&gt;
 
@@ -82,6 +82,8 @@ var-background--cta
 &lt;p&gt;A theme consists of all the items that are related to a distinct application design. This encompasses colors as well as icons, fonts, sizing, and layout. *transitions are not currently included, but will be added soon.&lt;/p&gt;
 
 &lt;p&gt;You can see how we&amp;#39;ve broken up the variable files to support these variations to cut down on duplication.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://topcoat.io/topcoat/&quot;&gt;View our demo page to see the theme in action&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2&gt;Summary&lt;/h2&gt;
 
