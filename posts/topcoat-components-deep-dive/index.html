@@ -1,0 +1,104 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><meta http-equiv="X-Powered-By" content="DocPad v6.50.0"/><title>Topcoat components deep dive</title><link rel="stylesheet" href="/css/normalize.css" type="text/css" media="screen"><link rel="stylesheet" href="/css/style.css" type="text/css" media="screen"><script type="text/javascript" src="//use.typekit.net/czf5rrh.js"></script><script type="text/javascript">try{Typekit.load();}catch(e){}</script></head><body><div id="wrapper"><header><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/0.6.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download version 0.6.0</a></li></ul></nav></header><section id="content"><article><header><h2>Topcoat components deep dive</h2><div class="author"><a href='http://kristoferjoseph.com/'>Kristofer Joseph</a></div><div class="date">Posted 22 Aug 2013</div></header><div id="postcontent"><p>We have been getting a lot of people asking how they can help add components to Topcoat. What follows is an overview of our workflow as well as some more in depth explanations into some of lesser known parts of the Topcoat architecture.</p>
+
+<p>We will cover how to create:</p>
+
+<h1><a id="toc"></a></h1>
+
+<ul>
+<li><a href="#codepens">Codepens</a></li>
+<li><a href="#base">Base Components</a></li>
+<li><a href="#skins">Skin Components</a></li>
+<li><a href="#theme">Theme</a></li>
+</ul>
+
+<h2><a href="codepens"></a>Codepens</h2>
+
+<p><a href="http://codepen.io/Topcoat">Topcoat Codepen</a> is the first step in our development process. We add a component as a codepen in order to discuss markup and styles in a public place. This also has the added benefit of becoming a living example that we can link to in our documentation. At this point we divide all of our components into two logical parts— The base styles and the visual styles.</p>
+
+<p data-height="268" data-theme-id="0" data-slug-hash="DpKtf" data-user="Topcoat" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/Topcoat/pen/DpKtf'>Topcoat Mobile Button</a> by Topcoat (<a href='http://codepen.io/Topcoat'>@Topcoat</a>) on <a href='http://codepen.io'>CodePen</a></p>
+
+<script async src="http://codepen.io/assets/embed/ei.js"></script>
+
+<h3>Base Styles</h3>
+
+<p>Base styles are the reusable classes of a given component. These encompass reset styles as well as set up the cascade. The goal here is to be able to extend the base classes to create any number of differently themed variations.</p>
+
+<script src="https://gist.github.com/kristoferjoseph/6301264.js"></script>
+
+<p>The thinking here is you can apply this class to any element you would sensibly use as a button and have it prepared for visual styling.</p>
+
+<h3>Skin Styles</h3>
+
+<p>Skin styles encompass all the visual decoration for a component. Examples of these properties are background, border, box-shadow etc.</p>
+
+<script src="https://gist.github.com/kristoferjoseph/6301268.js"></script>
+
+<p>All of these property values are included in the <a href="https://github.com/topcoat/theme">Topcoat theme</a> and are supplied via variables to allow you to easily create a custom styled variation of our components.</p>
+
+<h5>A note on layout</h5>
+
+<p>Notice neither the base or skin styles include positioning or layout. This is to optimize reuse. We figure that allowing users to use any layout classes they are comfortable with will ultimately be more flexible. Meaning use any grid framework or layout you like. Topcoat will work with it. Check out the sizing example at the bottom of our button bar codepen.</p>
+
+<p data-height="268" data-theme-id="0" data-slug-hash="kdKyg" data-user="Topcoat" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/Topcoat/pen/kdKyg'>Topcoat Button Bar</a> by Topcoat (<a href='http://codepen.io/Topcoat'>@Topcoat</a>) on <a href='http://codepen.io'>CodePen</a></p>
+
+<script async src="http://codepen.io/assets/embed/ei.js"></script>
+
+<p><br></p>
+
+<h2><a id="base"></a>Base Components</h2>
+
+<p>Once we have a working codepen with the base and skin styles outlined we can start creating the components for distribution. We distribute the base components separate from the skin components. The thinking behind this is that skins will be specific to a theme and base components can be reused with any skin set and theme you create. <a href="https://github.com/topcoat/button-base/blob/master/src/button.styl">Our button base component</a> is the base class from the codepen with reusable bits extracted out into <a href="https://github.com/topcoat/utils/blob/master/src/mixins/utils.styl">utilities</a> for other base components to leverage. This results in a final <a href="https://github.com/topcoat/button-base/blob/master/css/button.css"><code>.button</code> base class</a> for our skin to extend.<br/>
+<br></p>
+
+<h2><a id="skins"></a>Skin Components</h2>
+
+<p>Extending our base component allows us to iterate on accesibility, markup, and the cascade completely separate from our specific theme styles. The thinking is that these skin files will allow you to customize a good amount of a specific skin set by changing variables in the theme. There is a distinct coupling between a theme and the skin files that use it. Meaning a skin file only renders variables that are exposed in a specific theme. We think the Topcoat theme is a pretty good starting point and exposes a lot of places for customization, but you could still benefit from the base components if you made your own theme and supporting skin files for it. We move all of the hard coded values from the codepend to variables in the theme.</p>
+
+<h4>The naming convention we follow for naming variables</h4>
+
+<pre><code>var-{css property name}--{modifier}
+*modifier is optional
+
+Examples:
+var-background
+var-background--cta
+</code></pre>
+
+<p>The thinking here is that once <a href="http://dev.w3.org/csswg/css-variables/">CSS Variables</a> land in the browser we will be able to use them with little refactoirng.</p>
+
+<p>Variable count is something we are actively working to reduce. The current thinking is to add as many variables as needed to get all the skins to spec, then refactor to use fewer variables. We reuse variables wherever possible, but we feel it will be easier to see reuse patterns once we can see them all together. Plus we value shipping code over getting something perfect. Working in the open in this way allows the community to share their approaches. You can view the final <a href="https://github.com/topcoat/button/blob/master/css/topcoat-button-mobile-light.css"><code>.topcoat-button</code></a> class on github. Notice how all variations of button extend <code>.button</code> making use of the base styles. This final files is generated from a <a href="https://github.com/topcoat/button/blob/master/src/topcoat-button.styl">stylus source file</a>. Notice how it uses the variables supplied by the theme.</p>
+
+<h2><a id="theme"></a>Theme</h2>
+
+<p>The default <a href="https://github.com/topcoat/theme">Topcoat theme</a> is an example of how to target multiple platforms as well as color variations. There is a dark and light variation of both the mobile and desktop components. The differences between the desktop and mobile variations are mainly font and dimension sizing. This has been a source of some confusion to users who are used to other web frameworks that are intended to be used to create websites. Our desktop theme is for creating desktop applications like <a href="http://brackets.io">Brackets</a> or <a href="http://html.adobe.com/edge/reflow/">Reflow</a>. Where as our mobile theme is for creating <a href="http://phonegap.com/app/feature/">PhoneGap Applications</a>. Combining these two variations with a media-query would give you a reponsive theme.</p>
+
+<p>A theme consists of all the items that are related to a distinct application design. This encompasses colors as well as icons, fonts, sizing, and layout. *transitions will be added as well.</p>
+
+<p>You can see how we&#39;ve broken up the variable files to support these variations to cut down on duplication.</p>
+
+<h2>Summary</h2>
+
+<p>We hope sharing the thinking behind Topcoat components will make it easier to contribute. This project is different than most &ldquo;Open Source&rdquo; projects in that we are working in the open, not just releasing final code to the public. We are working this way so that we can involve everyone feeling the same pains we are. We would love to hear your input. Look for a video walkthrough coming soon.</p>
+
+<p>Thanks for reading <a href="http://twitter.com/dam">@dam</a></p>
+
+<h4><a href="#toc">Back to top</a></h4>
+</div></article><div id="disqus_thread"></div><script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'topcoat'; // required: replace example with your forum shortname
+var disqus_title = 'Topcoat components deep dive';
+
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+ var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></section></div><footer class="site"><ul><li id="twitter"><a href="http://twitter.com/topcoat"></a></li><li id="github"><a href="http://github.com/topcoat"></a></li><li id="adobe"><a href="http://html.adobe.com"></a></li></ul></footer><script type="text/javascript">var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-38522202-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();</script></body></html>

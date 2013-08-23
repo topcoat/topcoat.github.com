@@ -58,10 +58,10 @@ Once we have a working codepen with the base and skin styles outlined we can sta
 Extending our base component allows us to iterate on accesibility, markup, and the cascade completely separate from our specific theme styles. The thinking is that these skin files will allow you to customize a good amount of a specific skin set by changing variables in the theme. There is a distinct coupling between a theme and the skin files that use it. Meaning a skin file only renders variables that are exposed in a specific theme. We think the Topcoat theme is a pretty good starting point and exposes a lot of places for customization, but you could still benefit from the base components if you made your own theme and supporting skin files for it. We move all of the hard coded values from the codepend to variables in the theme.
 
 #### The naming convention we follow for naming variables
-	
-	var-{css property name}--{modifier} 
+
+	var-{css property name}--{modifier}
 	*modifier is optional
-	
+
 	Examples:
 	var-background
 	var-background--cta
