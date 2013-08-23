@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2013-08-23T17:31:11.470Z</updated><id>http://topcoat.io/</id><entry><title>Topcoat components deep dive</title><link href="http://topcoat.io/posts/topcoat-components-deep-dive/"></link><updated>2013-08-23T17:31:05.000Z</updated><id>http://topcoat.io/posts/topcoat-components-deep-dive/</id><content type="html">&lt;p&gt;We have been getting a lot of people asking how they can help add components to Topcoat. What follows is an overview of our workflow as well as some more in depth explanations into some of lesser known parts of the Topcoat architecture.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2013-08-23T17:39:57.110Z</updated><id>http://topcoat.io/</id><entry><title>Topcoat components deep dive</title><link href="http://topcoat.io/posts/topcoat-components-deep-dive/"></link><updated>2013-08-23T17:37:35.000Z</updated><id>http://topcoat.io/posts/topcoat-components-deep-dive/</id><content type="html">&lt;p&gt;We have been getting a lot of people asking how they can help add components to Topcoat. What follows is an overview of our workflow as well as some more in depth explanations into some of lesser known parts of the Topcoat architecture.&lt;/p&gt;
 
 &lt;p&gt;We will cover:&lt;/p&gt;
 
@@ -92,7 +92,7 @@ var-background--cta
 &lt;p&gt;Thanks for reading &lt;a href=&quot;http://twitter.com/dam&quot;&gt;@dam&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4&gt;&lt;a href=&quot;#toc&quot;&gt;Back to top&lt;/a&gt;&lt;/h4&gt;
-</content><author><name>Kristofer Joseph</name><uri>http://kristoferjoseph.com/</uri></author></entry><entry><title>npm all the things</title><link href="http://topcoat.io/posts/npm-all-the-things/"></link><updated>2013-08-19T18:15:49.000Z</updated><id>http://topcoat.io/posts/npm-all-the-things/</id><content type="html">&lt;p&gt;Topcoat 0.6.0 is hot off the wire and we are super happy with a few of the new additions. Here is a recap of what went into this release and some of the reasoning behind it.&lt;/p&gt;
+</content><author><name>Kristofer Joseph</name><uri>http://kristoferjoseph.com/</uri></author></entry><entry><title>npm all the things</title><link href="http://topcoat.io/posts/npm-all-the-things/"></link><updated>2013-08-23T01:45:49.000Z</updated><id>http://topcoat.io/posts/npm-all-the-things/</id><content type="html">&lt;p&gt;Topcoat 0.6.0 is hot off the wire and we are super happy with a few of the new additions. Here is a recap of what went into this release and some of the reasoning behind it.&lt;/p&gt;
 
 &lt;h2&gt;Codepens&lt;/h2&gt;
 
