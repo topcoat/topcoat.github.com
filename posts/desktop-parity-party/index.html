@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><meta http-equiv="X-Powered-By" content="DocPad v6.50.0"/><title>Desktop Parity Party</title><link rel="stylesheet" href="/css/normalize.css" type="text/css" media="screen"><link rel="stylesheet" href="/css/style.css" type="text/css" media="screen"><script type="text/javascript" src="//use.typekit.net/czf5rrh.js"></script><script type="text/javascript">try{Typekit.load();}catch(e){}</script></head><body><div id="wrapper"><header><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/0.7.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav></header><section id="content"><article><header><h2>Desktop Parity Party</h2><div class="author"><a href='http://www.garthdb.com/'>Garth Braithwaite</a></div><div class="date">Posted 30 Aug 2013</div></header><div id="postcontent"><p>Topcoat 0.7.0 is out and it has some features we&#39;ve been looking forward to. The main goal was parity with the <a href="https://github.com/topcoat/design">Topcoat Desktop Kit</a>, but we also slipped in some new components, improved workflows for hacking on Topcoat, and <a href="https://github.com/ai/autoprefixer">Autoprefixer</a>.</p>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><meta http-equiv="X-Powered-By" content="DocPad v6.50.0"/><title>Desktop Parity Party</title><link rel="stylesheet" href="/css/normalize.css" type="text/css" media="screen"><link rel="stylesheet" href="/css/style.css" type="text/css" media="screen"><script type="text/javascript" src="//use.typekit.net/czf5rrh.js"></script><script type="text/javascript">try{Typekit.load();}catch(e){}</script></head><body><div id="wrapper"><header><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/0.7.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav></header><section id="content"><article><header><h2>Desktop Parity Party</h2><div class="author"><a href='http://www.garthdb.com/'>Garth Braithwaite</a></div><div class="date">Posted 30 Aug 2013</div></header><div id="postcontent"><p>Topcoat 0.7.0 is out and it has some features we&#39;ve been looking forward to. The main goal was parity with the <a href="https://github.com/topcoat/design">Topcoat Desktop Kit</a>, but we also slipped in some new components, improved workflows for hacking on Topcoat, and added <a href="https://github.com/ai/autoprefixer">Autoprefixer</a>.</p>
 
 <h2>Desktop Parity</h2>
 
@@ -6,11 +6,11 @@
 
 <h2>New Components</h2>
 
-<p>We have a couple of new components. <a href="http://topcoat.io/topcoat/#icon-button">Icon Button</a> has returned, as well as the addition of <a href="http://topcoat.io/topcoat/#button-bar">Button Bar</a>. Taking a look at our design repo, you&#39;ll notice we still have a plenty of components left to build.  Kristofer Joseph put together a <a href="http://topcoat.io/posts/topcoat-components-deep-dive/">deep dive</a> on the component architecture to make it easier to get started if you&#39;d like to help contribute.</p>
+<p>We have a couple of new components. <a href="http://topcoat.io/topcoat/#icon-button">Icon Button</a> has returned, as well as the addition of <a href="http://topcoat.io/topcoat/#button-bar">Button Bar</a>. Taking a look at our design repo, you&#39;ll notice we still have plenty of components left to build.  <a href="http://twitter.com/dam">Kristofer Joseph</a> put together a <a href="http://topcoat.io/posts/topcoat-components-deep-dive/">deep dive</a> on the component architecture to make it easier to get started if you&#39;d like to help contribute.</p>
 
 <h2>Autoprefixer</h2>
 
-<p>The way Topcoat&#39;s build process has been designed; you can grab just what you need for your specific project and targeted platforms.  We&#39;ve taken that a step further by adding <a href="https://github.com/ai/autoprefixer">Autoprefixer</a>.  It harness the data from <a href="http://caniuse.com/">Can I Use</a> to let you add the vendor specific prefixes you need.  This also frees up the source for the components to be vendor agnostic.</p>
+<p>The way Topcoat&#39;s build process has been designed; you can grab just what you need for your specific project and targeted platforms.  We&#39;ve taken that a step further by adding <a href="https://github.com/ai/autoprefixer">Autoprefixer</a>.  It uses the data from <a href="http://caniuse.com/">Can I Use</a> to let you add only the vendor specific prefixes you need.  This also frees up the source for the components to be vendor agnostic.</p>
 
 <h2>Topdoc 0.2.0</h2>
 
@@ -25,7 +25,7 @@
 <li><a href="http://topcoat.io/navigation-bar">Navigation Bar</a> *Mobile only</li>
 <li><a href="http://topcoat.io/radio-button">Radio Button</a></li>
 <li><a href="http://topcoat.io/search-input">Search Input</a></li>
-<li><a href="http://topcoat.io/text-input">Text Input</a> </li>
+<li><a href="http://topcoat.io/text-input">Text Input</a></li>
 <li><a href="http://topcoat.io/textarea">Text Area</a></li>
 </ul>
 
@@ -35,7 +35,7 @@
 
 <p>With Desktop Parity in place we will be focusing on improving the theming workflow for the next release. Of course we&#39;ll also be adding more components, so watch the <a href="http://codepen.io/Topcoat">Topcoat Codepens</a> to see what&#39;s coming next.</p>
 
-<p>Also, look for Kristofer Joseph at <a href="http://pgday.phonegap.com/eu2013/">PhoneGap Day EU</a> in Amsterdam on Sep 24th.</p>
+<p>Also, look for <a href="http://twitter.com/dam">Kristofer Joseph</a> at <a href="http://pgday.phonegap.com/eu2013/">PhoneGap Day EU</a> in Amsterdam on Sep 24th.</p>
 </div></article><div id="disqus_thread"></div><script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 var disqus_shortname = 'topcoat'; // required: replace example with your forum shortname
 var disqus_title = 'Desktop Parity Party';
