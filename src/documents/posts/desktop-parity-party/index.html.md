@@ -5,7 +5,7 @@ date: 2013-08-30 16:00
 layout: post
 comments: true
 isPost: true
-excerpt: opcoat 0.7.0 is out and it has some features we've been looking forward to. The main goal was parity with the [Topcoat Desktop Kit](https://github.com/topcoat/design), but we also slipped in some new components, improved workflows for hacking on Topcoat, and added [Autoprefixer](https://github.com/ai/autoprefixer).
+excerpt: Topcoat 0.7.0 is out and it has some features we've been looking forward to. The main goal was parity with the [Topcoat Desktop Kit](https://github.com/topcoat/design), but we also slipped in some new components, improved workflows for hacking on Topcoat, and added [Autoprefixer](https://github.com/ai/autoprefixer).
 ---
 
 Topcoat 0.7.0 is out and it has some features we've been looking forward to. The main goal was parity with the [Topcoat Desktop Kit](https://github.com/topcoat/design), but we also slipped in some new components, improved workflows for hacking on Topcoat, and added [Autoprefixer](https://github.com/ai/autoprefixer).
