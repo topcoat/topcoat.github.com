@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2013-08-23T17:39:57.110Z</updated><id>http://topcoat.io/</id><entry><title>Topcoat components deep dive</title><link href="http://topcoat.io/posts/topcoat-components-deep-dive/"></link><updated>2013-08-23T17:37:35.000Z</updated><id>http://topcoat.io/posts/topcoat-components-deep-dive/</id><content type="html">&lt;p&gt;We have been getting a lot of people asking how they can help add components to Topcoat. What follows is an overview of our workflow as well as some more in depth explanations into some of lesser known parts of the Topcoat architecture.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2013-08-30T23:37:31.572Z</updated><id>http://topcoat.io/</id><entry><title>Desktop Parity Party</title><link href="http://topcoat.io/posts/desktop-parity-party/"></link><updated>2013-08-30T23:00:00.000Z</updated><id>http://topcoat.io/posts/desktop-parity-party/</id><content type="html">&lt;p&gt;Topcoat 0.7.0 is out and it has some features we&amp;#39;ve been looking forward to. The main goal was parity with the &lt;a href=&quot;https://github.com/topcoat/design&quot;&gt;Topcoat Desktop Kit&lt;/a&gt;, but we also slipped in some new components, improved workflows for hacking on Topcoat, and added &lt;a href=&quot;https://github.com/ai/autoprefixer&quot;&gt;Autoprefixer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Desktop Parity&lt;/h2&gt;
+
+&lt;p&gt;This release was primarily focused on bringing the desktop stylesheets in parity with &lt;a href=&quot;https://github.com/topcoat/design&quot;&gt;Topcoat Desktop Kit&lt;/a&gt; designed by &lt;a href=&quot;https://twitter.com/larz&quot;&gt;Larz&lt;/a&gt; and &lt;a href=&quot;http://www.behance.net/nnnnic&quot;&gt;Nic&lt;/a&gt; from Adobe XD. This parity means additional states like focus and hover that weren&amp;#39;t previously a priority as we were focused on mobile. It also takes into account appropriate sizing and platform specific components, like &lt;a href=&quot;http://topcoat.io/list&quot;&gt;List&lt;/a&gt; and &lt;a href=&quot;http://topcoat.io/navigation-bar&quot;&gt;Navigation Bar&lt;/a&gt;, which are now only included in the mobile stylesheets.&lt;/p&gt;
+
+&lt;h2&gt;New Components&lt;/h2&gt;
+
+&lt;p&gt;We have a couple of new components. &lt;a href=&quot;http://topcoat.io/topcoat/#icon-button&quot;&gt;Icon Button&lt;/a&gt; has returned, as well as the addition of &lt;a href=&quot;http://topcoat.io/topcoat/#button-bar&quot;&gt;Button Bar&lt;/a&gt;. Taking a look at our design repo, you&amp;#39;ll notice we still have plenty of components left to build.  &lt;a href=&quot;http://twitter.com/dam&quot;&gt;Kristofer Joseph&lt;/a&gt; put together a &lt;a href=&quot;http://topcoat.io/posts/topcoat-components-deep-dive/&quot;&gt;deep dive&lt;/a&gt; on the component architecture to make it easier to get started if you&amp;#39;d like to help contribute.&lt;/p&gt;
+
+&lt;h2&gt;Autoprefixer&lt;/h2&gt;
+
+&lt;p&gt;The way Topcoat&amp;#39;s build process has been designed; you can grab just what you need for your specific project and targeted platforms.  We&amp;#39;ve taken that a step further by adding &lt;a href=&quot;https://github.com/ai/autoprefixer&quot;&gt;Autoprefixer&lt;/a&gt;.  It uses the data from &lt;a href=&quot;http://caniuse.com/&quot;&gt;Can I Use&lt;/a&gt; to let you add only the vendor specific prefixes you need.  This also frees up the source for the components to be vendor agnostic.&lt;/p&gt;
+
+&lt;h2&gt;Topdoc 0.2.0&lt;/h2&gt;
+
+&lt;p&gt;We use &lt;a href=&quot;http://github.com/topcoat/topdoc&quot;&gt;Topdoc&lt;/a&gt; to build the demo files from Topcoat&amp;#39;s css. In this release we&amp;#39;ve updated the Topdoc spec to leverage a &lt;a href=&quot;http://nodeca.github.io/js-yaml/&quot;&gt;YAML&lt;/a&gt; syntax which give us improved flexibility in the component&amp;#39;s metadata. Additionally we are now leveraging Topdoc to generate html demo files for the individual components and are publishing them on &lt;a href=&quot;http://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; at &lt;a href=&quot;http://topcoat.io/%7B&quot;&gt;http://topcoat.io/{&lt;/a&gt; component name }&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://topcoat.io/button-bar&quot;&gt;Button Bar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://topcoat.io/button&quot;&gt;Button&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://topcoat.io/checkbox&quot;&gt;Checkbox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://topcoat.io/icon-button&quot;&gt;Icon Button&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://topcoat.io/list&quot;&gt;List&lt;/a&gt; *Mobile only&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://topcoat.io/navigation-bar&quot;&gt;Navigation Bar&lt;/a&gt; *Mobile only&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://topcoat.io/radio-button&quot;&gt;Radio Button&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://topcoat.io/search-input&quot;&gt;Search Input&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://topcoat.io/text-input&quot;&gt;Text Input&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://topcoat.io/textarea&quot;&gt;Text Area&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I will be posting a more detailed description of Topdoc soon.&lt;/p&gt;
+
+&lt;h2&gt;Coming up in 0.8.0&lt;/h2&gt;
+
+&lt;p&gt;With Desktop Parity in place we will be focusing on improving the theming workflow for the next release. Of course we&amp;#39;ll also be adding more components, so watch the &lt;a href=&quot;http://codepen.io/Topcoat&quot;&gt;Topcoat Codepens&lt;/a&gt; to see what&amp;#39;s coming next.&lt;/p&gt;
+
+&lt;p&gt;Also, look for &lt;a href=&quot;http://twitter.com/dam&quot;&gt;Kristofer Joseph&lt;/a&gt; at &lt;a href=&quot;http://pgday.phonegap.com/eu2013/&quot;&gt;PhoneGap Day EU&lt;/a&gt; in Amsterdam on Sep 24th.&lt;/p&gt;
+</content><author><name>Garth Braithwaite</name><uri>http://www.garthdb.com/</uri></author></entry><entry><title>npm all the things</title><link href="http://topcoat.io/posts/npm-all-the-things/"></link><updated>2013-08-30T21:39:35.000Z</updated><id>http://topcoat.io/posts/npm-all-the-things/</id><content type="html">&lt;p&gt;Topcoat 0.6.0 is hot off the wire and we are super happy with a few of the new additions. Here is a recap of what went into this release and some of the reasoning behind it.&lt;/p&gt;
+
+&lt;h2&gt;Codepens&lt;/h2&gt;
+
+&lt;p&gt;One of my favorite additions to this release is a process based on our continuing dedication to transparency and feedback from all of you. We wanted a way to share what we are currently working on as well as have a place to iterate in the open that lowered any hurdles to feedback people might have. &lt;a href=&quot;http://codepen.io/Topcoat/&quot;&gt;Codepen.io&lt;/a&gt; has been the perfect solution. It has already led to invaluable discussions that ultimately ended up as additions to Topcoat.&lt;/p&gt;
+
+&lt;h2&gt;Package Management&lt;/h2&gt;
+
+&lt;p&gt;Originally we were very reluctant to choose a package management system since there were so many competing in this space which all had their virtues. This led to a lot of work on my part and a lot of tough problems for the build script. We have settled on &lt;a href=&quot;http://npmjs.org&quot;&gt;NPM&lt;/a&gt; since this was already a requirement we inherited from &lt;a href=&quot;http://gruntjs.com&quot;&gt;grunt&lt;/a&gt; and is also the most mature and feature rich of the solutions out there. As of Topcoat 0.6.0 all of our components are published to NPM for easy installation. This isn&amp;#39;t to say we won&amp;#39;t be publishing to other systems in the future, this is just what we will use to manage packages for development.&lt;/p&gt;
+
+&lt;h2&gt;Component Development&lt;/h2&gt;
+
+&lt;p&gt;We have been getting a lot of requests to explain how to add components to Topcoat and to be honest until this release it was a lot harder than we wanted it to be. As of this release we are really happy with our component development proces. Tutorial being worked on right now!&lt;/p&gt;
+
+&lt;h2&gt;Effeckt ♥&lt;/h2&gt;
+
+&lt;p&gt;Our very own Andrei has been researching using effeckt.css with Topcoat and we are really excited with the initial output. Check it out at &lt;a href=&quot;http://topcoat.io/topcoat-effeckt/dist/&quot;&gt;Topcoat + Effeckt&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;New components&lt;/h2&gt;
+
+&lt;p&gt;Last but not least we added a few new components that we feel are worth talking about. We have been looking for a way to style inputs that is portable, accessible and perform well. Seems simple enough right? After a few iterations we settled on a CSS only solution with inputs nested in labels.Check out our &lt;a href=&quot;http://codepen.io/Topcoat/pen/HDcJj&quot;&gt;radio button&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Coming up in 0.7.0&lt;/h2&gt;
+
+&lt;p&gt;The focus for the next release is to tidy up our desktop components to have parity with the &lt;a href=&quot;http://github.com/topcoat/design&quot;&gt;design comps&lt;/a&gt;. Previously the focus had been on mobile components since PhoneGap users were experiencing the most need. Keep an eye on &lt;a href=&quot;http://codepen.io/Topcoat&quot;&gt;the Topcoat Codepen page&lt;/a&gt; to get a sneak peek at the components that are coming as well. As always forks are appreciated!&lt;/p&gt;
+</content><author><name>Kristofer Joseph</name><uri>http://kristoferjoseph.com/</uri></author></entry><entry><title>Topcoat components deep dive</title><link href="http://topcoat.io/posts/topcoat-components-deep-dive/"></link><updated>2013-08-30T21:39:35.000Z</updated><id>http://topcoat.io/posts/topcoat-components-deep-dive/</id><content type="html">&lt;p&gt;We have been getting a lot of people asking how they can help add components to Topcoat. What follows is an overview of our workflow as well as some more in depth explanations into some of lesser known parts of the Topcoat architecture.&lt;/p&gt;
 
 &lt;p&gt;We will cover:&lt;/p&gt;
 
@@ -92,31 +155,6 @@ var-background--cta
 &lt;p&gt;Thanks for reading &lt;a href=&quot;http://twitter.com/dam&quot;&gt;@dam&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4&gt;&lt;a href=&quot;#toc&quot;&gt;Back to top&lt;/a&gt;&lt;/h4&gt;
-</content><author><name>Kristofer Joseph</name><uri>http://kristoferjoseph.com/</uri></author></entry><entry><title>npm all the things</title><link href="http://topcoat.io/posts/npm-all-the-things/"></link><updated>2013-08-23T01:45:49.000Z</updated><id>http://topcoat.io/posts/npm-all-the-things/</id><content type="html">&lt;p&gt;Topcoat 0.6.0 is hot off the wire and we are super happy with a few of the new additions. Here is a recap of what went into this release and some of the reasoning behind it.&lt;/p&gt;
-
-&lt;h2&gt;Codepens&lt;/h2&gt;
-
-&lt;p&gt;One of my favorite additions to this release is a process based on our continuing dedication to transparency and feedback from all of you. We wanted a way to share what we are currently working on as well as have a place to iterate in the open that lowered any hurdles to feedback people might have. &lt;a href=&quot;http://codepen.io/Topcoat/&quot;&gt;Codepen.io&lt;/a&gt; has been the perfect solution. It has already led to invaluable discussions that ultimately ended up as additions to Topcoat.&lt;/p&gt;
-
-&lt;h2&gt;Package Management&lt;/h2&gt;
-
-&lt;p&gt;Originally we were very reluctant to choose a package management system since there were so many competing in this space which all had their virtues. This led to a lot of work on my part and a lot of tough problems for the build script. We have settled on &lt;a href=&quot;http://npmjs.org&quot;&gt;NPM&lt;/a&gt; since this was already a requirement we inherited from &lt;a href=&quot;http://gruntjs.com&quot;&gt;grunt&lt;/a&gt; and is also the most mature and feature rich of the solutions out there. As of Topcoat 0.6.0 all of our components are published to NPM for easy installation. This isn&amp;#39;t to say we won&amp;#39;t be publishing to other systems in the future, this is just what we will use to manage packages for development.&lt;/p&gt;
-
-&lt;h2&gt;Component Development&lt;/h2&gt;
-
-&lt;p&gt;We have been getting a lot of requests to explain how to add components to Topcoat and to be honest until this release it was a lot harder than we wanted it to be. As of this release we are really happy with our component development proces. Tutorial being worked on right now!&lt;/p&gt;
-
-&lt;h2&gt;Effeckt ♥&lt;/h2&gt;
-
-&lt;p&gt;Our very own Andrei has been researching using effeckt.css with Topcoat and we are really excited with the initial output. Check it out at &lt;a href=&quot;http://topcoat.io/topcoat-effeckt/dist/&quot;&gt;Topcoat + Effeckt&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;New components&lt;/h2&gt;
-
-&lt;p&gt;Last but not least we added a few new components that we feel are worth talking about. We have been looking for a way to style inputs that is portable, accessible and perform well. Seems simple enough right? After a few iterations we settled on a CSS only solution with inputs nested in labels.Check out our &lt;a href=&quot;http://codepen.io/Topcoat/pen/HDcJj&quot;&gt;radio button&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Coming up in 0.7.0&lt;/h2&gt;
-
-&lt;p&gt;The focus for the next release is to tidy up our desktop components to have parity with the &lt;a href=&quot;http://github.com/topcoat/design&quot;&gt;design comps&lt;/a&gt;. Previously the focus had been on mobile components since PhoneGap users were experiencing the most need. Keep an eye on &lt;a href=&quot;http://codepen.io/Topcoat&quot;&gt;the Topcoat Codepen page&lt;/a&gt; to get a sneak peek at the components that are coming as well. As always forks are appreciated!&lt;/p&gt;
 </content><author><name>Kristofer Joseph</name><uri>http://kristoferjoseph.com/</uri></author></entry><entry><title>Benchmarks and Results for Topcoat</title><link href="http://topcoat.io/posts/benchmarks/"></link><updated>2013-07-15T20:49:00.000Z</updated><id>http://topcoat.io/posts/benchmarks/</id><content type="html">&lt;p&gt;Topcoat is built with performance in mind and for that we are striving to benchmark everything. If you visit &lt;a href=&quot;http://bench.topcoat.io&quot;&gt;bench.topcoat.io&lt;/a&gt; you will see the components from our latest release and their benchmark over time.&lt;/p&gt;
 
 &lt;p&gt;The goal of the website is to have publicly accessible benchmark results for our users and for us to spot regressions and performance issues.&lt;/p&gt;
