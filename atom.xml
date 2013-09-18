@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2013-09-18T09:37:18.099Z</updated><id>http://topcoat.io/</id><entry><title>Generating Documentation for CSS Components</title><link href="http://topcoat.io/posts/generating-css-component-documentation/"></link><updated>2013-09-19T23:00:00.000Z</updated><id>http://topcoat.io/posts/generating-css-component-documentation/</id><content type="html">&lt;p&gt;##The Problem&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2013-09-18T22:25:46.544Z</updated><id>http://topcoat.io/</id><entry><title>Generating Documentation for CSS Components</title><link href="http://topcoat.io/posts/generating-css-component-documentation/"></link><updated>2013-09-19T23:00:00.000Z</updated><id>http://topcoat.io/posts/generating-css-component-documentation/</id><content type="html">&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3&gt;The Problem&lt;/h3&gt;
 
 &lt;p&gt;Topcoat&amp;#39;s final product is CSS, which, by itself, is a little tricky to work with and get excited about. CSS is the topcoat of the web, but we need HTML to support it.  Topcoat&amp;#39;s components are always getting updated, and the documentation and HTML demos need to be changed easily to match the CSS, so we built Topdoc to automate the process.&lt;/p&gt;
 
-&lt;p&gt;##Enter Topdoc&lt;/p&gt;
+&lt;h3&gt;Enter Topdoc&lt;/h3&gt;
 
-&lt;p&gt;Topdoc is a CSS comment structure and a documentation-generating tool.  It can be used in the command line, or with a &lt;a href=&quot;https://github.com/topcoat/grunt-topdoc&quot;&gt;grunt task&lt;/a&gt;, to generate HTML demos from CSS comments.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/topcoat/topdoc&quot;&gt;Topdoc&lt;/a&gt; is a CSS comment structure and a documentation-generating tool.  It can be used in the command line, or with a &lt;a href=&quot;https://github.com/topcoat/grunt-topdoc&quot;&gt;grunt task&lt;/a&gt;, to generate HTML demos from CSS comments.&lt;/p&gt;
 
-&lt;p&gt;##How Does it Work?&lt;/p&gt;
+&lt;p&gt;Originally we hoped we could find an existing tool, but none of them quite fit our needs.  We posted a comparison on the &lt;a href=&quot;https://github.com/topcoat/topdoc/wiki/Comparisons&quot;&gt;wiki&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;How Does it Work?&lt;/h3&gt;
 
 &lt;p&gt;We use Topdoc block comments to separate our long form CSS file into individual components.  The Topdoc comment not only acts as a delimiter, but it also provides metadata for the component.  The Topdoc tool parses the stylesheet and passes the individual components and their metadata to a Jade template, which returns HTML.&lt;/p&gt;
 
-&lt;p&gt;##What Does the Metadata Look Like?&lt;/p&gt;
+&lt;h3&gt;What Does the Metadata Look Like?&lt;/h3&gt;
 
 &lt;script src=&quot;https://gist.github.com/GarthDB/6606584.js&quot;&gt;&lt;/script&gt;
 
@@ -33,23 +37,33 @@
 &lt;li&gt;&lt;strong&gt;Line 18&lt;/strong&gt;: &lt;code&gt;blarg&lt;/code&gt;: Since Topdoc uses a flexible YAML syntax, feel free to add any additional custom data you might need for your template.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;##Any Other Data?&lt;/p&gt;
+&lt;h3&gt;Any Other Data?&lt;/h3&gt;
 
 &lt;p&gt;Topdoc can also pass through some general data about the project to the Jade template.  This data can be placed in the &lt;code&gt;package.json&lt;/code&gt; file, or just be passed through to the tool as an argument.  If data is not passed through, it will check the &lt;code&gt;package.json&lt;/code&gt; file.  See the README on the Topdoc &lt;a href=&quot;https://github.com/topcoat/topdoc&quot;&gt;github page&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;##How Are We Using Topdoc?&lt;/p&gt;
+&lt;h3&gt;How Are We Using Topdoc?&lt;/h3&gt;
 
 &lt;p&gt;The &lt;a href=&quot;http://topcoat.io/topcoat&quot;&gt;demo page&lt;/a&gt; on Topcoat.io is generated using Topdoc, but we also found it really helpful for testing individual components while we are working on them.  An added benefit to using it on the individual component level, it generates gh-pages for public testing.&lt;/p&gt;
 
-&lt;p&gt;##What&amp;#39;s Next?&lt;/p&gt;
+&lt;p&gt;Topdoc is independent of the Topcoat project, and can be used with any modular css documentation. Check out Topdoc&amp;#39;s &lt;a href=&quot;https://github.com/topcoat/topdoc&quot;&gt;README&lt;/a&gt; for details on installation and usage. &lt;/p&gt;
+
+&lt;h3&gt;What&amp;#39;s Next?&lt;/h3&gt;
 
 &lt;p&gt;Topdoc could really use live reloading integraded, probably using something like Grunt&amp;#39;s &lt;a href=&quot;https://github.com/gruntjs/grunt-contrib-watch#optionslivereload&quot;&gt;live reload&lt;/a&gt;.  Also it would be great to have Topdoc write the demo files to the gh-pages branch on release.&lt;/p&gt;
 
-&lt;p&gt;##One More Thing&lt;/p&gt;
+&lt;h3&gt;One More Thing&lt;/h3&gt;
 
-&lt;p&gt;We have put together a few more components, and don&amp;#39;t want to wait until the end of the cycle to release them with v0.8.0, so we&amp;#39;re releasing them today as v0.7.5.&lt;/p&gt;
+&lt;p&gt;We have put together a few more components, and don&amp;#39;t want to wait until the end of the cycle to release them with v0.8.0, so we&amp;#39;re releasing them soon as v0.7.5.&lt;/p&gt;
 
 &lt;p&gt;The new components include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tab Bar&lt;/li&gt;
+&lt;li&gt;Notification&lt;/li&gt;
+&lt;li&gt;Switch&lt;/li&gt;
+&lt;li&gt;Range&lt;/li&gt;
+&lt;li&gt;Error state for text-input&lt;/li&gt;
+&lt;/ul&gt;
 </content><author><name>Garth Braithwaite</name><uri>http://www.garthdb.com/</uri></author></entry><entry><title>Desktop Parity Party</title><link href="http://topcoat.io/posts/desktop-parity-party/"></link><updated>2013-08-30T23:00:00.000Z</updated><id>http://topcoat.io/posts/desktop-parity-party/</id><content type="html">&lt;p&gt;Topcoat 0.7.0 is out and it has some features we&amp;#39;ve been looking forward to. The main goal was parity with the &lt;a href=&quot;https://github.com/topcoat/design&quot;&gt;Topcoat Desktop Kit&lt;/a&gt;, but we also slipped in some new components, improved workflows for hacking on Topcoat, and added &lt;a href=&quot;https://github.com/ai/autoprefixer&quot;&gt;Autoprefixer&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2&gt;Desktop Parity&lt;/h2&gt;
