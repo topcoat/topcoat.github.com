@@ -7,7 +7,7 @@
     "npm": "1.2"
   },
   "dependencies": {
-    "docpad": "~6.50.0",
+    "docpad": "~6.53.0",
     "docpad-plugin-ghpages": "~2.3.0",
     "docpad-plugin-jade": "~2.5.0",
     "docpad-plugin-stylus": "~2.4.0",

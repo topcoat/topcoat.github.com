@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><meta name="generator" content="DocPad v6.53.0" /><title>Generating Documentation for CSS Components</title><link rel="stylesheet" href="/css/normalize.css" type="text/css" media="screen"><link rel="stylesheet" href="/css/style.css" type="text/css" media="screen"><script type="text/javascript" src="//use.typekit.net/czf5rrh.js"></script><script type="text/javascript">try{Typekit.load();}catch(e){}</script></head><body><div id="wrapper"><header><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/v0.7.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav></header><section id="content"><article><header><h2>Generating Documentation for CSS Components</h2><div class="author"><a href='http://www.garthdb.com/'>Garth Braithwaite</a></div><div class="date">Posted 19 Sep 2013</div></header><div id="postcontent"><p>##The Problem</p>
+
+<p>Topcoat&#39;s final product is CSS, which, by itself, is a little tricky to work with and get excited about. CSS is the topcoat of the web, but we need HTML to support it.  Topcoat&#39;s components are always getting updated, and the documentation and HTML demos need to be changed easily to match the CSS, so we built Topdoc to automate the process.</p>
+
+<p>##Enter Topdoc</p>
+
+<p>Topdoc is a CSS comment structure and a documentation-generating tool.  It can be used in the command line, or with a <a href="https://github.com/topcoat/grunt-topdoc">grunt task</a>, to generate HTML demos from CSS comments.</p>
+
+<p>##How Does it Work?</p>
+
+<p>We use Topdoc block comments to separate our long form CSS file into individual components.  The Topdoc comment not only acts as a delimiter, but it also provides metadata for the component.  The Topdoc tool parses the stylesheet and passes the individual components and their metadata to a Jade template, which returns HTML.</p>
+
+<p>##What Does the Metadata Look Like?</p>
+
+<script src="https://gist.github.com/GarthDB/6606584.js"></script>
+
+<p>Let&#39;s break this down:</p>
+
+<p><strong>Line 1</strong>: Topdoc comments start with topdoc on the first comment line, it makes it quick and easy to identify from other comments.</p>
+
+<p>The rest of the data uses a <a href="http://www.yaml.org/">YAML</a> friendly syntax.</p>
+
+<p>The fields can be in any order, but this is a good example for consistency sake.</p>
+
+<p>The following are recommended and/or required fields:</p>
+
+<ul>
+<li><strong>Line 2</strong>: <code>name</code> (required): The full name of the component.  Feel free to use spaces, punctuation, etc (name: Sir Button III, esq.)</li>
+<li><strong>Line 3</strong>: <code>description</code>: Something more descriptive then the title alone.</li>
+<li><strong>Line 4</strong>: <code>modifiers</code>: These can be pseudo classes, or addition rules applied to the component. This should be a <a href="http://yaml4r.sourceforge.net/doc/page/collections_in_yaml.htm">YAML mapping</a> (<code>*modifier*:*description*</code>) which becomes a js hash.  Use the colon to separate the pseudo-class modifier from the description.</li>
+<li><strong>Line 7</strong>: <code>markup</code> (required): This is the magic; it&#39;s the html that will be used to display the component in the docs. Because YAML and HTML both have odd relationships with whitespace, this property is separated as plain text.  Just make sure to indent the code one more time than the other YAML properties.</li>
+<li><strong>Line 12</strong>: <code>tags</code>: Just some obligatory metadata. We aren&#39;t currently using them on Topcoat, but we like having the option.</li>
+<li><strong>Line 18</strong>: <code>blarg</code>: Since Topdoc uses a flexible YAML syntax, feel free to add any additional custom data you might need for your template.</li>
+</ul>
+
+<p>##Any Other Data?</p>
+
+<p>Topdoc can also pass through some general data about the project to the Jade template.  This data can be placed in the <code>package.json</code> file, or just be passed through to the tool as an argument.  If data is not passed through, it will check the <code>package.json</code> file.  See the README on the Topdoc <a href="https://github.com/topcoat/topdoc">github page</a>.</p>
+
+<p>##How Are We Using Topdoc?</p>
+
+<p>The <a href="http://topcoat.io/topcoat">demo page</a> on Topcoat.io is generated using Topdoc, but we also found it really helpful for testing individual components while we are working on them.  An added benefit to using it on the individual component level, it generates gh-pages for public testing.</p>
+
+<p>##What&#39;s Next?</p>
+
+<p>Topdoc could really use live reloading integraded, probably using something like Grunt&#39;s <a href="https://github.com/gruntjs/grunt-contrib-watch#optionslivereload">live reload</a>.  Also it would be great to have Topdoc write the demo files to the gh-pages branch on release.</p>
+
+<p>##One More Thing</p>
+
+<p>We have put together a few more components, and don&#39;t want to wait until the end of the cycle to release them with v0.8.0, so we&#39;re releasing them today as v0.7.5.</p>
+
+<p>The new components include:</p>
+</div></article><div id="disqus_thread"></div><script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'topcoat'; // required: replace example with your forum shortname
+var disqus_title = 'Generating Documentation for CSS Components';
+
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+ var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></section></div><footer class="site"><ul><li id="twitter"><a href="http://twitter.com/topcoat"></a></li><li id="github"><a href="http://github.com/topcoat"></a></li><li id="adobe"><a href="http://html.adobe.com"></a></li></ul></footer><script type="text/javascript">var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-38522202-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();</script></body></html>
