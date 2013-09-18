@@ -51,11 +51,11 @@ Topdoc can also pass through some general data about the project to the Jade tem
 
 The [demo page](http://topcoat.io/topcoat) on Topcoat.io is generated using Topdoc, but we also found it really helpful for testing individual components while we are working on them.  An added benefit to using it on the individual component level, it generates gh-pages for public testing.
 
-Topdoc is independent of the Topcoat project, and can be used with any modular css documentation. Check out Topdoc's [README](https://github.com/topcoat/topdoc) for details on installation and usage. 
+Topdoc is independent of the Topcoat project, and can be used with any modular css documentation. Check out Topdoc's [README](https://github.com/topcoat/topdoc) for details on installation and usage.
 
 ### What's Next?
 
-Topdoc could really use live reloading integraded, probably using something like Grunt's [live reload](https://github.com/gruntjs/grunt-contrib-watch#optionslivereload).  Also it would be great to have Topdoc write the demo files to the gh-pages branch on release.
+Topdoc could really use live reloading integrated, probably using something like Grunt's [live reload](https://github.com/gruntjs/grunt-contrib-watch#optionslivereload).  Also it would be great to have Topdoc write the demo files to the gh-pages branch on release.
 
 ### One More Thing
 

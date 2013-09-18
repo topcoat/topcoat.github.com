@@ -8,16 +8,16 @@
   },
   "dependencies": {
     "docpad": "~6.53.0",
-    "docpad-plugin-ghpages": "~2.3.0",
-    "docpad-plugin-jade": "~2.5.0",
+    "docpad-plugin-ghpages": "~2.4.0",
+    "docpad-plugin-jade": "~2.6.0",
     "docpad-plugin-stylus": "~2.4.0",
-    "docpad-plugin-partials": "~2.7.2",
+    "docpad-plugin-partials": "~2.8.0",
     "docpad-plugin-robotskirt": "~2.0.3",
     "docpad-plugin-cleanurls": "~2.5.1",
     "markdown": "~0.5.0"
   },
   "devDependencies": {
-    "docpad-plugin-livereload": "~2.5.2"
+    "docpad-plugin-livereload": "~2.5.3"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
