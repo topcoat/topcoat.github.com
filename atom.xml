@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2013-09-18T22:56:04.616Z</updated><id>http://topcoat.io/</id><entry><title>Generating Documentation for CSS Components</title><link href="http://topcoat.io/posts/generating-css-component-documentation/"></link><updated>2013-09-19T23:00:00.000Z</updated><id>http://topcoat.io/posts/generating-css-component-documentation/</id><content type="html">&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2013-09-24T05:45:03.531Z</updated><id>http://topcoat.io/</id><entry><title>Mini Release 0.7.5</title><link href="http://topcoat.io/posts/mini-release-0.7.5/"></link><updated>2013-09-24T02:00:00.000Z</updated><id>http://topcoat.io/posts/mini-release-0.7.5/</id><content type="html">&lt;p&gt;0.8.0 is not due out for a week or so, but we wanted to get some components out before then.&lt;/p&gt;
+
+&lt;p&gt;This is just a half release, but it some much requested components:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://topcoat.io/notification/&quot;&gt;notification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://topcoat.io/switch/&quot;&gt;switch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://topcoat.io/tab-bar/&quot;&gt;tab bar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://topcoat.io/text-input/&quot;&gt;text input error state&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check back in the next little bit for the v0.8.0 release, and if you&amp;#39;re not in Amsterdam right now you&amp;#39;re missing &lt;a href=&quot;http://www.twitter.com/dam&quot;&gt;Kristofer Joseph&amp;#39;s&lt;/a&gt; session at &lt;a href=&quot;http://pgday.phonegap.com/eu2013/&quot;&gt;Phone Gap EU&lt;/a&gt;.&lt;/p&gt;
+</content><author><name>Garth Braithwaite</name><uri>http://www.garthdb.com/</uri></author></entry><entry><title>Generating Documentation for CSS Components</title><link href="http://topcoat.io/posts/generating-css-component-documentation/"></link><updated>2013-09-19T23:00:00.000Z</updated><id>http://topcoat.io/posts/generating-css-component-documentation/</id><content type="html">&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;h3&gt;The Problem&lt;/h3&gt;
 
