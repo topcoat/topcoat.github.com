@@ -32,7 +32,7 @@ Let's break this down:
 
 The rest of the data uses a [YAML](http://www.yaml.org/) friendly syntax.
 
-The fields can be in any order, but this is a good example for consistency sake.
+The fields can be in any order, but this is a good example for consistency's sake.
 
 The following are recommended and/or required fields:
 

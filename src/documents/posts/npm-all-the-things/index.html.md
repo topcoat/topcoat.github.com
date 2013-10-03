@@ -1,7 +1,7 @@
 ---
 title: npm all the things
 author: dam
-date:
+date: 2013-08-19 16:00
 layout: post
 comments: true
 isPost: true
