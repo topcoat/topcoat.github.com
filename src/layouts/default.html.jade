@@ -24,24 +24,34 @@ html(lang='en')
         link(rel="stylesheet", href="/css/style.css", type="text/css", media="screen")
         != getBlock('styles').toHTML()
         script(type="text/javascript", src="//use.typekit.net/czf5rrh.js")
+        script(type="text/javascript", src="/js/main.js")
         script(type="text/javascript").
             try{Typekit.load();}catch(e){}
     body
         #wrapper
-            header
-                h1: a(href="/") Topcoat
-                p= site.description
+            #side-nav
+                nav.site: ul
+                    li.selected: a(href="http://topcoat.io") Home
+                    li: a(href="http://topcoat.io/topcoat") Demo
+                    li: a(href="http://bench.topcoat.io/") Benchmarks
+                    li: a(href="http://topcoat.io/blog") Blog
+            #site
+                header.main
+                    h1: a(href="/") Topcoat
+                    p= site.description
 
-                nav: ul
+                    nav.main: ul
                         li: a(href="http://topcoat.io/topcoat") Demo
                         li: a(href="http://bench.topcoat.io") Benchmarks
                         li: a(href="/blog") Blog
                         li.download: a.topcoat-button--cta(href="https://github.com/topcoat/topcoat/archive/v0.7.5.zip", onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);") Download
-            != content
-        footer.site
-            ul
-                li#twitter: a(href="http://twitter.com/topcoat")
-                li#github: a(href="http://github.com/topcoat")
-                li#adobe: a(href="http://html.adobe.com")
+                    a#slide-menu-button.topcoat-icon-button--large--quiet(href="#")
+                        span.topcoat-icon--large.topcoat-icon-meun-stack
+                != content
+                footer.site
+                    ul
+                        li#twitter: a(href="http://twitter.com/topcoat")
+                        li#github: a(href="http://github.com/topcoat")
+                        li#adobe: a(href="http://html.adobe.com")
         != getBlock('scripts').toHTML()
         != partial('analytics')
