@@ -1,7 +1,7 @@
 ---
 title: Topcoat components deep dive
 author: dam
-date:
+date: 2013-08-22 16:00
 layout: post
 comments: true
 isPost: true
