@@ -5,9 +5,9 @@
         <description><![CDATA[CSS for clean and fast web apps.]]></description>
         <link>http://topcoat.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 22 Oct 2013 05:04:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Oct 2013 16:24:07 GMT</lastBuildDate>
         <atom:link href="http://topcoat.io/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 22 Oct 2013 05:03:55 GMT</pubDate>
+        <pubDate>Tue, 22 Oct 2013 16:24:02 GMT</pubDate>
         <item>
             <title><![CDATA[Blog]]></title>
             <description><![CDATA[<section id="content"><section class="articlelist"><article><h2><a href="/posts/color-me-topcoat/">Color Me Topcoat</a></h2><p><p>Topcoat 0.8.0 is out!  This build focused on improving customization and theming workflows, specifically on optimizing colors in the theme.</p></p><footer><a href="/posts/color-me-topcoat/">Read More...</a><div class="published"> 
@@ -23,7 +23,7 @@ Published 5 Jun 2013 by <a href='http://brian.io/'>Brian LeRoux</a></div></foote
             <link>http://topcoat.io/blog/</link>
             <guid isPermaLink="true">
                 http://topcoat.io/blog/            </guid>
-            <pubDate>Thu, 15 Aug 2013 20:40:43 GMT</pubDate>
+            <pubDate>Fri, 30 Aug 2013 21:39:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Topcoat]]></title>
@@ -31,7 +31,7 @@ Published 5 Jun 2013 by <a href='http://brian.io/'>Brian LeRoux</a></div></foote
             <link>http://topcoat.io/</link>
             <guid isPermaLink="true">
                 http://topcoat.io/            </guid>
-            <pubDate>Thu, 15 Aug 2013 20:40:43 GMT</pubDate>
+            <pubDate>Fri, 30 Aug 2013 21:39:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Topcoat]]></title>
@@ -39,7 +39,7 @@ Published 5 Jun 2013 by <a href='http://brian.io/'>Brian LeRoux</a></div></foote
             <link>http://topcoat.io/dev/topcoat-cla-thanks/</link>
             <guid isPermaLink="true">
                 http://topcoat.io/dev/topcoat-cla-thanks/            </guid>
-            <pubDate>Thu, 13 Jun 2013 20:23:28 GMT</pubDate>
+            <pubDate>Fri, 30 Aug 2013 21:39:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Topcoat Contributor License and Distribution Agreement]]></title>
@@ -117,7 +117,7 @@ Published 5 Jun 2013 by <a href='http://brian.io/'>Brian LeRoux</a></div></foote
             <link>http://topcoat.io/dev/topcoat-cla/</link>
             <guid isPermaLink="true">
                 http://topcoat.io/dev/topcoat-cla/            </guid>
-            <pubDate>Thu, 15 Aug 2013 20:40:43 GMT</pubDate>
+            <pubDate>Fri, 30 Aug 2013 21:39:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Benchmarks and Results for Topcoat]]></title>
