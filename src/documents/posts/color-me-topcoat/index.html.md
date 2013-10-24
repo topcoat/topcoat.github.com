@@ -19,4 +19,6 @@ Deep in the pits of the Topcoat Theme lived way too many colors.  It made it tri
 
 This colors then effect the rest of the theme.  Each of the previous colors can still be declared manually if you need that control.
 
-There is a screencast to follow showing how to make and use a custom theme, and in the next sprint we'll be focusing on building tooling around theming.
+Here's a screencast that steps through the theme and how to tweak it.
+
+<div class="videoWrapper" style="position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0;"><iframe src="//player.vimeo.com/video/77716726" width="500" height="281" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
