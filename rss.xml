@@ -5,9 +5,9 @@
         <description><![CDATA[CSS for clean and fast web apps.]]></description>
         <link>http://topcoat.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 24 Oct 2013 18:47:28 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Oct 2013 21:52:30 GMT</lastBuildDate>
         <atom:link href="http://topcoat.io/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 24 Oct 2013 18:47:22 GMT</pubDate>
+        <pubDate>Thu, 24 Oct 2013 21:52:24 GMT</pubDate>
         <item>
             <title><![CDATA[Blog]]></title>
             <description><![CDATA[<section id="content"><section class="articlelist"><article><h2><a href="/posts/color-me-topcoat/">Color Me Topcoat</a></h2><p><p>Topcoat 0.8.0 is out!  This build focused on improving customization and theming workflows, specifically on optimizing colors in the theme.</p></p><footer><a href="/posts/color-me-topcoat/">Read More...</a><div class="published"> 
