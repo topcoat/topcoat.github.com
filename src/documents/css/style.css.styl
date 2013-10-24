@@ -228,7 +228,6 @@ nav.main ul li a:hover {
 }
 
 footer.site {
-    position: absolute;
     bottom: 40px;
     width: 100%;
     left: 0;
@@ -344,6 +343,8 @@ footer.site ul li#adobe a {
 }
 
 @media screen and (max-width: 550px)
+    body
+        padding-bottom 0
 
     #wrapper {
         padding: 0;
@@ -521,6 +522,17 @@ footer.site ul li#adobe a {
             box-sizing: border-box;
             padding: 10px;
             display: block;
+    footer.site ul {
+        text-align: center;
+    }
+    footer.site ul li {
+        display inline-block
+        margin: 0;
+        text-align: center;
+        float: none;
+        width: 85px;
+        height: 85px;
+    }
 
 @import 'blog.css.styl'
 @import 'cla.css.styl'
