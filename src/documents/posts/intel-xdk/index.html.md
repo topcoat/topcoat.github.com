@@ -12,8 +12,8 @@ excerpt: Intel has updated the [Intel XDK](http://xdk.intel.com/), an HTML5 deve
 
 Intel has updated the [Intel XDK](http://xdk.intel.com/), an HTML5 development IDE. This new version has a WYSIWYG UI building tool that supports TopCoat and responsive design. It also uses Brackets for code editing. Take a look and share your thoughts.
 
-![electing topcoat](app_designer_selecting_topcoat.png)
+[![electing topcoat](app_designer_selecting_topcoat.png)](app_designer_selecting_topcoat.png)
 
-![narrow](app_designer_using_topcoat_narrow.png)
+[![narrow](app_designer_using_topcoat_narrow.png)](app_designer_using_topcoat_narrow.png)
 
-![wide](app_designer_using_topcoat_wide.png)
+[![wide](app_designer_using_topcoat_wide.png)](app_designer_using_topcoat_wide.png)

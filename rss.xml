@@ -5,9 +5,9 @@
         <description><![CDATA[CSS for clean and fast web apps.]]></description>
         <link>http://topcoat.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 29 Oct 2013 18:26:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Oct 2013 18:34:20 GMT</lastBuildDate>
         <atom:link href="http://topcoat.io/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 29 Oct 2013 18:26:14 GMT</pubDate>
+        <pubDate>Tue, 29 Oct 2013 18:34:13 GMT</pubDate>
         <item>
             <title><![CDATA[Blog]]></title>
             <description><![CDATA[<section id="content"><section class="articlelist"><article><h2><a href="/posts/intel-xdk/">Responsive Design Tool for TopCoat</a></h2><p><p>Intel has updated the <a href="http://xdk.intel.com/">Intel XDK</a>, an HTML5 development IDE. This new version has a WYSIWYG UI building tool that supports TopCoat and responsive design.</p></p><footer><a href="/posts/intel-xdk/">Read More...</a><div class="published"> 
@@ -121,31 +121,6 @@ Published 5 Jun 2013 by <a href='http://brian.io/'>Brian LeRoux</a></div></foote
             <pubDate>Fri, 30 Aug 2013 21:39:35 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Color Me Topcoat]]></title>
-            <description><![CDATA[<p>Deep in the pits of the Topcoat Theme lived way too many colors.  It made it tricky to customize a new theme quickly.  So we leveraged the color functions from Stylus to wittle the colors down to just a few base colors:</p>
-
-<ul>
-<li>Text color</li>
-<li>Control base color</li>
-<li>Page base color</li>
-<li>Notification color</li>
-<li>Highlight color</li>
-<li>Shadow color</li>
-</ul>
-
-<p>This colors then effect the rest of the theme.  Each of the previous colors can still be declared manually if you need that control.</p>
-
-<p>Here&#39;s a screencast that steps through the theme and how to tweak it.</p>
-
-<div class="videoWrapper" style="position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0;"><iframe src="//player.vimeo.com/video/77716726" width="500" height="281" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-]]></description>
-            <link>http://topcoat.io/posts/color-me-topcoat/</link>
-            <guid isPermaLink="true">
-                http://topcoat.io/posts/color-me-topcoat/            </guid>
-            <dc:creator><![CDATA[garthdb]]></dc:creator>
-            <pubDate>Mon, 21 Oct 2013 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Benchmarks and Results for Topcoat]]></title>
             <description><![CDATA[<p>Topcoat is built with performance in mind and for that we are striving to benchmark everything. If you visit <a href="http://bench.topcoat.io">bench.topcoat.io</a> you will see the components from our latest release and their benchmark over time.</p>
 
@@ -209,20 +184,29 @@ All of these steps are also shown in the <a href="http://www.youtube.com/watch?v
             <pubDate>Mon, 15 Jul 2013 20:49:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Responsive Design Tool for TopCoat]]></title>
-            <description><![CDATA[<p>Intel has updated the <a href="http://xdk.intel.com/">Intel XDK</a>, an HTML5 development IDE. This new version has a WYSIWYG UI building tool that supports TopCoat and responsive design. It also uses Brackets for code editing. Take a look and share your thoughts.</p>
+            <title><![CDATA[Color Me Topcoat]]></title>
+            <description><![CDATA[<p>Deep in the pits of the Topcoat Theme lived way too many colors.  It made it tricky to customize a new theme quickly.  So we leveraged the color functions from Stylus to wittle the colors down to just a few base colors:</p>
 
-<p><img src="app_designer_selecting_topcoat.png" alt="electing topcoat"/></p>
+<ul>
+<li>Text color</li>
+<li>Control base color</li>
+<li>Page base color</li>
+<li>Notification color</li>
+<li>Highlight color</li>
+<li>Shadow color</li>
+</ul>
 
-<p><img src="app_designer_using_topcoat_narrow.png" alt="narrow"/></p>
+<p>This colors then effect the rest of the theme.  Each of the previous colors can still be declared manually if you need that control.</p>
 
-<p><img src="app_designer_using_topcoat_wide.png" alt="wide"/></p>
+<p>Here&#39;s a screencast that steps through the theme and how to tweak it.</p>
+
+<div class="videoWrapper" style="position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0;"><iframe src="//player.vimeo.com/video/77716726" width="500" height="281" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 ]]></description>
-            <link>http://topcoat.io/posts/intel-xdk/</link>
+            <link>http://topcoat.io/posts/color-me-topcoat/</link>
             <guid isPermaLink="true">
-                http://topcoat.io/posts/intel-xdk/            </guid>
-            <dc:creator><![CDATA[[object Object]]]></dc:creator>
-            <pubDate>Tue, 29 Oct 2013 00:30:00 GMT</pubDate>
+                http://topcoat.io/posts/color-me-topcoat/            </guid>
+            <dc:creator><![CDATA[garthdb]]></dc:creator>
+            <pubDate>Mon, 21 Oct 2013 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Desktop Parity Party]]></title>
@@ -345,6 +329,22 @@ All of these steps are also shown in the <a href="http://www.youtube.com/watch?v
                 http://topcoat.io/posts/generating-css-component-documentation/            </guid>
             <dc:creator><![CDATA[garthdb]]></dc:creator>
             <pubDate>Thu, 19 Sep 2013 23:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Responsive Design Tool for TopCoat]]></title>
+            <description><![CDATA[<p>Intel has updated the <a href="http://xdk.intel.com/">Intel XDK</a>, an HTML5 development IDE. This new version has a WYSIWYG UI building tool that supports TopCoat and responsive design. It also uses Brackets for code editing. Take a look and share your thoughts.</p>
+
+<p><a href="app_designer_selecting_topcoat.png"><img src="app_designer_selecting_topcoat.png" alt="electing topcoat"/></a></p>
+
+<p><a href="app_designer_using_topcoat_narrow.png"><img src="app_designer_using_topcoat_narrow.png" alt="narrow"/></a></p>
+
+<p><a href="app_designer_using_topcoat_wide.png"><img src="app_designer_using_topcoat_wide.png" alt="wide"/></a></p>
+]]></description>
+            <link>http://topcoat.io/posts/intel-xdk/</link>
+            <guid isPermaLink="true">
+                http://topcoat.io/posts/intel-xdk/            </guid>
+            <dc:creator><![CDATA[[object Object]]]></dc:creator>
+            <pubDate>Tue, 29 Oct 2013 00:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing Topcoat]]></title>
