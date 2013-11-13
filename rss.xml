@@ -5,9 +5,9 @@
         <description><![CDATA[CSS for clean and fast web apps.]]></description>
         <link>http://topcoat.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 13 Nov 2013 07:34:39 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 Nov 2013 07:38:29 GMT</lastBuildDate>
         <atom:link href="http://topcoat.io/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 13 Nov 2013 07:34:33 GMT</pubDate>
+        <pubDate>Wed, 13 Nov 2013 07:38:23 GMT</pubDate>
         <item>
             <title><![CDATA[Blog]]></title>
             <description><![CDATA[<section id="content"><section class="articlelist"><article><h2><a href="/posts/intel-xdk/">Responsive Design Tool for TopCoat</a></h2><p><p>Intel has updated the <a href="http://xdk.intel.com/">Intel XDK</a>, an HTML5 development IDE. This new version has a WYSIWYG UI building tool that supports TopCoat and responsive design.</p></p><footer><a href="/posts/intel-xdk/">Read More...</a><div class="published"> 
