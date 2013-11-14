@@ -46,7 +46,25 @@ var disqus_title = 'Desktop Parity Party';
  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();</script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></section><footer class="site"><ul><li id="twitter"><a href="http://twitter.com/topcoat"></a></li><li id="github"><a href="http://github.com/topcoat"></a></li><li id="adobe"><a href="http://html.adobe.com"></a></li></ul></footer></div></div><script type="text/javascript" src="//use.typekit.net/czf5rrh.js"></script><script type="text/javascript" src="/js/main.js"></script><script type="text/javascript">try{Typekit.load();}catch(e){}</script><script type="text/javascript">var _gaq = _gaq || [];
+})();</script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></section><footer class="site"><ul><li id="twitter"><a href="http://twitter.com/topcoat"></a></li><li id="github"><a href="http://github.com/topcoat"></a></li><li id="adobe"><a href="http://html.adobe.com"></a></li></ul></footer></div></div><script type="text/javascript">// Add a script element as a child of the body
+function downloadJSAtOnload() {
+    var mainjselement = document.createElement("script");
+    mainjselement.src = "/js/main.js";
+    document.body.appendChild(mainjselement);
+    
+    var typekitelement = document.createElement("script");
+    typekitelement.src = "//use.typekit.net/czf5rrh.js";
+    document.body.appendChild(typekitelement);
+    
+    try{Typekit.load();}catch(e){}
+}
+// Check for browser support of event handling capability
+if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script><script type="text/javascript">var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-38522202-1']);
 _gaq.push(['_trackPageview']);
 

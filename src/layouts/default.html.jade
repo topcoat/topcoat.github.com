@@ -50,8 +50,24 @@ html(lang='en')
                         li#github: a(href="http://github.com/topcoat")
                         li#adobe: a(href="http://html.adobe.com")
         != getBlock('scripts').toHTML()
-        script(type="text/javascript", src="//use.typekit.net/czf5rrh.js")
-        script(type="text/javascript", src="/js/main.js")
         script(type="text/javascript").
-            try{Typekit.load();}catch(e){}
+            // Add a script element as a child of the body
+            function downloadJSAtOnload() {
+                var mainjselement = document.createElement("script");
+                mainjselement.src = "/js/main.js";
+                document.body.appendChild(mainjselement);
+
+                var typekitelement = document.createElement("script");
+                typekitelement.src = "//use.typekit.net/czf5rrh.js";
+                document.body.appendChild(typekitelement);
+
+                try{Typekit.load();}catch(e){}
+            }
+            // Check for browser support of event handling capability
+            if (window.addEventListener)
+                window.addEventListener("load", downloadJSAtOnload, false);
+            else if (window.attachEvent)
+                window.attachEvent("onload", downloadJSAtOnload);
+            else window.onload = downloadJSAtOnload;
+
         != partial('analytics')

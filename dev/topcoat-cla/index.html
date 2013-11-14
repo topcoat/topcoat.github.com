@@ -68,7 +68,25 @@
   $(input).after("<span class='add-on'><i class='icon-exclamation-sign'></i></span>");
   return;
  }
-});</script></section><footer class="site"><ul><li id="twitter"><a href="http://twitter.com/topcoat"></a></li><li id="github"><a href="http://github.com/topcoat"></a></li><li id="adobe"><a href="http://html.adobe.com"></a></li></ul></footer></div></div><script type="text/javascript" src="//use.typekit.net/czf5rrh.js"></script><script type="text/javascript" src="/js/main.js"></script><script type="text/javascript">try{Typekit.load();}catch(e){}</script><script type="text/javascript">var _gaq = _gaq || [];
+});</script></section><footer class="site"><ul><li id="twitter"><a href="http://twitter.com/topcoat"></a></li><li id="github"><a href="http://github.com/topcoat"></a></li><li id="adobe"><a href="http://html.adobe.com"></a></li></ul></footer></div></div><script type="text/javascript">// Add a script element as a child of the body
+function downloadJSAtOnload() {
+    var mainjselement = document.createElement("script");
+    mainjselement.src = "/js/main.js";
+    document.body.appendChild(mainjselement);
+    
+    var typekitelement = document.createElement("script");
+    typekitelement.src = "//use.typekit.net/czf5rrh.js";
+    document.body.appendChild(typekitelement);
+    
+    try{Typekit.load();}catch(e){}
+}
+// Check for browser support of event handling capability
+if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script><script type="text/javascript">var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-38522202-1']);
 _gaq.push(['_trackPageview']);
 
