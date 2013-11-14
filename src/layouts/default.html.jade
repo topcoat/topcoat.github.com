@@ -21,6 +21,7 @@ html(lang='en')
             block title
                 = document.title
         link(rel="stylesheet", href="/css/normalize.css", type="text/css", media="screen")
+        link(rel="stylesheet", href="/css/fonts/stylesheet.css", type="text/css", media="screen")
         link(rel="stylesheet", href="/css/style.css", type="text/css", media="screen")
         != getBlock('styles').toHTML()
     body
@@ -50,8 +51,5 @@ html(lang='en')
                         li#github: a(href="http://github.com/topcoat")
                         li#adobe: a(href="http://html.adobe.com")
         != getBlock('scripts').toHTML()
-        script(type="text/javascript", src="//use.typekit.net/czf5rrh.js")
         script(type="text/javascript", src="/js/main.js")
-        script(type="text/javascript").
-            try{Typekit.load();}catch(e){}
         != partial('analytics')
