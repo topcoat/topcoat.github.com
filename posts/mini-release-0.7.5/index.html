@@ -144,7 +144,7 @@ form{border:1px solid #ccc;padding:10px}
 #required{padding-bottom:5px;color:#f00;font-weight:bold}
 .clearfix:before,.clearfix:after{content:" ";display:table}
 .clearfix:after{clear:both}
-.clearfix{*zoom:1}</style></head><body><div id="wrapper"><div id="side-nav"><nav class="site"><ul><li class="selected"><a href="http://topcoat.io">Home</a></li><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io/">Benchmarks</a></li><li><a href="http://topcoat.io/blog">Blog</a></li></ul></nav></div><div id="site"><header class="main"><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav class="main"><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/v0.8.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav><button id="slide-menu-button" href="#" class="topcoat-icon-button--large--quiet"><span class="topcoat-icon--large topcoat-icon-meun-stack"></span></button></header><section id="content"><article><header><h2>Mini Release 0.7.5</h2><div class="author"><a href='http://www.garthdb.com/'>Garth Braithwaite</a></div><div class="date">Posted 23 Sep 2013</div></header><div id="postcontent"><p>0.8.0 is not due out for a week or so, but we wanted to get some components out before then.</p>
+.clearfix{*zoom:1}</style><script type="text/javascript">window.onload=function(){var a=document.getElementById("slide-menu-button");a.onclick=function(d){var c=document.getElementById("site");var b=c.classList;if(b.contains("open")){b.remove("open")}else{b.add("open")}}};</script></head><body><div id="wrapper"><div id="side-nav"><nav class="site"><ul><li class="selected"><a href="http://topcoat.io">Home</a></li><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io/">Benchmarks</a></li><li><a href="http://topcoat.io/blog">Blog</a></li></ul></nav></div><div id="site"><header class="main"><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav class="main"><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/v0.8.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav><button id="slide-menu-button" href="#" class="topcoat-icon-button--large--quiet"><span class="topcoat-icon--large topcoat-icon-meun-stack"></span></button></header><section id="content"><article><header><h2>Mini Release 0.7.5</h2><div class="author"><a href='http://www.garthdb.com/'>Garth Braithwaite</a></div><div class="date">Posted 23 Sep 2013</div></header><div id="postcontent"><p>0.8.0 is not due out for a week or so, but we wanted to get some components out before then.</p>
 
 <p>This is just a half release, but it some much requested components:</p>
 
@@ -168,15 +168,10 @@ var disqus_title = 'Mini Release 0.7.5';
  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 })();</script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></section><footer class="site"><ul><li id="twitter"><a href="http://twitter.com/topcoat"></a></li><li id="github"><a href="http://github.com/topcoat"></a></li><li id="adobe"><a href="http://html.adobe.com"></a></li></ul></footer></div></div><script type="text/javascript">// Add a script element as a child of the body
 function downloadJSAtOnload() {
-    var mainjselement = document.createElement("script");
-    mainjselement.src = "/js/main.js";
-    document.body.appendChild(mainjselement);
-    
-    var typekitelement = document.createElement("script");
-    typekitelement.src = "//use.typekit.net/czf5rrh.js";
-    document.body.appendChild(typekitelement);
-    
-    try{Typekit.load();}catch(e){}
+    var edgewebfontselement = document.createElement("script");
+    edgewebfontselement.src = "//use.edgefonts.net/source-sans-pro.js";
+    edgewebfontselement.type = "text/javascript";
+    document.body.appendChild(edgewebfontselement);
 }
 // Check for browser support of event handling capability
 if (window.addEventListener)

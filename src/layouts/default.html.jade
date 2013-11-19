@@ -168,6 +168,8 @@ html(lang='en')
             .clearfix:before,.clearfix:after{content:" ";display:table}
             .clearfix:after{clear:both}
             .clearfix{*zoom:1}
+        script(type="text/javascript").
+            window.onload=function(){var a=document.getElementById("slide-menu-button");a.onclick=function(d){var c=document.getElementById("site");var b=c.classList;if(b.contains("open")){b.remove("open")}else{b.add("open")}}};
         != getBlock('styles').toHTML()
     body
         #wrapper
@@ -199,12 +201,9 @@ html(lang='en')
         script(type="text/javascript").
             // Add a script element as a child of the body
             function downloadJSAtOnload() {
-                var mainjselement = document.createElement("script");
-                mainjselement.src = "/js/main.js";
-                document.body.appendChild(mainjselement);
-
                 var edgewebfontselement = document.createElement("script");
                 edgewebfontselement.src = "//use.edgefonts.net/source-sans-pro.js";
+                edgewebfontselement.type = "text/javascript";
                 document.body.appendChild(edgewebfontselement);
             }
             // Check for browser support of event handling capability
