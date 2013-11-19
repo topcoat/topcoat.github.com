@@ -203,11 +203,9 @@ html(lang='en')
                 mainjselement.src = "/js/main.js";
                 document.body.appendChild(mainjselement);
 
-                var typekitelement = document.createElement("script");
-                typekitelement.src = "//use.typekit.net/czf5rrh.js";
-                document.body.appendChild(typekitelement);
-
-                try{Typekit.load();}catch(e){}
+                var edgewebfontselement = document.createElement("script");
+                edgewebfontselement.src = "//use.edgefonts.net/source-sans-pro.js";
+                document.body.appendChild(edgewebfontselement);
             }
             // Check for browser support of event handling capability
             if (window.addEventListener)
