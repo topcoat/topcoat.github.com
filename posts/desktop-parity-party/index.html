@@ -144,42 +144,45 @@ form{border:1px solid #ccc;padding:10px}
 #required{padding-bottom:5px;color:#f00;font-weight:bold}
 .clearfix:before,.clearfix:after{content:" ";display:table}
 .clearfix:after{clear:both}
-.clearfix{*zoom:1}</style><script type="text/javascript">window.onload=function(){var a=document.getElementById("slide-menu-button");a.onclick=function(d){var c=document.getElementById("site");var b=c.classList;if(b.contains("open")){b.remove("open")}else{b.add("open")}}};</script></head><body><div id="wrapper"><div id="side-nav"><nav class="site"><ul><li class="selected"><a href="http://topcoat.io">Home</a></li><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io/">Benchmarks</a></li><li><a href="http://topcoat.io/blog">Blog</a></li></ul></nav></div><div id="site"><header class="main"><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav class="main"><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/v0.8.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav><button id="slide-menu-button" href="#" class="topcoat-icon-button--large--quiet"><span class="topcoat-icon--large topcoat-icon-meun-stack"></span></button></header><section id="content"><article><header><h2>Desktop Parity Party</h2><div class="author"><a href='http://www.garthdb.com/'>Garth Braithwaite</a></div><div class="date">Posted 30 Aug 2013</div></header><div id="postcontent">Topcoat 0.7.0 is out and it has some features we've been looking forward to. The main goal was parity with the [Topcoat Desktop Kit](https://github.com/topcoat/design), but we also slipped in some new components, improved workflows for hacking on Topcoat, and added [Autoprefixer](https://github.com/ai/autoprefixer).
+.clearfix{*zoom:1}</style><script type="text/javascript">window.onload=function(){var a=document.getElementById("slide-menu-button");a.onclick=function(d){var c=document.getElementById("site");var b=c.classList;if(b.contains("open")){b.remove("open")}else{b.add("open")}}};</script></head><body><div id="wrapper"><div id="side-nav"><nav class="site"><ul><li class="selected"><a href="http://topcoat.io">Home</a></li><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io/">Benchmarks</a></li><li><a href="http://topcoat.io/blog">Blog</a></li></ul></nav></div><div id="site"><header class="main"><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav class="main"><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/v0.8.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav><button id="slide-menu-button" href="#" class="topcoat-icon-button--large--quiet"><span class="topcoat-icon--large topcoat-icon-meun-stack"></span></button></header><section id="content"><article><header><h2>Desktop Parity Party</h2><div class="author"><a href='http://www.garthdb.com/'>Garth Braithwaite</a></div><div class="date">Posted 30 Aug 2013</div></header><div id="postcontent"><p>Topcoat 0.7.0 is out and it has some features we&#39;ve been looking forward to. The main goal was parity with the <a href="https://github.com/topcoat/design">Topcoat Desktop Kit</a>, but we also slipped in some new components, improved workflows for hacking on Topcoat, and added <a href="https://github.com/ai/autoprefixer">Autoprefixer</a>.</p>
 
-## Desktop Parity
+<h2>Desktop Parity</h2>
 
-This release was primarily focused on bringing the desktop stylesheets in parity with [Topcoat Desktop Kit](https://github.com/topcoat/design) designed by [Larz](https://twitter.com/larz) and [Nic](http://www.behance.net/nnnnic) from Adobe XD. This parity means additional states like focus and hover that weren't previously a priority as we were focused on mobile. It also takes into account appropriate sizing and platform specific components, like [List](http://topcoat.io/list) and [Navigation Bar](http://topcoat.io/navigation-bar), which are now only included in the mobile stylesheets.
+<p>This release was primarily focused on bringing the desktop stylesheets in parity with <a href="https://github.com/topcoat/design">Topcoat Desktop Kit</a> designed by <a href="https://twitter.com/larz">Larz</a> and <a href="http://www.behance.net/nnnnic">Nic</a> from Adobe XD. This parity means additional states like focus and hover that weren&#39;t previously a priority as we were focused on mobile. It also takes into account appropriate sizing and platform specific components, like <a href="http://topcoat.io/list">List</a> and <a href="http://topcoat.io/navigation-bar">Navigation Bar</a>, which are now only included in the mobile stylesheets.</p>
 
-## New Components
+<h2>New Components</h2>
 
-We have a couple of new components. [Icon Button](http://topcoat.io/topcoat/#icon-button) has returned, as well as the addition of [Button Bar](http://topcoat.io/topcoat/#button-bar). Taking a look at our design repo, you'll notice we still have plenty of components left to build.  [Kristofer Joseph](http://twitter.com/dam) put together a [deep dive](http://topcoat.io/posts/topcoat-components-deep-dive/) on the component architecture to make it easier to get started if you'd like to help contribute.
+<p>We have a couple of new components. <a href="http://topcoat.io/topcoat/#icon-button">Icon Button</a> has returned, as well as the addition of <a href="http://topcoat.io/topcoat/#button-bar">Button Bar</a>. Taking a look at our design repo, you&#39;ll notice we still have plenty of components left to build.  <a href="http://twitter.com/dam">Kristofer Joseph</a> put together a <a href="http://topcoat.io/posts/topcoat-components-deep-dive/">deep dive</a> on the component architecture to make it easier to get started if you&#39;d like to help contribute.</p>
 
-## Autoprefixer
+<h2>Autoprefixer</h2>
 
-The way Topcoat's build process has been designed; you can grab just what you need for your specific project and targeted platforms.  We've taken that a step further by adding [Autoprefixer](https://github.com/ai/autoprefixer).  It uses the data from [Can I Use](http://caniuse.com/) to let you add only the vendor specific prefixes you need.  This also frees up the source for the components to be vendor agnostic.
+<p>The way Topcoat&#39;s build process has been designed; you can grab just what you need for your specific project and targeted platforms.  We&#39;ve taken that a step further by adding <a href="https://github.com/ai/autoprefixer">Autoprefixer</a>.  It uses the data from <a href="http://caniuse.com/">Can I Use</a> to let you add only the vendor specific prefixes you need.  This also frees up the source for the components to be vendor agnostic.</p>
 
-## Topdoc 0.2.0
+<h2>Topdoc 0.2.0</h2>
 
-We use [Topdoc](http://github.com/topcoat/topdoc) to build the demo files from Topcoat's css. In this release we've updated the Topdoc spec to leverage a [YAML](http://nodeca.github.io/js-yaml/) syntax which give us improved flexibility in the component's metadata. Additionally we are now leveraging Topdoc to generate html demo files for the individual components and are publishing them on [GitHub Pages](http://pages.github.com/) at http://topcoat.io/{ component name }
+<p>We use <a href="http://github.com/topcoat/topdoc">Topdoc</a> to build the demo files from Topcoat&#39;s css. In this release we&#39;ve updated the Topdoc spec to leverage a <a href="http://nodeca.github.io/js-yaml/">YAML</a> syntax which give us improved flexibility in the component&#39;s metadata. Additionally we are now leveraging Topdoc to generate html demo files for the individual components and are publishing them on <a href="http://pages.github.com/">GitHub Pages</a> at <a href="http://topcoat.io/%7B">http://topcoat.io/{</a> component name }</p>
 
-- [Button Bar](http://topcoat.io/button-bar)
-- [Button](http://topcoat.io/button)
-- [Checkbox](http://topcoat.io/checkbox)
-- [Icon Button](http://topcoat.io/icon-button)
-- [List](http://topcoat.io/list) *Mobile only
-- [Navigation Bar](http://topcoat.io/navigation-bar) *Mobile only
-- [Radio Button](http://topcoat.io/radio-button)
-- [Search Input](http://topcoat.io/search-input)
-- [Text Input](http://topcoat.io/text-input)
-- [Text Area](http://topcoat.io/textarea)
+<ul>
+<li><a href="http://topcoat.io/button-bar">Button Bar</a></li>
+<li><a href="http://topcoat.io/button">Button</a></li>
+<li><a href="http://topcoat.io/checkbox">Checkbox</a></li>
+<li><a href="http://topcoat.io/icon-button">Icon Button</a></li>
+<li><a href="http://topcoat.io/list">List</a> *Mobile only</li>
+<li><a href="http://topcoat.io/navigation-bar">Navigation Bar</a> *Mobile only</li>
+<li><a href="http://topcoat.io/radio-button">Radio Button</a></li>
+<li><a href="http://topcoat.io/search-input">Search Input</a></li>
+<li><a href="http://topcoat.io/text-input">Text Input</a></li>
+<li><a href="http://topcoat.io/textarea">Text Area</a></li>
+</ul>
 
-I will be posting a more detailed description of Topdoc soon.
+<p>I will be posting a more detailed description of Topdoc soon.</p>
 
-## Coming up in 0.8.0
+<h2>Coming up in 0.8.0</h2>
 
-With Desktop Parity in place we will be focusing on improving the theming workflow for the next release. Of course we'll also be adding more components, so watch the [Topcoat Codepens](http://codepen.io/Topcoat) to see what's coming next.
+<p>With Desktop Parity in place we will be focusing on improving the theming workflow for the next release. Of course we&#39;ll also be adding more components, so watch the <a href="http://codepen.io/Topcoat">Topcoat Codepens</a> to see what&#39;s coming next.</p>
 
-Also, look for [Kristofer Joseph](http://twitter.com/dam) at [PhoneGap Day EU](http://pgday.phonegap.com/eu2013/) in Amsterdam on Sep 24th.</div></article><div id="disqus_thread"></div><script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+<p>Also, look for <a href="http://twitter.com/dam">Kristofer Joseph</a> at <a href="http://pgday.phonegap.com/eu2013/">PhoneGap Day EU</a> in Amsterdam on Sep 24th.</p>
+</div></article><div id="disqus_thread"></div><script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 var disqus_shortname = 'topcoat'; // required: replace example with your forum shortname
 var disqus_title = 'Desktop Parity Party';
 

@@ -144,91 +144,101 @@ form{border:1px solid #ccc;padding:10px}
 #required{padding-bottom:5px;color:#f00;font-weight:bold}
 .clearfix:before,.clearfix:after{content:" ";display:table}
 .clearfix:after{clear:both}
-.clearfix{*zoom:1}</style><script type="text/javascript">window.onload=function(){var a=document.getElementById("slide-menu-button");a.onclick=function(d){var c=document.getElementById("site");var b=c.classList;if(b.contains("open")){b.remove("open")}else{b.add("open")}}};</script></head><body><div id="wrapper"><div id="side-nav"><nav class="site"><ul><li class="selected"><a href="http://topcoat.io">Home</a></li><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io/">Benchmarks</a></li><li><a href="http://topcoat.io/blog">Blog</a></li></ul></nav></div><div id="site"><header class="main"><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav class="main"><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/v0.8.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav><button id="slide-menu-button" href="#" class="topcoat-icon-button--large--quiet"><span class="topcoat-icon--large topcoat-icon-meun-stack"></span></button></header><section id="content"><article><header><h2>Topcoat components deep dive</h2><div class="author"><a href='http://kristoferjoseph.com/'>Kristofer Joseph</a></div><div class="date">Posted 22 Aug 2013</div></header><div id="postcontent">We have been getting a lot of people asking how they can help add components to Topcoat. What follows is an overview of our workflow as well as some more in depth explanations into some of lesser known parts of the Topcoat architecture.
+.clearfix{*zoom:1}</style><script type="text/javascript">window.onload=function(){var a=document.getElementById("slide-menu-button");a.onclick=function(d){var c=document.getElementById("site");var b=c.classList;if(b.contains("open")){b.remove("open")}else{b.add("open")}}};</script></head><body><div id="wrapper"><div id="side-nav"><nav class="site"><ul><li class="selected"><a href="http://topcoat.io">Home</a></li><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io/">Benchmarks</a></li><li><a href="http://topcoat.io/blog">Blog</a></li></ul></nav></div><div id="site"><header class="main"><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav class="main"><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/v0.8.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav><button id="slide-menu-button" href="#" class="topcoat-icon-button--large--quiet"><span class="topcoat-icon--large topcoat-icon-meun-stack"></span></button></header><section id="content"><article><header><h2>Topcoat components deep dive</h2><div class="author"><a href='http://kristoferjoseph.com/'>Kristofer Joseph</a></div><div class="date">Posted 22 Aug 2013</div></header><div id="postcontent"><p>We have been getting a lot of people asking how they can help add components to Topcoat. What follows is an overview of our workflow as well as some more in depth explanations into some of lesser known parts of the Topcoat architecture.</p>
 
-We will cover:
-# <a id="toc"></a>
-* [Designs](#design)
-* [Codepens](#codepens)
-* [Base Components](#base)
-* [Skin Components](#skins)
-* [Theme](#theme)
+<p>We will cover:</p>
 
-## <a href="design"></a>Designs
+<h1><a id="toc"></a></h1>
 
-First and foremost Topcoat is a design language. We feel a design language is more than gradients and drop shadows. It describes intent and enables a system that can be expanded to fit use cases as they come up. The default Topcoat theme is an implementation of a design language that can be modified and augmented to work across platforms without falling into the unhappy valley of copying existing systems. We are currently in the process of implementing the [designs we have posted](https://github.com/topcoat/design) for desktop and mobile.
+<ul>
+<li><a href="#design">Designs</a></li>
+<li><a href="#codepens">Codepens</a></li>
+<li><a href="#base">Base Components</a></li>
+<li><a href="#skins">Skin Components</a></li>
+<li><a href="#theme">Theme</a></li>
+</ul>
 
-## <a href="codepens"></a>Codepens
+<h2><a href="design"></a>Designs</h2>
 
-[Topcoat Codepen](http://codepen.io/Topcoat) is the first step in our development process. We add a component as a codepen in order to discuss markup and styles in a public place. This also has the added benefit of becoming a living example that we can link to in our documentation. At this point we divide all of our components into two logical parts— The base styles and the visual styles.
+<p>First and foremost Topcoat is a design language. We feel a design language is more than gradients and drop shadows. It describes intent and enables a system that can be expanded to fit use cases as they come up. The default Topcoat theme is an implementation of a design language that can be modified and augmented to work across platforms without falling into the unhappy valley of copying existing systems. We are currently in the process of implementing the <a href="https://github.com/topcoat/design">designs we have posted</a> for desktop and mobile.</p>
+
+<h2><a href="codepens"></a>Codepens</h2>
+
+<p><a href="http://codepen.io/Topcoat">Topcoat Codepen</a> is the first step in our development process. We add a component as a codepen in order to discuss markup and styles in a public place. This also has the added benefit of becoming a living example that we can link to in our documentation. At this point we divide all of our components into two logical parts— The base styles and the visual styles.</p>
 
 <p data-height="600" data-theme-id="0" data-slug-hash="DpKtf" data-user="Topcoat" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/Topcoat/pen/DpKtf'>Topcoat Mobile Button</a> by Topcoat (<a href='http://codepen.io/Topcoat'>@Topcoat</a>) on <a href='http://codepen.io'>CodePen</a></p>
+
 <script async src="http://codepen.io/assets/embed/ei.js"></script>
-<br>
 
-### Base Styles
+<p><br></p>
 
-Base styles are the reusable classes of a given component. These encompass reset styles as well as set up the cascade. The goal here is to be able to extend the base classes to create any number of differently themed variations.
+<h3>Base Styles</h3>
+
+<p>Base styles are the reusable classes of a given component. These encompass reset styles as well as set up the cascade. The goal here is to be able to extend the base classes to create any number of differently themed variations.</p>
 
 <script src="https://gist.github.com/kristoferjoseph/6301264.js"></script>
 
-The thinking here is you can apply this class to any element you would sensibly use as a button and have it prepared for visual styling.
+<p>The thinking here is you can apply this class to any element you would sensibly use as a button and have it prepared for visual styling.</p>
 
-### Skin Styles
+<h3>Skin Styles</h3>
 
-Skin styles encompass all the visual decoration for a component. Examples of these properties are background, border, box-shadow etc.
+<p>Skin styles encompass all the visual decoration for a component. Examples of these properties are background, border, box-shadow etc.</p>
 
 <script src="https://gist.github.com/kristoferjoseph/6301268.js"></script>
 
-All of these property values are included in the [Topcoat theme](https://github.com/topcoat/theme) and are supplied via variables to allow you to easily create a custom styled variation of our components.
+<p>All of these property values are included in the <a href="https://github.com/topcoat/theme">Topcoat theme</a> and are supplied via variables to allow you to easily create a custom styled variation of our components.</p>
 
-##### A note on layout
+<h5>A note on layout</h5>
 
-Notice neither the base or skin styles include positioning or layout. This is to optimize reuse. We figure that allowing users to use any layout classes they are comfortable with will ultimately be more flexible. Meaning use any grid framework or layout you like. Topcoat will work with it. Check out the sizing example at the bottom of our button bar codepen.
+<p>Notice neither the base or skin styles include positioning or layout. This is to optimize reuse. We figure that allowing users to use any layout classes they are comfortable with will ultimately be more flexible. Meaning use any grid framework or layout you like. Topcoat will work with it. Check out the sizing example at the bottom of our button bar codepen.</p>
 
 <p data-height="500" data-theme-id="0" data-slug-hash="kdKyg" data-user="Topcoat" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/Topcoat/pen/kdKyg'>Topcoat Button Bar</a> by Topcoat (<a href='http://codepen.io/Topcoat'>@Topcoat</a>) on <a href='http://codepen.io'>CodePen</a></p>
+
 <script async src="http://codepen.io/assets/embed/ei.js"></script>
-<br>
 
-## <a id="base"></a>Base Components
+<p><br></p>
 
-Once we have a working codepen with the base and skin styles outlined we can start creating the components for distribution. We distribute the base components separate from the skin components. The thinking behind this is that skins will be specific to a theme and base components can be reused with any skin set and theme you create. [Our button base component](https://github.com/topcoat/button-base/blob/master/src/button.styl) is the base class from the codepen with reusable bits extracted out into [utilities](https://github.com/topcoat/utils/blob/master/src/mixins/utils.styl) for other base components to leverage. This results in a final [`.button` base class](https://github.com/topcoat/button-base/blob/master/css/button.css) for our skin to extend.
-<br>
+<h2><a id="base"></a>Base Components</h2>
 
-## <a id="skins"></a>Skin Components
+<p>Once we have a working codepen with the base and skin styles outlined we can start creating the components for distribution. We distribute the base components separate from the skin components. The thinking behind this is that skins will be specific to a theme and base components can be reused with any skin set and theme you create. <a href="https://github.com/topcoat/button-base/blob/master/src/button.styl">Our button base component</a> is the base class from the codepen with reusable bits extracted out into <a href="https://github.com/topcoat/utils/blob/master/src/mixins/utils.styl">utilities</a> for other base components to leverage. This results in a final <a href="https://github.com/topcoat/button-base/blob/master/css/button.css"><code>.button</code> base class</a> for our skin to extend.<br/>
+<br></p>
 
-Extending our base component allows us to iterate on accesibility, markup, and the cascade completely separate from our specific theme styles. The thinking is that these skin files will allow you to customize a good amount of a specific skin set by changing variables in the theme. There is a distinct coupling between a theme and the skin files that use it. Meaning a skin file only renders variables that are exposed in a specific theme. We think the Topcoat theme is a pretty good starting point and exposes a lot of places for customization, but you could still benefit from the base components if you made your own theme and supporting skin files for it. We move all of the hard coded values from the codepen to variables in the theme.
+<h2><a id="skins"></a>Skin Components</h2>
 
-#### The naming convention we follow for naming variables
+<p>Extending our base component allows us to iterate on accesibility, markup, and the cascade completely separate from our specific theme styles. The thinking is that these skin files will allow you to customize a good amount of a specific skin set by changing variables in the theme. There is a distinct coupling between a theme and the skin files that use it. Meaning a skin file only renders variables that are exposed in a specific theme. We think the Topcoat theme is a pretty good starting point and exposes a lot of places for customization, but you could still benefit from the base components if you made your own theme and supporting skin files for it. We move all of the hard coded values from the codepen to variables in the theme.</p>
 
-	var-{css property name}--{modifier}
-	*modifier is optional
+<h4>The naming convention we follow for naming variables</h4>
 
-	Examples:
-	var-background
-	var-background--cta
+<pre><code>var-{css property name}--{modifier}
+*modifier is optional
 
-The thinking here is that once [CSS Variables](http://dev.w3.org/csswg/css-variables/) land in the browser we will be able to use them with little refactoirng.
+Examples:
+var-background
+var-background--cta
+</code></pre>
 
-Variable count is something we are actively working to reduce. The current thinking is to add as many variables as needed to get all the skins to spec, then refactor to use fewer variables. We reuse variables wherever possible, but we feel it will be easier to see reuse patterns once we can see them all together. Plus we value shipping code over getting something perfect. Working in the open in this way allows the community to share their approaches. You can view the final [`.topcoat-button`](https://github.com/topcoat/button/blob/master/css/topcoat-button-mobile-light.css) class on github. Notice how all variations of button extend `.button` class making use of the base styles. This final file is generated from a [stylus source file](https://github.com/topcoat/button/blob/master/src/topcoat-button.styl). Notice how it uses the variables supplied by the theme.
+<p>The thinking here is that once <a href="http://dev.w3.org/csswg/css-variables/">CSS Variables</a> land in the browser we will be able to use them with little refactoirng.</p>
 
-## <a id="theme"></a>Theme
+<p>Variable count is something we are actively working to reduce. The current thinking is to add as many variables as needed to get all the skins to spec, then refactor to use fewer variables. We reuse variables wherever possible, but we feel it will be easier to see reuse patterns once we can see them all together. Plus we value shipping code over getting something perfect. Working in the open in this way allows the community to share their approaches. You can view the final <a href="https://github.com/topcoat/button/blob/master/css/topcoat-button-mobile-light.css"><code>.topcoat-button</code></a> class on github. Notice how all variations of button extend <code>.button</code> class making use of the base styles. This final file is generated from a <a href="https://github.com/topcoat/button/blob/master/src/topcoat-button.styl">stylus source file</a>. Notice how it uses the variables supplied by the theme.</p>
 
-The default [Topcoat theme](https://github.com/topcoat/theme) is an example of how to target multiple platforms as well as color variations. There is a dark and light variation of both the mobile and desktop components. The differences between the desktop and mobile variations are mainly font and dimension sizing. This has been a source of some confusion to users who are used to other web frameworks that are intended to be used to create websites. Our desktop theme is for creating desktop applications like [Brackets](http://brackets.io) and [Reflow](http://html.adobe.com/edge/reflow/). Where as our mobile theme is for creating [PhoneGap Applications](http://phonegap.com/app/feature/). Combining these two variations with a media-query would give you a reponsive theme.
+<h2><a id="theme"></a>Theme</h2>
 
-A theme consists of all the items that are related to a distinct application design. This encompasses colors as well as icons, fonts, sizing, and layout. *transitions are not currently included, but will be added soon.
+<p>The default <a href="https://github.com/topcoat/theme">Topcoat theme</a> is an example of how to target multiple platforms as well as color variations. There is a dark and light variation of both the mobile and desktop components. The differences between the desktop and mobile variations are mainly font and dimension sizing. This has been a source of some confusion to users who are used to other web frameworks that are intended to be used to create websites. Our desktop theme is for creating desktop applications like <a href="http://brackets.io">Brackets</a> and <a href="http://html.adobe.com/edge/reflow/">Reflow</a>. Where as our mobile theme is for creating <a href="http://phonegap.com/app/feature/">PhoneGap Applications</a>. Combining these two variations with a media-query would give you a reponsive theme.</p>
 
-You can see how we've broken up the variable files to support these variations to cut down on duplication.
+<p>A theme consists of all the items that are related to a distinct application design. This encompasses colors as well as icons, fonts, sizing, and layout. *transitions are not currently included, but will be added soon.</p>
 
-[View our demo page to see the theme in action](http://topcoat.io/topcoat/)
+<p>You can see how we&#39;ve broken up the variable files to support these variations to cut down on duplication.</p>
 
-## Summary
+<p><a href="http://topcoat.io/topcoat/">View our demo page to see the theme in action</a></p>
 
-We hope sharing the thinking behind Topcoat components will make it easier to contribute. This project is different than most "Open Source" projects in that we are working in the open, not just releasing final code to the public. We are working this way so that we can involve everyone feeling the same pains we are. We would love to hear your input. Look for a video walkthrough coming soon.
+<h2>Summary</h2>
 
-Thanks for reading [@dam](http://twitter.com/dam)
+<p>We hope sharing the thinking behind Topcoat components will make it easier to contribute. This project is different than most &ldquo;Open Source&rdquo; projects in that we are working in the open, not just releasing final code to the public. We are working this way so that we can involve everyone feeling the same pains we are. We would love to hear your input. Look for a video walkthrough coming soon.</p>
 
-#### [Back to top](#toc)</div></article><div id="disqus_thread"></div><script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+<p>Thanks for reading <a href="http://twitter.com/dam">@dam</a></p>
+
+<h4><a href="#toc">Back to top</a></h4>
+</div></article><div id="disqus_thread"></div><script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 var disqus_shortname = 'topcoat'; // required: replace example with your forum shortname
 var disqus_title = 'Topcoat components deep dive';
 
