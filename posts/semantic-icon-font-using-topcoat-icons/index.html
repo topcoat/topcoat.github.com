@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><meta name="generator" content="DocPad v6.53.4" /><title>Topcoat</title><style>/* normalize.css v2.0.1 | MIT License | git.io/normalize */
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><meta name="generator" content="DocPad v6.53.4" /><title>Semantic Icon Font using Topcoat Icons</title><style>/* normalize.css v2.0.1 | MIT License | git.io/normalize */
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}
 audio,canvas,video{display:inline-block}
 audio:not([controls]){display:none;height:0}
@@ -144,7 +144,99 @@ form{border:1px solid #ccc;padding:10px}
 #required{padding-bottom:5px;color:#f00;font-weight:bold}
 .clearfix:before,.clearfix:after{content:" ";display:table}
 .clearfix:after{clear:both}
-.clearfix{*zoom:1}</style><script type="text/javascript">window.onload=function(){var a=document.getElementById("slide-menu-button");a.onclick=function(d){var c=document.getElementById("site");var b=c.classList;if(b.contains("open")){b.remove("open")}else{b.add("open")}}};</script></head><body><div id="wrapper"><div id="side-nav"><nav class="site"><ul><li class="selected"><a href="http://topcoat.io">Home</a></li><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io/">Benchmarks</a></li><li><a href="http://topcoat.io/blog">Blog</a></li></ul></nav></div><div id="site"><header class="main"><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav class="main"><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/v0.8.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav><button id="slide-menu-button" href="#" class="topcoat-icon-button--large--quiet"><span class="topcoat-icon--large topcoat-icon-meun-stack"></span></button></header><section id="content" class="narrow"><h1>You Rock!</h1><p>Thanks for signing the Topcoat Contributor License Agreement. Now that the legal stuff is out of the way we can accept your brilliant work!</p><a href="http://github.com/topcoat/topcoat" class="topcoat-button--cta">Take Me To The Project!</a></section><footer class="site"><ul><li id="twitter"><a href="http://twitter.com/topcoat"></a></li><li id="github"><a href="http://github.com/topcoat"></a></li><li id="adobe"><a href="http://html.adobe.com"></a></li></ul></footer></div></div><script type="text/javascript">// Add a script element as a child of the body
+.clearfix{*zoom:1}</style><script type="text/javascript">window.onload=function(){var a=document.getElementById("slide-menu-button");a.onclick=function(d){var c=document.getElementById("site");var b=c.classList;if(b.contains("open")){b.remove("open")}else{b.add("open")}}};</script></head><body><div id="wrapper"><div id="side-nav"><nav class="site"><ul><li class="selected"><a href="http://topcoat.io">Home</a></li><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io/">Benchmarks</a></li><li><a href="http://topcoat.io/blog">Blog</a></li></ul></nav></div><div id="site"><header class="main"><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav class="main"><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/v0.8.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav><button id="slide-menu-button" href="#" class="topcoat-icon-button--large--quiet"><span class="topcoat-icon--large topcoat-icon-meun-stack"></span></button></header><section id="content"><article><header><h2>Semantic Icon Font using Topcoat Icons</h2><div class="author"><a href='http://www.niallodoherty.com'>Niall O'Doherty</a></div><div class="date">Posted 21 Nov 2013</div></header><div id="postcontent"><br />
+### Where to start...
+When developing mobile applications, one of the main considerations has to be around **performance**.  And as you know, one of the largest drains on application performance is the quantity and size of the images used within your app. So...
+
+*How do you ensure your application is still aesthetically pleasing without compromising on performance?*
+
+### One possible solution
+One way to improve the performance of your application is to use *font icons* instead of icon images or sprites.  Font icons are generally lighter weight than sprite images, plus they are easily updated and require very little CSS updates.  In fact, you can update font icons the same way you would update the font using the *font-size* and *color* attributes. 
+
+Below is some basic steps you can take to get font icons working in your project using the Topcoat icons.  So let's get started. 
+ 
+### Creating font icons
+Out of the box, the [Topcoat Icons GitHub Repository](https://github.com/topcoat/icons) has the necessary files you need to get started with all the available icons as of v0.8.0.  See the */font* folder.  
+
+As we're also focusing on performance, this post shall detail the steps required to create and use your *own* custom icon font to achieve the results shown in the images below.
+
+In order to create your own custom icon web font you can use an online application called [Icomatic](http://www.icomatic.io/).  There are other tools available for you to experiment with but for now Icomatic is the weapon of choice. 
+
+* If you've not done so already, clone / download the [Topcoat icons](https://github.com/topcoat/icons) repo from GitHub
+* Then fire up a browser and go to [Icomatic](http://www.icomatic.io/)
+* Select "Try the app" button on the homepage
+* Select "Upload files..."
+* Navigate to your local copy of the Topcoat Icons repository and select the icon files you need from the *\svg* folder 
+* Amend the icon labels as required.  This is optional
+* Finally click on "Download Kit"
+
+[Icomatic](http://www.icomatic.io/) will generate the font files you need (*eot, ttf, woff, and svg*).  You can include each or all of these at your own discretion.  
+
+The benefit of this is that you can include only the icons you need for your project so you can generate bespoke font files on a per project basis.
+
+### The styles 
+Download and Extract these files into the appropriate location for your project.  
+
+My *icomatic.css* file is located in the */css* folder of my project along with the font files but you can place them wherever you prefer as long as the paths to the font files are correct otherwise it won't work correctly and you'll just see the text equivalent of the icon label that you're trying to display.
+
+Below is an example of the CSS content from my *icomatic.css* file:
+
+<script src="https://gist.github.com/nodoherty/7582412.js"></script>
+
+The font family "*SourceSansPro-Light*" is just a backup that I'm using that is also supplied with Topcoat.  It is the first open source font family contribution from Adobe and is served on [Adobe Edge Web Fonts](https://edgewebfonts.adobe.com/fonts#/?nameFilter=source&collection=source-sans-pro) and [Adobe Typekit](https://typekit.com/fonts/source-sans-pro).  
+
+**Note:** "*SourceSansPro-Light*" is a regular text font and does not support icons.
+
+### The mark-up
+Next here comes the sweet part of using an icon font. 
+
+I have some mark-up to display a tab-bar that contains five buttons, each with an icon and some text below (see result images below).
+
+<script src="https://gist.github.com/nodoherty/7582987.js"></script>
+
+Any element with the *.icomatic* class will apply the icomatic font family, as per the previous CSS, which in turn will display your icon (*as long as the icon label text you have supplied within the mark-up matches that in the font file*).
+
+To change the icon size and color you simply specify the CSS *font-size* and *color* attribute.
+There is a great [example](http://icomatic.github.io/sample-set/kit/icomatic.html) of this on the Icomatic site which allows you to experiment with the icon size and colour using the controls located at the top-right corner.
+
+### The result
+####Topcoat Tab Bar with Button Icons
+![Topcoat Tab Bar with Button Icons](topcoat-tabbar-with-buttons.png "Topcoat Tab Bar with Button Icons") <br />
+####Topcoat Sidebar with Icons
+![Topcoat Sidebar with Icons](topcoat-sidebar-with-icons.png "Topcoat Sidebar with Icons")
+
+### One additional benefit
+If that wasn't good enough, how would you like to add some depth / shadow to your icons...for free?  Well it's as simple as applying the CSS *text-shadow* attribute, as you would in...you guessed it, a font like so:
+
+<pre><code>text-shadow : 0 -1px rgba(0, 0, 0, 0.69);</code></pre>
+
+This effect has also been applied to my icons in the images above.  All without the need to update any images / sprites.
+
+### What about sprite images?
+Sprite images are still an option although I preferred not to have to specify a CSS rule and image position for every icon I wanted to use, even if I was using a sprite creation tool.
+
+I also didn't want to have to compile a custom sprite image to only include the icons being used in my application.  Out of the box, font icons seemed to be the most efficient option.
+
+### Summary of resources
+* [Topcoat](http://topcoat.io)
+* [Topcoat Icons](https://github.com/topcoat/icons)
+* [Icomatic](http://icomatic.io)
+* [Icomatic Demo](http://icomatic.github.io/sample-set/kit/icomatic.html)
+
+If there is enough interest I am happy to supply a screen-cast of this process, so please mention this in the comments if it's something you would find helpful. 
+
+> Kindly brought to you by [Niall O'Doherty](http://www.twitter.com/nodoherty) - [@nodoherty](http://www.twitter.com/nodoherty).
+> Errors and omissions excepted</div></article><div id="disqus_thread"></div><script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'topcoat'; // required: replace example with your forum shortname
+var disqus_title = 'Semantic Icon Font using Topcoat Icons';
+
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+ var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></section><footer class="site"><ul><li id="twitter"><a href="http://twitter.com/topcoat"></a></li><li id="github"><a href="http://github.com/topcoat"></a></li><li id="adobe"><a href="http://html.adobe.com"></a></li></ul></footer></div></div><script type="text/javascript">// Add a script element as a child of the body
 function downloadJSAtOnload() {
     var edgewebfontselement = document.createElement("script");
     edgewebfontselement.src = "//use.edgefonts.net/source-sans-pro.js";
