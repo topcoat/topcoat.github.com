@@ -67,11 +67,11 @@ There is a great [example](http://icomatic.github.io/sample-set/kit/icomatic.htm
 
 ### The result
 
-####Topcoat Tab Bar with Button Icons
+##### Topcoat Tab Bar with Button Icons
 
 ![Topcoat Tab Bar with Button Icons](topcoat-tabbar-with-buttons.png "Topcoat Tab Bar with Button Icons") <br />
 
-####Topcoat Sidebar with Icons
+##### Topcoat Sidebar with Icons
 
 ![Topcoat Sidebar with Icons](topcoat-sidebar-with-icons.png "Topcoat Sidebar with Icons")
 
