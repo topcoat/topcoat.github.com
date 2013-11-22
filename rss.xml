@@ -5,14 +5,23 @@
         <description><![CDATA[CSS for clean and fast web apps.]]></description>
         <link>http://topcoat.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 19 Nov 2013 18:23:27 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 Nov 2013 00:42:07 GMT</lastBuildDate>
         <atom:link href="http://topcoat.io/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 19 Nov 2013 18:23:20 GMT</pubDate>
+        <pubDate>Fri, 22 Nov 2013 00:41:54 GMT</pubDate>
+        <item>
+            <title><![CDATA[Topcoat]]></title>
+            <description><![CDATA[<section id="hero"><ul><li id="desktop-preview"></li><li id="mobile-preview"></li></ul></section><section class="features"><ul><li id="performance" class="clearfix"><a class="vignette"></a><h3>Soooo Fast!</h3><p>Performance is our #1 goal. Every component we design is <a href="http://bench.topcoat.io">benchmarked for performance</a>. You can see our results.</p></li><li id="components"><a class="vignette clearfix"></a><h3>Components Galore</h3><p>We have the building blocks to get you up and running fast. Our growing set of components were born from CSS.</p></li><li id="themes"><a class="vignette"></a><h3>Themeable</h3><p>Is that even a word? It should be! We love our theme, but we don’t want to hit your brand over the head with it. Just add colors and voila!</p></li><li id="bem"><a class="vignette"></a><h3>BEM Architecture</h3><p>We believe CSS is ready for primetime. We are basing our <a href="http://bem.info/method/">architecture on BEM</a> make your apps faster, less contextual and easier to manage.</p></li><li id="source-sans"><a class="vignette"></a><h3>Even our font is open source</h3><p>The first open source font family contribution from Adobe, Source Sans Pro. It is served on <a href="https://edgewebfonts.adobe.com/fonts#/?nameFilter=source&collection=source-sans-pro">Adobe Edge Web Fonts</a> and <a href="https://typekit.com/fonts/source-sans-pro">Adobe Typekit</a>.</p></li><li id="icons"><a class="vignette"></a><h3>Icons how you want them</h3><p>We created over <a href="https://github.com/topcoat/icons">100 icons to go with Topcoat</a>.  You can use them as SVG, PNG or semantic icon font. And yes, they are also open source.</p></li><li id="design"><a class="vignette"></a><h3>Design with Topcoat</h3><p>Even though Topcoat was designed in code. We are <a href="https://github.com/topcoat/design">including a PSD</a> with all the components on our code base.</p></li></ul><div style="clear:both;"></div></section>]]></description>
+            <link>http://topcoat.io/</link>
+            <guid isPermaLink="true">
+                http://topcoat.io/            </guid>
+            <pubDate>Fri, 22 Nov 2013 00:32:08 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Blog]]></title>
-            <description><![CDATA[<section id="content"><section class="articlelist"><article><h2><a href="/posts/intel-xdk/">Responsive Design Tool for TopCoat</a></h2><p><p>Intel has updated the <a href="http://xdk.intel.com/">Intel XDK</a>, an HTML5 development IDE. This new version has a WYSIWYG UI building tool that supports TopCoat and responsive design.</p></p><footer><a href="/posts/intel-xdk/">Read More...</a><div class="published"> 
+            <description><![CDATA[<section id="content"><section class="articlelist"><article><h2><a href="/posts/semantic-icon-font-using-topcoat-icons/">Semantic Icon Font using Topcoat Icons</a></h2><p><p>Learn how, and why, to use the CSS @font-face rule with Topcoat icons in your mobile applications</p></p><footer><a href="/posts/semantic-icon-font-using-topcoat-icons/">Read More...</a><div class="published"> 
+Published 21 Nov 2013 by <a href='http://www.niallodoherty.com'>Niall O'Doherty</a></div></footer></article><article><h2><a href="/posts/intel-xdk/">Responsive Design Tool for TopCoat</a></h2><p><p>Intel has updated the <a href="http://xdk.intel.com/">Intel XDK</a>, an HTML5 development IDE. This new version has a WYSIWYG UI building tool that supports TopCoat and responsive design.</p></p><footer><a href="/posts/intel-xdk/">Read More...</a><div class="published"> 
 Published 28 Oct 2013 by <a href='http://xdk.intel.com'>Chris Perkins</a></div></footer></article><article><h2><a href="/posts/color-me-topcoat/">Color Me Topcoat</a></h2><p><p>Topcoat 0.8.0 is out!  This build focused on improving customization and theming workflows, specifically on optimizing colors in the theme.</p></p><footer><a href="/posts/color-me-topcoat/">Read More...</a><div class="published"> 
-Published 20 Oct 2013 by <a href='http://www.garthdb.com/'>Garth Braithwaite</a></div></footer></article><article><h2><a href="/posts/mini-release-0.7.5/">Mini Release 0.7.5</a></h2><p><p>There are too many good components to wait until 0.8.0</p></p><footer><a href="/posts/mini-release-0.7.5/">Read More...</a><div class="published"> 
+Published 21 Oct 2013 by <a href='http://www.garthdb.com/'>Garth Braithwaite</a></div></footer></article><article><h2><a href="/posts/mini-release-0.7.5/">Mini Release 0.7.5</a></h2><p><p>There are too many good components to wait until 0.8.0</p></p><footer><a href="/posts/mini-release-0.7.5/">Read More...</a><div class="published"> 
 Published 23 Sep 2013 by <a href='http://www.garthdb.com/'>Garth Braithwaite</a></div></footer></article><article><h2><a href="/posts/generating-css-component-documentation/">Generating Documentation for CSS Components</a></h2><p><p>Topcoat needed HTML demos, so we built a tool for generating documentation and demos from Topcoat&#39;s CSS comments; behold, Topdoc.</p></p><footer><a href="/posts/generating-css-component-documentation/">Read More...</a><div class="published"> 
 Published 19 Sep 2013 by <a href='http://www.garthdb.com/'>Garth Braithwaite</a></div></footer></article><article><h2><a href="/posts/desktop-parity-party/">Desktop Parity Party</a></h2><p><p>Topcoat 0.7.0 is out and it has some features we&#39;ve been looking forward to. The main goal was parity with the <a href="https://github.com/topcoat/design">Topcoat Desktop Kit</a>, but we also slipped in some new components, improved workflows for hacking on Topcoat, and added <a href="https://github.com/ai/autoprefixer">Autoprefixer</a>.</p></p><footer><a href="/posts/desktop-parity-party/">Read More...</a><div class="published"> 
 Published 30 Aug 2013 by <a href='http://www.garthdb.com/'>Garth Braithwaite</a></div></footer></article><article><h2><a href="/posts/topcoat-components-deep-dive/">Topcoat components deep dive</a></h2><p><p>We have been getting a lot of people asking how they can help add components to Topcoat. What follows is an overview of our proposed workflow as well as some more in depth explanations into some of lesser known parts of the Topcoat architecture.</p></p><footer><a href="/posts/topcoat-components-deep-dive/">Read More...</a><div class="published"> 
@@ -24,15 +33,7 @@ Published 5 Jun 2013 by <a href='http://brian.io/'>Brian LeRoux</a></div></foote
             <link>http://topcoat.io/blog/</link>
             <guid isPermaLink="true">
                 http://topcoat.io/blog/            </guid>
-            <pubDate>Fri, 30 Aug 2013 21:39:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Topcoat]]></title>
-            <description><![CDATA[<section id="hero"><ul><li id="desktop-preview"></li><li id="mobile-preview"></li></ul></section><section class="features"><ul><li id="performance" class="clearfix"><a class="vignette"></a><h3>Soooo Fast!</h3><p>Performance is our #1 goal. Every component we design is <a href="http://bench.topcoat.io">benchmarked for performance</a>. You can see our results.</p></li><li id="components"><a class="vignette clearfix"></a><h3>Components Galore</h3><p>We have the building blocks to get you up and running fast. Our growing set of components were born from CSS.</p></li><li id="themes"><a class="vignette"></a><h3>Themeable</h3><p>Is that even a word? It should be! We love our theme, but we don’t want to hit your brand over the head with it. Just add colors and voila!</p></li><li id="bem"><a class="vignette"></a><h3>BEM Architecture</h3><p>We believe CSS is ready for primetime. We are basing our <a href="http://bem.info/method/">architecture on BEM</a> make your apps faster, less contextual and easier to manage.</p></li><li id="source-sans"><a class="vignette"></a><h3>Even our font is open source</h3><p>The first open source font family contribution from Adobe, Source Sans Pro. It is served on <a href="https://edgewebfonts.adobe.com/fonts#/?nameFilter=source&collection=source-sans-pro">Adobe Edge Web Fonts</a> and <a href="https://typekit.com/fonts/source-sans-pro">Adobe Typekit</a>.</p></li><li id="icons"><a class="vignette"></a><h3>Icons how you want them</h3><p>We created over <a href="https://github.com/topcoat/icons">100 icons to go with Topcoat</a>.  You can use them as SVG, PNG or semantic icon font. And yes, they are also open source.</p></li><li id="design"><a class="vignette"></a><h3>Design with Topcoat</h3><p>Even though Topcoat was designed in code. We are <a href="https://github.com/topcoat/design">including a PSD</a> with all the components on our code base.</p></li></ul><div style="clear:both;"></div></section>]]></description>
-            <link>http://topcoat.io/</link>
-            <guid isPermaLink="true">
-                http://topcoat.io/            </guid>
-            <pubDate>Fri, 30 Aug 2013 21:39:35 GMT</pubDate>
+            <pubDate>Fri, 22 Nov 2013 00:32:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Topcoat]]></title>
@@ -40,7 +41,7 @@ Published 5 Jun 2013 by <a href='http://brian.io/'>Brian LeRoux</a></div></foote
             <link>http://topcoat.io/dev/topcoat-cla-thanks/</link>
             <guid isPermaLink="true">
                 http://topcoat.io/dev/topcoat-cla-thanks/            </guid>
-            <pubDate>Fri, 30 Aug 2013 21:39:35 GMT</pubDate>
+            <pubDate>Fri, 22 Nov 2013 00:32:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Topcoat Contributor License and Distribution Agreement]]></title>
@@ -118,90 +119,78 @@ Published 5 Jun 2013 by <a href='http://brian.io/'>Brian LeRoux</a></div></foote
             <link>http://topcoat.io/dev/topcoat-cla/</link>
             <guid isPermaLink="true">
                 http://topcoat.io/dev/topcoat-cla/            </guid>
-            <pubDate>Fri, 30 Aug 2013 21:39:35 GMT</pubDate>
+            <pubDate>Fri, 22 Nov 2013 00:32:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Benchmarks and Results for Topcoat]]></title>
-            <description><![CDATA[<p>Topcoat is built with performance in mind and for that we are striving to benchmark everything. If you visit <a href="http://bench.topcoat.io">bench.topcoat.io</a> you will see the components from our latest release and their benchmark over time.</p>
+            <description><![CDATA[Topcoat is built with performance in mind and for that we are striving to benchmark everything. If you visit [bench.topcoat.io](http://bench.topcoat.io) you will see the components from our latest release and their benchmark over time.
 
-<p>The goal of the website is to have publicly accessible benchmark results for our users and for us to spot regressions and performance issues.</p>
+The goal of the website is to have publicly accessible benchmark results for our users and for us to spot regressions and performance issues.
 
-<h2>Key metrics</h2>
+## Key metrics
+ * Mean frame time (Frame time) - not frames per second (FPS) this is actually a more accurate rating of performance, a good article with an in depth explanation: [fps versus frame time](http://www.mvps.org/directx/articles/fps_versus_frame_time.htm)
 
-<ul>
-<li><p>Mean frame time (Frame time) - not frames per second (FPS) this is actually a more accurate rating of performance, a good article with an in depth explanation: <a href="http://www.mvps.org/directx/articles/fps_versus_frame_time.htm">fps versus frame time</a></p></li>
-<li><p>Load time</p></li>
-<li><p>Layout time</p>
+ * Load time
 
-<p><img src="screenshot.png" alt="plot screenshot" title="Plot screenshot"/></p></li>
-</ul>
+ * Layout time
+ 
+ ![plot screenshot](screenshot.png "Plot screenshot")
 
-<p>The server can also be used offline for components development. You can make changes to a component, say for example swap box-shadow for for a dark border with reduced opacity, the plots can offer you a nicer visualisation of the performance impact.</p>
+The server can also be used offline for components development. You can make changes to a component, say for example swap box-shadow for for a dark border with reduced opacity, the plots can offer you a nicer visualisation of the performance impact.
 
-<p>There is a <a href="http://www.youtube.com/watch?v=Mhw4Sf1WWwQ">screencast</a> where you can see how to get started with using it for your own needs.</p>
+There is a [screencast](http://www.youtube.com/watch?v=Mhw4Sf1WWwQ) where you can see how to get started with using it for your own needs.
 
 <iframe class="video" src="//www.youtube.com/embed/Mhw4Sf1WWwQ" frameborder="0" allowfullscreen></iframe>
 
-<h2>How</h2>
+## How
 
-<p>We are using <a href="http://www.chromium.org/developers/telemetry">Chromium Telemetry</a>. Telemetry is a python powered framework used for cross-(chrome)-platform performance testing. It abstracts launching, connecting, and opening a page and records the metrics mentioned above and many others.</p>
+We are using [Chromium Telemetry](http://www.chromium.org/developers/telemetry). Telemetry is a python powered framework used for cross-(chrome)-platform performance testing. It abstracts launching, connecting, and opening a page and records the metrics mentioned above and many others.
 
-<p>We have a Grunt task that takes results and pushes them to the server.</p>
+We have a Grunt task that takes results and pushes them to the server.
 
-<p>The server is written in Node and uses <a href="http://www.flotcharts.org/">http://www.flotcharts.org/</a> to display the results.</p>
+The server is written in Node and uses [http://www.flotcharts.org/](http://www.flotcharts.org/) to display the results.
 
-<h2>Usage guide</h2>
+## Usage guide
 
-<ol>
-<li><a href="http://www.chromium.org/developers/how-tos/get-the-code">chromium.org/developers/how-tos/get-the-code</a> offers step by step instructions on how to download Chromium. You will need it entirely if you want to run Telemetry so be ready for a ~1.6GB download.</li>
-<li>In <code>chromium/src/tools/perf/page_sets</code> you will find <em>**.json</em>* files which are required as input when running the telemetry tests. There is a specific boilerplate json that you will need to write in order to tell Telemetry where the page you want to benchmark is located.</li>
-<li>To run Telemetry you will need to be in <code>chromium/src/tools/perf</code>. The command is
-<code>./run_multipage_benchmarks --browser=system loading_benchmark page_sets/topcoat_buttons-base.test.json -o /tmp/loading_benchmark_topcoat_buttons-base.txt</code>
+1. [chromium.org/developers/how-tos/get-the-code](http://www.chromium.org/developers/how-tos/get-the-code) offers step by step instructions on how to download Chromium. You will need it entirely if you want to run Telemetry so be ready for a ~1.6GB download.
+2. In `chromium/src/tools/perf/page_sets` you will find ***.json** files which are required as input when running the telemetry tests. There is a specific boilerplate json that you will need to write in order to tell Telemetry where the page you want to benchmark is located.
+3. To run Telemetry you will need to be in `chromium/src/tools/perf`. The command is
+	`./run_multipage_benchmarks --browser=system loading_benchmark page_sets/topcoat_buttons-base.test.json -o /tmp/loading_benchmark_topcoat_buttons-base.txt`
+	* **loading_benchmark** parameter tells Telemetry to record load time, layout time, the time it took to parse the HTML etc.
+	* **smoothness_benchmark** parameter tells Telemetry to scroll the page while recording, this time it captures mean frame time, jank count and many others.
+4. After you have the data you can use the Grunt task in the Topcoat repo to parse the files that have specified as output and submit them to your clone of Topcoat Server running locally.
+All of these steps are also shown in the [screencast](http://www.youtube.com/watch?v=Mhw4Sf1WWwQ).
 
-<ul>
-<li><strong>loading_benchmark</strong> parameter tells Telemetry to record load time, layout time, the time it took to parse the HTML etc.</li>
-<li><strong>smoothness_benchmark</strong> parameter tells Telemetry to scroll the page while recording, this time it captures mean frame time, jank count and many others.</li>
-</ul></li>
-<li>After you have the data you can use the Grunt task in the Topcoat repo to parse the files that have specified as output and submit them to your clone of Topcoat Server running locally.
-All of these steps are also shown in the <a href="http://www.youtube.com/watch?v=Mhw4Sf1WWwQ">screencast</a>.</li>
-</ol>
+If there are any questions you can use the comments below, I'm looking forward to seeing pull requests/issues reporting for the project. You can also hit me up on twitter [@ndreio](http://twitter.com/ndreio)
 
-<p>If there are any questions you can use the comments below, I&#39;m looking forward to seeing pull requests/issues reporting for the project. You can also hit me up on twitter <a href="http://twitter.com/ndreio">@ndreio</a></p>
+Useful links:
 
-<p>Useful links:</p>
-
-<ul>
-<li>main home page <a href="http://topcoat.io">http://topcoat.io</a></li>
-<li>github repository <a href="https://github.com/topcoat/">https://github.com/topcoat/</a></li>
-<li>Topcoat Server <a href="https://github.com/topcoat/topcoat-server">https://github.com/topcoat/topcoat-server</a></li>
-<li>more about Chromium Telemetry <a href="http://www.chromium.org/developers/telemetry">http://www.chromium.org/developers/telemetry</a></li>
-</ul>
-]]></description>
+* main home page [http://topcoat.io](http://topcoat.io)
+* github repository [https://github.com/topcoat/](https://github.com/topcoat/)
+* Topcoat Server [https://github.com/topcoat/topcoat-server](https://github.com/topcoat/topcoat-server)
+* more about Chromium Telemetry [http://www.chromium.org/developers/telemetry](http://www.chromium.org/developers/telemetry)]]></description>
             <link>http://topcoat.io/posts/benchmarks/</link>
             <guid isPermaLink="true">
                 http://topcoat.io/posts/benchmarks/            </guid>
             <dc:creator><![CDATA[ndreio]]></dc:creator>
-            <pubDate>Mon, 15 Jul 2013 20:49:00 GMT</pubDate>
+            <pubDate>Mon, 15 Jul 2013 12:49:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Color Me Topcoat]]></title>
-            <description><![CDATA[<p>Deep in the pits of the Topcoat Theme lived way too many colors.  It made it tricky to customize a new theme quickly.  So we leveraged the color functions from Stylus to wittle the colors down to just a few base colors:</p>
+            <description><![CDATA[Deep in the pits of the Topcoat Theme lived way too many colors.  It made it tricky to customize a new theme quickly.  So we leveraged the color functions from Stylus to wittle the colors down to just a few base colors:
 
-<ul>
-<li>Text color</li>
-<li>Control base color</li>
-<li>Page base color</li>
-<li>Notification color</li>
-<li>Highlight color</li>
-<li>Shadow color</li>
-</ul>
+* Text color
+* Control base color
+* Page base color
+* Notification color
+* Highlight color
+* Shadow color
 
-<p>This colors then effect the rest of the theme.  Each of the previous colors can still be declared manually if you need that control.</p>
+This colors then effect the rest of the theme.  Each of the previous colors can still be declared manually if you need that control.
 
-<p>Here&#39;s a screencast that steps through the theme and how to tweak it.</p>
+Here's a screencast that steps through the theme and how to tweak it.
 
-<div class="videoWrapper" style="position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0;"><iframe src="//player.vimeo.com/video/77716726" width="500" height="281" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-]]></description>
+<div class="videoWrapper" style="position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0;"><iframe src="//player.vimeo.com/video/77716726" width="500" height="281" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>]]></description>
             <link>http://topcoat.io/posts/color-me-topcoat/</link>
             <guid isPermaLink="true">
                 http://topcoat.io/posts/color-me-topcoat/            </guid>
@@ -210,221 +199,200 @@ All of these steps are also shown in the <a href="http://www.youtube.com/watch?v
         </item>
         <item>
             <title><![CDATA[Desktop Parity Party]]></title>
-            <description><![CDATA[<p>Topcoat 0.7.0 is out and it has some features we&#39;ve been looking forward to. The main goal was parity with the <a href="https://github.com/topcoat/design">Topcoat Desktop Kit</a>, but we also slipped in some new components, improved workflows for hacking on Topcoat, and added <a href="https://github.com/ai/autoprefixer">Autoprefixer</a>.</p>
+            <description><![CDATA[Topcoat 0.7.0 is out and it has some features we've been looking forward to. The main goal was parity with the [Topcoat Desktop Kit](https://github.com/topcoat/design), but we also slipped in some new components, improved workflows for hacking on Topcoat, and added [Autoprefixer](https://github.com/ai/autoprefixer).
 
-<h2>Desktop Parity</h2>
+## Desktop Parity
 
-<p>This release was primarily focused on bringing the desktop stylesheets in parity with <a href="https://github.com/topcoat/design">Topcoat Desktop Kit</a> designed by <a href="https://twitter.com/larz">Larz</a> and <a href="http://www.behance.net/nnnnic">Nic</a> from Adobe XD. This parity means additional states like focus and hover that weren&#39;t previously a priority as we were focused on mobile. It also takes into account appropriate sizing and platform specific components, like <a href="http://topcoat.io/list">List</a> and <a href="http://topcoat.io/navigation-bar">Navigation Bar</a>, which are now only included in the mobile stylesheets.</p>
+This release was primarily focused on bringing the desktop stylesheets in parity with [Topcoat Desktop Kit](https://github.com/topcoat/design) designed by [Larz](https://twitter.com/larz) and [Nic](http://www.behance.net/nnnnic) from Adobe XD. This parity means additional states like focus and hover that weren't previously a priority as we were focused on mobile. It also takes into account appropriate sizing and platform specific components, like [List](http://topcoat.io/list) and [Navigation Bar](http://topcoat.io/navigation-bar), which are now only included in the mobile stylesheets.
 
-<h2>New Components</h2>
+## New Components
 
-<p>We have a couple of new components. <a href="http://topcoat.io/topcoat/#icon-button">Icon Button</a> has returned, as well as the addition of <a href="http://topcoat.io/topcoat/#button-bar">Button Bar</a>. Taking a look at our design repo, you&#39;ll notice we still have plenty of components left to build.  <a href="http://twitter.com/dam">Kristofer Joseph</a> put together a <a href="http://topcoat.io/posts/topcoat-components-deep-dive/">deep dive</a> on the component architecture to make it easier to get started if you&#39;d like to help contribute.</p>
+We have a couple of new components. [Icon Button](http://topcoat.io/topcoat/#icon-button) has returned, as well as the addition of [Button Bar](http://topcoat.io/topcoat/#button-bar). Taking a look at our design repo, you'll notice we still have plenty of components left to build.  [Kristofer Joseph](http://twitter.com/dam) put together a [deep dive](http://topcoat.io/posts/topcoat-components-deep-dive/) on the component architecture to make it easier to get started if you'd like to help contribute.
 
-<h2>Autoprefixer</h2>
+## Autoprefixer
 
-<p>The way Topcoat&#39;s build process has been designed; you can grab just what you need for your specific project and targeted platforms.  We&#39;ve taken that a step further by adding <a href="https://github.com/ai/autoprefixer">Autoprefixer</a>.  It uses the data from <a href="http://caniuse.com/">Can I Use</a> to let you add only the vendor specific prefixes you need.  This also frees up the source for the components to be vendor agnostic.</p>
+The way Topcoat's build process has been designed; you can grab just what you need for your specific project and targeted platforms.  We've taken that a step further by adding [Autoprefixer](https://github.com/ai/autoprefixer).  It uses the data from [Can I Use](http://caniuse.com/) to let you add only the vendor specific prefixes you need.  This also frees up the source for the components to be vendor agnostic.
 
-<h2>Topdoc 0.2.0</h2>
+## Topdoc 0.2.0
 
-<p>We use <a href="http://github.com/topcoat/topdoc">Topdoc</a> to build the demo files from Topcoat&#39;s css. In this release we&#39;ve updated the Topdoc spec to leverage a <a href="http://nodeca.github.io/js-yaml/">YAML</a> syntax which give us improved flexibility in the component&#39;s metadata. Additionally we are now leveraging Topdoc to generate html demo files for the individual components and are publishing them on <a href="http://pages.github.com/">GitHub Pages</a> at <a href="http://topcoat.io/%7B">http://topcoat.io/{</a> component name }</p>
+We use [Topdoc](http://github.com/topcoat/topdoc) to build the demo files from Topcoat's css. In this release we've updated the Topdoc spec to leverage a [YAML](http://nodeca.github.io/js-yaml/) syntax which give us improved flexibility in the component's metadata. Additionally we are now leveraging Topdoc to generate html demo files for the individual components and are publishing them on [GitHub Pages](http://pages.github.com/) at http://topcoat.io/{ component name }
 
-<ul>
-<li><a href="http://topcoat.io/button-bar">Button Bar</a></li>
-<li><a href="http://topcoat.io/button">Button</a></li>
-<li><a href="http://topcoat.io/checkbox">Checkbox</a></li>
-<li><a href="http://topcoat.io/icon-button">Icon Button</a></li>
-<li><a href="http://topcoat.io/list">List</a> *Mobile only</li>
-<li><a href="http://topcoat.io/navigation-bar">Navigation Bar</a> *Mobile only</li>
-<li><a href="http://topcoat.io/radio-button">Radio Button</a></li>
-<li><a href="http://topcoat.io/search-input">Search Input</a></li>
-<li><a href="http://topcoat.io/text-input">Text Input</a></li>
-<li><a href="http://topcoat.io/textarea">Text Area</a></li>
-</ul>
+- [Button Bar](http://topcoat.io/button-bar)
+- [Button](http://topcoat.io/button)
+- [Checkbox](http://topcoat.io/checkbox)
+- [Icon Button](http://topcoat.io/icon-button)
+- [List](http://topcoat.io/list) *Mobile only
+- [Navigation Bar](http://topcoat.io/navigation-bar) *Mobile only
+- [Radio Button](http://topcoat.io/radio-button)
+- [Search Input](http://topcoat.io/search-input)
+- [Text Input](http://topcoat.io/text-input)
+- [Text Area](http://topcoat.io/textarea)
 
-<p>I will be posting a more detailed description of Topdoc soon.</p>
+I will be posting a more detailed description of Topdoc soon.
 
-<h2>Coming up in 0.8.0</h2>
+## Coming up in 0.8.0
 
-<p>With Desktop Parity in place we will be focusing on improving the theming workflow for the next release. Of course we&#39;ll also be adding more components, so watch the <a href="http://codepen.io/Topcoat">Topcoat Codepens</a> to see what&#39;s coming next.</p>
+With Desktop Parity in place we will be focusing on improving the theming workflow for the next release. Of course we'll also be adding more components, so watch the [Topcoat Codepens](http://codepen.io/Topcoat) to see what's coming next.
 
-<p>Also, look for <a href="http://twitter.com/dam">Kristofer Joseph</a> at <a href="http://pgday.phonegap.com/eu2013/">PhoneGap Day EU</a> in Amsterdam on Sep 24th.</p>
-]]></description>
+Also, look for [Kristofer Joseph](http://twitter.com/dam) at [PhoneGap Day EU](http://pgday.phonegap.com/eu2013/) in Amsterdam on Sep 24th.]]></description>
             <link>http://topcoat.io/posts/desktop-parity-party/</link>
             <guid isPermaLink="true">
                 http://topcoat.io/posts/desktop-parity-party/            </guid>
             <dc:creator><![CDATA[garthdb]]></dc:creator>
-            <pubDate>Fri, 30 Aug 2013 23:00:00 GMT</pubDate>
+            <pubDate>Fri, 30 Aug 2013 15:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Generating Documentation for CSS Components]]></title>
-            <description><![CDATA[<p><br></p>
+            <description><![CDATA[<br>
+### The Problem
 
-<h3>The Problem</h3>
+Topcoat's final product is CSS, which, by itself, is a little tricky to work with and get excited about. CSS is the topcoat of the web, but we need HTML to support it.  Topcoat's components are always getting updated, and the documentation and HTML demos need to be changed easily to match the CSS, so we built Topdoc to automate the process.
 
-<p>Topcoat&#39;s final product is CSS, which, by itself, is a little tricky to work with and get excited about. CSS is the topcoat of the web, but we need HTML to support it.  Topcoat&#39;s components are always getting updated, and the documentation and HTML demos need to be changed easily to match the CSS, so we built Topdoc to automate the process.</p>
+### Enter Topdoc
 
-<h3>Enter Topdoc</h3>
+[Topdoc](https://github.com/topcoat/topdoc) is a CSS comment structure and a documentation-generating tool.  It can be used in the command line, or with a [grunt task](https://github.com/topcoat/grunt-topdoc), to generate HTML demos from CSS comments.
 
-<p><a href="https://github.com/topcoat/topdoc">Topdoc</a> is a CSS comment structure and a documentation-generating tool.  It can be used in the command line, or with a <a href="https://github.com/topcoat/grunt-topdoc">grunt task</a>, to generate HTML demos from CSS comments.</p>
+Originally we hoped we could find an existing tool, but none of them quite fit our needs.  We posted a comparison on the [wiki](https://github.com/topcoat/topdoc/wiki/Comparisons).
 
-<p>Originally we hoped we could find an existing tool, but none of them quite fit our needs.  We posted a comparison on the <a href="https://github.com/topcoat/topdoc/wiki/Comparisons">wiki</a>.</p>
+### How Does it Work?
 
-<h3>How Does it Work?</h3>
+We use Topdoc block comments to separate our long form CSS file into individual components.  The Topdoc comment not only acts as a delimiter, but it also provides metadata for the component.  The Topdoc tool parses the stylesheet and passes the individual components and their metadata to a Jade template, which returns HTML.
 
-<p>We use Topdoc block comments to separate our long form CSS file into individual components.  The Topdoc comment not only acts as a delimiter, but it also provides metadata for the component.  The Topdoc tool parses the stylesheet and passes the individual components and their metadata to a Jade template, which returns HTML.</p>
-
-<h3>What Does the Metadata Look Like?</h3>
+### What Does the Metadata Look Like?
 
 <script src="https://gist.github.com/GarthDB/6606584.js"></script>
 
-<p>Let&#39;s break this down:</p>
+Let's break this down:
 
-<p><strong>Line 1</strong>: Topdoc comments start with topdoc on the first comment line, it makes it quick and easy to identify from other comments.</p>
+**Line 1**: Topdoc comments start with `topdoc on the first comment line, it makes it quick and easy to identify from other comments.
 
-<p>The rest of the data uses a <a href="http://www.yaml.org/">YAML</a> friendly syntax.</p>
+The rest of the data uses a [YAML](http://www.yaml.org/) friendly syntax.
 
-<p>The fields can be in any order, but this is a good example for consistency&#39;s sake.</p>
+The fields can be in any order, but this is a good example for consistency's sake.
 
-<p>The following are recommended and/or required fields:</p>
+The following are recommended and/or required fields:
 
-<ul>
-<li><strong>Line 2</strong>: <code>name</code> (required): The full name of the component.  Feel free to use spaces, punctuation, etc (name: Sir Button III, esq.)</li>
-<li><strong>Line 3</strong>: <code>description</code>: Something more descriptive then the title alone.</li>
-<li><strong>Line 4</strong>: <code>modifiers</code>: These can be pseudo classes, or addition rules applied to the component. This should be a <a href="http://yaml4r.sourceforge.net/doc/page/collections_in_yaml.htm">YAML mapping</a> (<code>*modifier*:*description*</code>) which becomes a js hash.  Use the colon to separate the pseudo-class modifier from the description.</li>
-<li><strong>Line 7</strong>: <code>markup</code> (required): This is the magic; it&#39;s the html that will be used to display the component in the docs. Because YAML and HTML both have odd relationships with whitespace, this property is separated as plain text.  Just make sure to indent the code one more time than the other YAML properties.</li>
-<li><strong>Line 12</strong>: <code>tags</code>: Just some obligatory metadata. We aren&#39;t currently using them on Topcoat, but we like having the option.</li>
-<li><strong>Line 18</strong>: <code>blarg</code>: Since Topdoc uses a flexible YAML syntax, feel free to add any additional custom data you might need for your template.</li>
-</ul>
+* **Line 2**: `name` (required): The full name of the component.  Feel free to use spaces, punctuation, etc (name: Sir Button III, esq.)
+* **Line 3**: `description`: Something more descriptive then the title alone.
+* **Line 4**: `modifiers`: These can be pseudo classes, or addition rules applied to the component. This should be a [YAML mapping](http://yaml4r.sourceforge.net/doc/page/collections_in_yaml.htm) (`*modifier*:*description*`) which becomes a js hash.  Use the colon to separate the pseudo-class modifier from the description.
+* **Line 7**: `markup` (required): This is the magic; it's the html that will be used to display the component in the docs. Because YAML and HTML both have odd relationships with whitespace, this property is separated as plain text.  Just make sure to indent the code one more time than the other YAML properties.
+* **Line 12**: `tags`: Just some obligatory metadata. We aren't currently using them on Topcoat, but we like having the option.
+* **Line 18**: `blarg`: Since Topdoc uses a flexible YAML syntax, feel free to add any additional custom data you might need for your template.
 
-<h3>Any Other Data?</h3>
+### Any Other Data?
 
-<p>Topdoc can also pass through some general data about the project to the Jade template.  This data can be placed in the <code>package.json</code> file, or just be passed through to the tool as an argument.  If data is not passed through, it will check the <code>package.json</code> file.  See the README on the Topdoc <a href="https://github.com/topcoat/topdoc">github page</a>.</p>
+Topdoc can also pass through some general data about the project to the Jade template.  This data can be placed in the `package.json` file, or just be passed through to the tool as an argument.  If data is not passed through, it will check the `package.json` file.  See the README on the Topdoc [github page](https://github.com/topcoat/topdoc).
 
-<h3>How Are We Using Topdoc?</h3>
+### How Are We Using Topdoc?
 
-<p>The <a href="http://topcoat.io/topcoat">demo page</a> on Topcoat.io is generated using Topdoc, but we also found it really helpful for testing individual components while we are working on them.  An added benefit to using it on the individual component level, it generates gh-pages for public testing.</p>
+The [demo page](http://topcoat.io/topcoat) on Topcoat.io is generated using Topdoc, but we also found it really helpful for testing individual components while we are working on them.  An added benefit to using it on the individual component level, it generates gh-pages for public testing.
 
-<p>Topdoc is independent of the Topcoat project, and can be used with any modular css documentation. Check out Topdoc&#39;s <a href="https://github.com/topcoat/topdoc">README</a> for details on installation and usage.</p>
+Topdoc is independent of the Topcoat project, and can be used with any modular css documentation. Check out Topdoc's [README](https://github.com/topcoat/topdoc) for details on installation and usage.
 
-<h3>What&#39;s Next?</h3>
+### What's Next?
 
-<p>Topdoc could really use live reloading integrated, probably using something like Grunt&#39;s <a href="https://github.com/gruntjs/grunt-contrib-watch#optionslivereload">live reload</a>.  Also it would be great to have Topdoc write the demo files to the gh-pages branch on release.</p>
+Topdoc could really use live reloading integrated, probably using something like Grunt's [live reload](https://github.com/gruntjs/grunt-contrib-watch#optionslivereload).  Also it would be great to have Topdoc write the demo files to the gh-pages branch on release.
 
-<h3>One More Thing</h3>
+### One More Thing
 
-<p>We have put together a few more components, and don&#39;t want to wait until the end of the cycle to release them with v0.8.0, so we&#39;re releasing them soon as v0.7.5.</p>
+We have put together a few more components, and don't want to wait until the end of the cycle to release them with v0.8.0, so we're releasing them soon as v0.7.5.
 
-<p>The new components include:</p>
+The new components include:
 
-<ul>
-<li>Tab Bar</li>
-<li>Notification</li>
-<li>Switch</li>
-<li>Range</li>
-<li>Error state for text-input</li>
-</ul>
-]]></description>
+* Tab Bar
+* Notification
+* Switch
+* Range
+* Error state for text-input]]></description>
             <link>http://topcoat.io/posts/generating-css-component-documentation/</link>
             <guid isPermaLink="true">
                 http://topcoat.io/posts/generating-css-component-documentation/            </guid>
             <dc:creator><![CDATA[garthdb]]></dc:creator>
-            <pubDate>Thu, 19 Sep 2013 23:00:00 GMT</pubDate>
+            <pubDate>Thu, 19 Sep 2013 15:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Responsive Design Tool for TopCoat]]></title>
-            <description><![CDATA[<p>Intel has updated the <a href="http://xdk.intel.com/">Intel XDK</a>, an HTML5 development IDE. This new version has a WYSIWYG UI building tool that supports TopCoat and responsive design. It also uses Brackets for code editing. Take a look and share your thoughts.</p>
+            <description><![CDATA[Intel has updated the [Intel XDK](http://xdk.intel.com/), an HTML5 development IDE. This new version has a WYSIWYG UI building tool that supports TopCoat and responsive design. It also uses Brackets for code editing. Take a look and share your thoughts.
 
-<p><a href="app_designer_selecting_topcoat.png"><img src="app_designer_selecting_topcoat.png" alt="electing topcoat"/></a></p>
+[![electing topcoat](app_designer_selecting_topcoat.png)](app_designer_selecting_topcoat.png)
 
-<p><a href="app_designer_using_topcoat_narrow.png"><img src="app_designer_using_topcoat_narrow.png" alt="narrow"/></a></p>
+[![narrow](app_designer_using_topcoat_narrow.png)](app_designer_using_topcoat_narrow.png)
 
-<p><a href="app_designer_using_topcoat_wide.png"><img src="app_designer_using_topcoat_wide.png" alt="wide"/></a></p>
-]]></description>
+[![wide](app_designer_using_topcoat_wide.png)](app_designer_using_topcoat_wide.png)]]></description>
             <link>http://topcoat.io/posts/intel-xdk/</link>
             <guid isPermaLink="true">
                 http://topcoat.io/posts/intel-xdk/            </guid>
             <dc:creator><![CDATA[[object Object]]]></dc:creator>
-            <pubDate>Tue, 29 Oct 2013 00:30:00 GMT</pubDate>
+            <pubDate>Mon, 28 Oct 2013 17:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introducing Topcoat]]></title>
-            <description><![CDATA[<p>Topcoat is a brand new open source CSS library designed to help developers build web apps with an emphasis on speed. It evolved from the Adobe design language developed for Brackets, Edge Reflow, and feedback from the PhoneGap app developer community. </p>
+            <description><![CDATA[Topcoat is a brand new open source CSS library designed to help developers build web apps with an emphasis on speed. It evolved from the Adobe design language developed for Brackets, Edge Reflow, and feedback from the PhoneGap app developer community. 
 
-<p>Topcoat includes: </p>
+Topcoat includes: 
 
-<ul>
-<li>Our design research</li>
-<li>The resulting super customizable CSS build</li>
-<li>Automatically generated style guides</li>
-<li>PSD and other design artifacts</li>
-<li>A collection of simple and clean SVG icons</li>
-<li>The beautiful Adobe Source Sans Pro font family</li>
-<li>Benchmarking tools</li>
-</ul>
+- Our design research
+- The resulting super customizable CSS build
+- Automatically generated style guides
+- PSD and other design artifacts
+- A collection of simple and clean SVG icons
+- The beautiful Adobe Source Sans Pro font family
+- Benchmarking tools
 
-<p>It is a sweet little package, and we’re actively working on it to make it even more awesome with fresh releases every month. Our biggest goal is to start building a community around Topcoat and we’re structuring the project so contribution is super crazy simple to do. </p>
+It is a sweet little package, and we’re actively working on it to make it even more awesome with fresh releases every month. Our biggest goal is to start building a community around Topcoat and we’re structuring the project so contribution is super crazy simple to do. 
 
-<p><img src="example.png" alt="image"/></p>
+![image](example.png)
 
-<h2>Performance first!</h2>
+## Performance first!
 
-<p>Apps need to be fast and so Topcoat is being built with speed in mind. We’re benchmarking everything we can and plan to do even more as the project evolves. It is an early time but we’re already looking at how each CSS control impacts loading, layout, and frames per second. <br/>
-It is an awesome system, totally open source, and would be great stand alone tool for teams looking to find ways to measure their own apps performance. </p>
+Apps need to be fast and so Topcoat is being built with speed in mind. We’re benchmarking everything we can and plan to do even more as the project evolves. It is an early time but we’re already looking at how each CSS control impacts loading, layout, and frames per second. 
+It is an awesome system, totally open source, and would be great stand alone tool for teams looking to find ways to measure their own apps performance. 
 
-<h2>Custom builds and theming</h2>
+## Custom builds and theming
 
-<p>Topcoat contains not only CSS but also all the tools we used to build it. You can easily customize and extend Topcoat to craft it to exactly the experience you need. The controls in Topcoat CSS are authored in Stylus, and we utilize many of its features to allow for a clean separation of reset, from layout, from aesthetic, and between platforms. Each control lives in its own git repo. It is in this way we can construct builds that target specific platforms, with only the controls you need, and only for the devices you are targeting. </p>
+Topcoat contains not only CSS but also all the tools we used to build it. You can easily customize and extend Topcoat to craft it to exactly the experience you need. The controls in Topcoat CSS are authored in Stylus, and we utilize many of its features to allow for a clean separation of reset, from layout, from aesthetic, and between platforms. Each control lives in its own git repo. It is in this way we can construct builds that target specific platforms, with only the controls you need, and only for the devices you are targeting. 
 
-<p>Creating a completely optimized builds are crucial feature for building complex applications, and especially so when you want to do everything possible to make your app crazy fast. </p>
+Creating a completely optimized builds are crucial feature for building complex applications, and especially so when you want to do everything possible to make your app crazy fast. 
 
-<h2>Using Topcoat</h2>
+## Using Topcoat
 
-<p>Topcoat can be dropped into a web app and used immediately. Even better you can tune your performance down to each discrete CSS control.</p>
+Topcoat can be dropped into a web app and used immediately. Even better you can tune your performance down to each discrete CSS control.
 
-<h3>Getting started quickly</h3>
+### Getting started quickly
 
-<ol>
-<li>Clone from Github or download a specific version (E.g. <code>topcoat-0.3.0</code>) from <a href="http://topcoat.io">http://topcoat.io</a></li>
-<li>Reference the /css (Protip: look in /doc for usage guides.)</li>
-<li>Holy smokes there is no step three!</li>
-</ol>
+1. Clone from Github or download a specific version (E.g. `topcoat-0.3.0`) from http://topcoat.io
+2. Reference the /css (Protip: look in /doc for usage guides.)
+3. Holy smokes there is no step three!
 
-<h3>Custom builds for web hackers</h3>
+### Custom builds for web hackers
 
-<ol>
-<li>Fork <a href="http://github.com/Topcoat/Topcoat">http://github.com/Topcoat/Topcoat</a></li>
-<li>Install Node and run <code>npm install -g grunt-cli &amp;&amp; npm install .</code></li>
-<li>Modify <code>package.json</code> to point to only the controls you need</li>
-<li>Run <code>grunt</code> to generate your custom build</li>
-<li>Fork (or write your own) controls and modify <code>package.json</code> point to them</li>
-</ol>
+1. Fork http://github.com/Topcoat/Topcoat
+2. Install Node and run `npm install -g grunt-cli && npm install .`
+3. Modify `package.json` to point to only the controls you need
+4. Run `grunt` to generate your custom build
+5. Fork (or write your own) controls and modify `package.json` point to them
 
-<h3>Theming for the web craftsman</h3>
+### Theming for the web craftsman
 
-<ol>
-<li>Fork <a href="http://github.com/Topcoat/theme">http://github.com/Topcoat/theme</a></li>
-<li>Modify various variables files (We are going to simplify this further!)</li>
-<li>Modify <code>./topcoat-X.X.X/package.json</code> to point to your theme and run <code>grunt</code></li>
-</ol>
+1. Fork http://github.com/Topcoat/theme
+2. Modify various variables files (We are going to simplify this further!)
+3. Modify `./topcoat-X.X.X/package.json` to point to your theme and run `grunt`
 
-<p>We need your help! Topcoat is totally open source software. There are bugs, and we’re still solidifying our architecture, so there are MANY ways to contribute!</p>
+We need your help! Topcoat is totally open source software. There are bugs, and we’re still solidifying our architecture, so there are MANY ways to contribute!
 
-<ul>
-<li>Our main home is <a href="http://topcoat.io">http://topcoat.io</a> </li>
-<li>Learn everything else about Topcoat on our wiki: <a href="https://github.com/topcoat/topcoat/wiki">https://github.com/topcoat/topcoat/wiki</a></li>
-<li>Chat us up on our mailing list: <a href="http://groups.google.com/group/topcoat">http://groups.google.com/group/topcoat</a></li>
-<li>Request features, and file bugs, in our issue tracker. Note each control in Topcoat has its own git repo, thus versions, and therefore issue trackers too. <a href="http://github.com/topcoat">http://github.com/topcoat</a></li>
-<li>Tweet us up on the Twitters: <a href="http://twitter.com/topcoat">http://twitter.com/topcoat</a></li>
-<li>Follow the lead hacker Kristofer Joseph too: <a href="http://twitter.com/dam">http://twitter.com/dam</a></li>
-</ul>
+- Our main home is http://topcoat.io 
+- Learn everything else about Topcoat on our wiki: https://github.com/topcoat/topcoat/wiki
+- Chat us up on our mailing list: http://groups.google.com/group/topcoat
+- Request features, and file bugs, in our issue tracker. Note each control in Topcoat has its own git repo, thus versions, and therefore issue trackers too. http://github.com/topcoat
+- Tweet us up on the Twitters: http://twitter.com/topcoat
+- Follow the lead hacker Kristofer Joseph too: http://twitter.com/dam
 
-<p>Join us in making it easier than ever to craft fast apps using web standards that look as good as they feel.</p>
-]]></description>
+Join us in making it easier than ever to craft fast apps using web standards that look as good as they feel.]]></description>
             <link>http://topcoat.io/posts/introducing-topcoat/</link>
             <guid isPermaLink="true">
                 http://topcoat.io/posts/introducing-topcoat/            </guid>
             <dc:creator><![CDATA[brianleroux]]></dc:creator>
-            <pubDate>Wed, 05 Jun 2013 22:21:00 GMT</pubDate>
+            <pubDate>Wed, 05 Jun 2013 14:21:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
