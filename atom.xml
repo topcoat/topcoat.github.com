@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2013-11-22T19:12:30.601Z</updated><id>http://topcoat.io/</id><entry><title>Semantic Icon Font using Topcoat Icons</title><link href="http://topcoat.io/posts/semantic-icon-font-using-topcoat-icons/"></link><updated>2013-11-22T06:00:00.000Z</updated><id>http://topcoat.io/posts/semantic-icon-font-using-topcoat-icons/</id><content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2013-11-22T19:14:40.735Z</updated><id>http://topcoat.io/</id><entry><title>Semantic Icon Font using Topcoat Icons</title><link href="http://topcoat.io/posts/semantic-icon-font-using-topcoat-icons/"></link><updated>2013-11-22T06:00:00.000Z</updated><id>http://topcoat.io/posts/semantic-icon-font-using-topcoat-icons/</id><content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3&gt;Where to start&amp;hellip;&lt;/h3&gt;
 
@@ -63,11 +63,11 @@ There is a great &lt;a href=&quot;http://icomatic.github.io/sample-set/kit/icoma
 
 &lt;h3&gt;The result&lt;/h3&gt;
 
-&lt;p&gt;####Topcoat Tab Bar with Button Icons&lt;/p&gt;
+&lt;h5&gt;Topcoat Tab Bar with Button Icons&lt;/h5&gt;
 
 &lt;p&gt;&lt;img src=&quot;topcoat-tabbar-with-buttons.png&quot; alt=&quot;Topcoat Tab Bar with Button Icons&quot; title=&quot;Topcoat Tab Bar with Button Icons&quot;/&gt; &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;####Topcoat Sidebar with Icons&lt;/p&gt;
+&lt;h5&gt;Topcoat Sidebar with Icons&lt;/h5&gt;
 
 &lt;p&gt;&lt;img src=&quot;topcoat-sidebar-with-icons.png&quot; alt=&quot;Topcoat Sidebar with Icons&quot; title=&quot;Topcoat Sidebar with Icons&quot;/&gt;&lt;/p&gt;
 
