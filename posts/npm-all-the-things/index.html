@@ -74,6 +74,7 @@ h1 a:hover,nav.main ul li a:hover{color:#000}
 .features ul li#source-sans a.vignette{background-image:url("../img/tnl-source-sans.svg")}
 .features ul li#icons a.vignette{background-image:url("../img/tnl-icons.svg")}
 .features ul li#design a.vignette{background-image:url("../img/tnl-design.png")}
+.features ul li#cdnjs a.vignette {background-image: url(../img/tnl-cdnjs.png);}
 .features ul li a.vignette{display:block;width:120px;height:120px;margin:0 30px 30px 0;float:left;background-repeat:no-repeat;background-size:cover}
 .features ul li a.vignette,#default-theme{background-color:#f9f9f9;outline:solid 1px #eee}
 #default-theme{clear:left;width:100%;height:226px;margin-bottom:80px;overflow:hidden}
@@ -144,31 +145,20 @@ form{border:1px solid #ccc;padding:10px}
 #required{padding-bottom:5px;color:#f00;font-weight:bold}
 .clearfix:before,.clearfix:after{content:" ";display:table}
 .clearfix:after{clear:both}
-.clearfix{*zoom:1}</style><script type="text/javascript">window.onload=function(){var a=document.getElementById("slide-menu-button");a.onclick=function(d){var c=document.getElementById("site");var b=c.classList;if(b.contains("open")){b.remove("open")}else{b.add("open")}}};</script></head><body><div id="wrapper"><div id="side-nav"><nav class="site"><ul><li class="selected"><a href="http://topcoat.io">Home</a></li><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io/">Benchmarks</a></li><li><a href="http://topcoat.io/blog">Blog</a></li></ul></nav></div><div id="site"><header class="main"><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav class="main"><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/v0.8.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav><button id="slide-menu-button" href="#" class="topcoat-icon-button--large--quiet"><span class="topcoat-icon--large topcoat-icon-meun-stack"></span></button></header><section id="content"><article><header><h2>npm all the things</h2><div class="author"><a href='http://kristoferjoseph.com/'>Kristofer Joseph</a></div><div class="date">Posted 19 Aug 2013</div></header><div id="postcontent">Topcoat 0.6.0 is hot off the wire and we are super happy with a few of the new additions. Here is a recap of what went into this release and some of the reasoning behind it.
-
-## Codepens
-
-One of my favorite additions to this release is a process based on our continuing dedication to transparency and feedback from all of you. We wanted a way to share what we are currently working on as well as have a place to iterate in the open that lowered any hurdles to feedback people might have. [Codepen.io](http://codepen.io/Topcoat/) has been the perfect solution. It has already led to invaluable discussions that ultimately ended up as additions to Topcoat.
-
-## Package Management
-
-Originally we were very reluctant to choose a package management system since there were so many competing in this space which all had their virtues. This led to a lot of work on my part and a lot of tough problems for the build script. We have settled on [NPM](http://npmjs.org) since this was already a requirement we inherited from [grunt](http://gruntjs.com) and is also the most mature and feature rich of the solutions out there. As of Topcoat 0.6.0 all of our components are published to NPM for easy installation. This isn't to say we won't be publishing to other systems in the future, this is just what we will use to manage packages for development.
-
-## Component Development
-
-We have been getting a lot of requests to explain how to add components to Topcoat and to be honest until this release it was a lot harder than we wanted it to be. As of this release we are really happy with our component development proces. Tutorial being worked on right now!
-
-## Effeckt ♥
-
-Our very own Andrei has been researching using effeckt.css with Topcoat and we are really excited with the initial output. Check it out at [Topcoat + Effeckt](http://topcoat.io/topcoat-effeckt/dist/).
-
-## New components
-
-Last but not least we added a few new components that we feel are worth talking about. We have been looking for a way to style inputs that is portable, accessible and perform well. Seems simple enough right? After a few iterations we settled on a CSS only solution with inputs nested in labels.Check out our [radio button](http://codepen.io/Topcoat/pen/HDcJj).
-
-## Coming up in 0.7.0
-
-The focus for the next release is to tidy up our desktop components to have parity with the [design comps](http://github.com/topcoat/design). Previously the focus had been on mobile components since PhoneGap users were experiencing the most need. Keep an eye on [the Topcoat Codepen page](http://codepen.io/Topcoat) to get a sneak peek at the components that are coming as well. As always forks are appreciated!</div></article><div id="disqus_thread"></div><script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+.clearfix{*zoom:1}</style><script type="text/javascript">window.onload=function(){var a=document.getElementById("slide-menu-button");a.onclick=function(d){var c=document.getElementById("site");var b=c.classList;if(b.contains("open")){b.remove("open")}else{b.add("open")}}};</script></head><body><div id="wrapper"><div id="side-nav"><nav class="site"><ul><li class="selected"><a href="http://topcoat.io">Home</a></li><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io/">Benchmarks</a></li><li><a href="http://topcoat.io/blog">Blog</a></li></ul></nav></div><div id="site"><header class="main"><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav class="main"><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/v0.8.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav><button id="slide-menu-button" href="#" class="topcoat-icon-button--large--quiet"><span class="topcoat-icon--large topcoat-icon-meun-stack"></span></button></header><section id="content"><article><header><h2>npm all the things</h2><div class="author"><a href='http://kristoferjoseph.com/'>Kristofer Joseph</a></div><div class="date">Posted 19 Aug 2013</div></header><div id="postcontent"><p>Topcoat 0.6.0 is hot off the wire and we are super happy with a few of the new additions. Here is a recap of what went into this release and some of the reasoning behind it.</p>
+<h2 id="codepens">Codepens</h2>
+<p>One of my favorite additions to this release is a process based on our continuing dedication to transparency and feedback from all of you. We wanted a way to share what we are currently working on as well as have a place to iterate in the open that lowered any hurdles to feedback people might have. <a href="http://codepen.io/Topcoat/">Codepen.io</a> has been the perfect solution. It has already led to invaluable discussions that ultimately ended up as additions to Topcoat.</p>
+<h2 id="package-management">Package Management</h2>
+<p>Originally we were very reluctant to choose a package management system since there were so many competing in this space which all had their virtues. This led to a lot of work on my part and a lot of tough problems for the build script. We have settled on <a href="http://npmjs.org">NPM</a> since this was already a requirement we inherited from <a href="http://gruntjs.com">grunt</a> and is also the most mature and feature rich of the solutions out there. As of Topcoat 0.6.0 all of our components are published to NPM for easy installation. This isn&#39;t to say we won&#39;t be publishing to other systems in the future, this is just what we will use to manage packages for development.</p>
+<h2 id="component-development">Component Development</h2>
+<p>We have been getting a lot of requests to explain how to add components to Topcoat and to be honest until this release it was a lot harder than we wanted it to be. As of this release we are really happy with our component development proces. Tutorial being worked on right now!</p>
+<h2 id="effeckt-">Effeckt ♥</h2>
+<p>Our very own Andrei has been researching using effeckt.css with Topcoat and we are really excited with the initial output. Check it out at <a href="http://topcoat.io/topcoat-effeckt/dist/">Topcoat + Effeckt</a>.</p>
+<h2 id="new-components">New components</h2>
+<p>Last but not least we added a few new components that we feel are worth talking about. We have been looking for a way to style inputs that is portable, accessible and perform well. Seems simple enough right? After a few iterations we settled on a CSS only solution with inputs nested in labels.Check out our <a href="http://codepen.io/Topcoat/pen/HDcJj">radio button</a>.</p>
+<h2 id="coming-up-in-0-7-0">Coming up in 0.7.0</h2>
+<p>The focus for the next release is to tidy up our desktop components to have parity with the <a href="http://github.com/topcoat/design">design comps</a>. Previously the focus had been on mobile components since PhoneGap users were experiencing the most need. Keep an eye on <a href="http://codepen.io/Topcoat">the Topcoat Codepen page</a> to get a sneak peek at the components that are coming as well. As always forks are appreciated!</p>
+</div></article><div id="disqus_thread"></div><script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 var disqus_shortname = 'topcoat'; // required: replace example with your forum shortname
 var disqus_title = 'npm all the things';
 

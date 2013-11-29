@@ -74,6 +74,7 @@ h1 a:hover,nav.main ul li a:hover{color:#000}
 .features ul li#source-sans a.vignette{background-image:url("../img/tnl-source-sans.svg")}
 .features ul li#icons a.vignette{background-image:url("../img/tnl-icons.svg")}
 .features ul li#design a.vignette{background-image:url("../img/tnl-design.png")}
+.features ul li#cdnjs a.vignette {background-image: url(../img/tnl-cdnjs.png);}
 .features ul li a.vignette{display:block;width:120px;height:120px;margin:0 30px 30px 0;float:left;background-repeat:no-repeat;background-size:cover}
 .features ul li a.vignette,#default-theme{background-color:#f9f9f9;outline:solid 1px #eee}
 #default-theme{clear:left;width:100%;height:226px;margin-bottom:80px;overflow:hidden}
@@ -144,89 +145,70 @@ form{border:1px solid #ccc;padding:10px}
 #required{padding-bottom:5px;color:#f00;font-weight:bold}
 .clearfix:before,.clearfix:after{content:" ";display:table}
 .clearfix:after{clear:both}
-.clearfix{*zoom:1}</style><script type="text/javascript">window.onload=function(){var a=document.getElementById("slide-menu-button");a.onclick=function(d){var c=document.getElementById("site");var b=c.classList;if(b.contains("open")){b.remove("open")}else{b.add("open")}}};</script></head><body><div id="wrapper"><div id="side-nav"><nav class="site"><ul><li class="selected"><a href="http://topcoat.io">Home</a></li><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io/">Benchmarks</a></li><li><a href="http://topcoat.io/blog">Blog</a></li></ul></nav></div><div id="site"><header class="main"><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav class="main"><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/v0.8.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav><button id="slide-menu-button" href="#" class="topcoat-icon-button--large--quiet"><span class="topcoat-icon--large topcoat-icon-meun-stack"></span></button></header><section id="content"><article><header><h2>Semantic Icon Font using Topcoat Icons</h2><div class="author"><a href='http://www.niallodoherty.com'>Niall O'Doherty</a></div><div class="date">Posted 21 Nov 2013</div></header><div id="postcontent"><br />
-### Where to start...
-When developing mobile applications, one of the main considerations has to be around **performance**.  And as you know, one of the largest drains on application performance is the quantity and size of the images used within your app. So...
-
-*How do you ensure your application is still aesthetically pleasing without compromising on performance?*
-
-### One possible solution
-One way to improve the performance of your application is to use *font icons* instead of icon images or sprites.  Font icons are generally lighter weight than sprite images, plus they are easily updated and require very little CSS updates.  In fact, you can update font icons the same way you would update the font using the *font-size* and *color* attributes. 
-
-Below is some basic steps you can take to get font icons working in your project using the Topcoat icons.  So let's get started. 
- 
-### Creating font icons
-Out of the box, the [Topcoat Icons GitHub Repository](https://github.com/topcoat/icons) has the necessary files you need to get started with all the available icons as of v0.8.0.  See the */font* folder.  
-
-As we're also focusing on performance, this post shall detail the steps required to create and use your *own* custom icon font to achieve the results shown in the images below.
-
-In order to create your own custom icon web font you can use an online application called [Icomatic](http://www.icomatic.io/).  There are other tools available for you to experiment with but for now Icomatic is the weapon of choice. 
-
-* If you've not done so already, clone / download the [Topcoat icons](https://github.com/topcoat/icons) repo from GitHub
-* Then fire up a browser and go to [Icomatic](http://www.icomatic.io/)
-* Select "Try the app" button on the homepage
-* Select "Upload files..."
-* Navigate to your local copy of the Topcoat Icons repository and select the icon files you need from the *\svg* folder 
-* Amend the icon labels as required.  This is optional
-* Finally click on "Download Kit"
-
-[Icomatic](http://www.icomatic.io/) will generate the font files you need (*eot, ttf, woff, and svg*).  You can include each or all of these at your own discretion.  
-
-The benefit of this is that you can include only the icons you need for your project so you can generate bespoke font files on a per project basis.
-
-### The styles 
-Download and Extract these files into the appropriate location for your project.  
-
-My *icomatic.css* file is located in the */css* folder of my project along with the font files but you can place them wherever you prefer as long as the paths to the font files are correct otherwise it won't work correctly and you'll just see the text equivalent of the icon label that you're trying to display.
-
-Below is an example of the CSS content from my *icomatic.css* file:
-
+.clearfix{*zoom:1}</style><script type="text/javascript">window.onload=function(){var a=document.getElementById("slide-menu-button");a.onclick=function(d){var c=document.getElementById("site");var b=c.classList;if(b.contains("open")){b.remove("open")}else{b.add("open")}}};</script></head><body><div id="wrapper"><div id="side-nav"><nav class="site"><ul><li class="selected"><a href="http://topcoat.io">Home</a></li><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io/">Benchmarks</a></li><li><a href="http://topcoat.io/blog">Blog</a></li></ul></nav></div><div id="site"><header class="main"><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav class="main"><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/v0.8.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav><button id="slide-menu-button" href="#" class="topcoat-icon-button--large--quiet"><span class="topcoat-icon--large topcoat-icon-meun-stack"></span></button></header><section id="content"><article><header><h2>Semantic Icon Font using Topcoat Icons</h2><div class="author"><a href='http://www.niallodoherty.com'>Niall O'Doherty</a></div><div class="date">Posted 21 Nov 2013</div></header><div id="postcontent"><p><br /></p>
+<h3 id="where-to-start-">Where to start...</h3>
+<p>When developing mobile applications, one of the main considerations has to be around <strong>performance</strong>.  And as you know, one of the largest drains on application performance is the quantity and size of the images used within your app. So...</p>
+<p><em>How do you ensure your application is still aesthetically pleasing without compromising on performance?</em></p>
+<h3 id="one-possible-solution">One possible solution</h3>
+<p>One way to improve the performance of your application is to use <em>font icons</em> instead of icon images or sprites.  Font icons are generally lighter weight than sprite images, plus they are easily updated and require very little CSS updates.  In fact, you can update font icons the same way you would update the font using the <em>font-size</em> and <em>color</em> attributes. </p>
+<p>Below is some basic steps you can take to get font icons working in your project using the Topcoat icons.  So let&#39;s get started. </p>
+<h3 id="creating-font-icons">Creating font icons</h3>
+<p>Out of the box, the <a href="https://github.com/topcoat/icons">Topcoat Icons GitHub Repository</a> has the necessary files you need to get started with all the available icons as of v0.8.0.  See the <em>/font</em> folder.  </p>
+<p>As we&#39;re also focusing on performance, this post shall detail the steps required to create and use your <em>own</em> custom icon font to achieve the results shown in the images below.</p>
+<p>In order to create your own custom icon web font you can use an online application called <a href="http://www.icomatic.io/">Icomatic</a>.  There are other tools available for you to experiment with but for now Icomatic is the weapon of choice. </p>
+<ul>
+<li>If you&#39;ve not done so already, clone / download the <a href="https://github.com/topcoat/icons">Topcoat icons</a> repo from GitHub</li>
+<li>Then fire up a browser and go to <a href="http://www.icomatic.io/">Icomatic</a></li>
+<li>Select &quot;Try the app&quot; button on the homepage</li>
+<li>Select &quot;Upload files...&quot;</li>
+<li>Navigate to your local copy of the Topcoat Icons repository and select the icon files you need from the <em>\svg</em> folder </li>
+<li>Amend the icon labels as required.  This is optional</li>
+<li>Finally click on &quot;Download Kit&quot;</li>
+</ul>
+<p><a href="http://www.icomatic.io/">Icomatic</a> will generate the font files you need (<em>eot, ttf, woff, and svg</em>).  You can include each or all of these at your own discretion.  </p>
+<p>The benefit of this is that you can include only the icons you need for your project so you can generate bespoke font files on a per project basis.</p>
+<h3 id="the-styles">The styles</h3>
+<p>Download and Extract these files into the appropriate location for your project.  </p>
+<p>My <em>icomatic.css</em> file is located in the <em>/css</em> folder of my project along with the font files but you can place them wherever you prefer as long as the paths to the font files are correct otherwise it won&#39;t work correctly and you&#39;ll just see the text equivalent of the icon label that you&#39;re trying to display.</p>
+<p>Below is an example of the CSS content from my <em>icomatic.css</em> file:</p>
 <script src="https://gist.github.com/nodoherty/7582412.js"></script>
 
-The font family "*SourceSansPro-Light*" is just a backup that I'm using that is also supplied with Topcoat.  It is the first open source font family contribution from Adobe and is served on [Adobe Edge Web Fonts](https://edgewebfonts.adobe.com/fonts#/?nameFilter=source&collection=source-sans-pro) and [Adobe Typekit](https://typekit.com/fonts/source-sans-pro).  
-
-**Note:** "*SourceSansPro-Light*" is a regular text font and does not support icons.
-
-### The mark-up
-Next here comes the sweet part of using an icon font. 
-
-I have some mark-up to display a tab-bar that contains five buttons, each with an icon and some text below (see result images below).
-
+<p>The font family &quot;<em>SourceSansPro-Light</em>&quot; is just a backup that I&#39;m using that is also supplied with Topcoat.  It is the first open source font family contribution from Adobe and is served on <a href="https://edgewebfonts.adobe.com/fonts#/?nameFilter=source&amp;collection=source-sans-pro">Adobe Edge Web Fonts</a> and <a href="https://typekit.com/fonts/source-sans-pro">Adobe Typekit</a>.  </p>
+<p><strong>Note:</strong> &quot;<em>SourceSansPro-Light</em>&quot; is a regular text font and does not support icons.</p>
+<h3 id="the-mark-up">The mark-up</h3>
+<p>Next here comes the sweet part of using an icon font. </p>
+<p>I have some mark-up to display a tab-bar that contains five buttons, each with an icon and some text below (see result images below).</p>
 <script src="https://gist.github.com/nodoherty/7582987.js"></script>
 
-Any element with the *.icomatic* class will apply the icomatic font family, as per the previous CSS, which in turn will display your icon (*as long as the icon label text you have supplied within the mark-up matches that in the font file*).
-
-To change the icon size and color you simply specify the CSS *font-size* and *color* attribute.
-There is a great [example](http://icomatic.github.io/sample-set/kit/icomatic.html) of this on the Icomatic site which allows you to experiment with the icon size and colour using the controls located at the top-right corner.
-
-### The result
-####Topcoat Tab Bar with Button Icons
-![Topcoat Tab Bar with Button Icons](topcoat-tabbar-with-buttons.png "Topcoat Tab Bar with Button Icons") <br />
-####Topcoat Sidebar with Icons
-![Topcoat Sidebar with Icons](topcoat-sidebar-with-icons.png "Topcoat Sidebar with Icons")
-
-### One additional benefit
-If that wasn't good enough, how would you like to add some depth / shadow to your icons...for free?  Well it's as simple as applying the CSS *text-shadow* attribute, as you would in...you guessed it, a font like so:
-
+<p>Any element with the <em>.icomatic</em> class will apply the icomatic font family, as per the previous CSS, which in turn will display your icon (<em>as long as the icon label text you have supplied within the mark-up matches that in the font file</em>).</p>
+<p>To change the icon size and color you simply specify the CSS <em>font-size</em> and <em>color</em> attribute.
+There is a great <a href="http://icomatic.github.io/sample-set/kit/icomatic.html">example</a> of this on the Icomatic site which allows you to experiment with the icon size and colour using the controls located at the top-right corner.</p>
+<h3 id="the-result">The result</h3>
+<h4 id="topcoat-tab-bar-with-button-icons">Topcoat Tab Bar with Button Icons</h4>
+<p><img src="topcoat-tabbar-with-buttons.png" alt="Topcoat Tab Bar with Button Icons" title="Topcoat Tab Bar with Button Icons"> <br /></p>
+<h4 id="topcoat-sidebar-with-icons">Topcoat Sidebar with Icons</h4>
+<p><img src="topcoat-sidebar-with-icons.png" alt="Topcoat Sidebar with Icons" title="Topcoat Sidebar with Icons"></p>
+<h3 id="one-additional-benefit">One additional benefit</h3>
+<p>If that wasn&#39;t good enough, how would you like to add some depth / shadow to your icons...for free?  Well it&#39;s as simple as applying the CSS <em>text-shadow</em> attribute, as you would in...you guessed it, a font like so:</p>
 <pre><code>text-shadow : 0 -1px rgba(0, 0, 0, 0.69);</code></pre>
 
-This effect has also been applied to my icons in the images above.  All without the need to update any images / sprites.
-
-### What about sprite images?
-Sprite images are still an option although I preferred not to have to specify a CSS rule and image position for every icon I wanted to use, even if I was using a sprite creation tool.
-
-I also didn't want to have to compile a custom sprite image to only include the icons being used in my application.  Out of the box, font icons seemed to be the most efficient option.
-
-### Summary of resources
-* [Topcoat](http://topcoat.io)
-* [Topcoat Icons](https://github.com/topcoat/icons)
-* [Icomatic](http://icomatic.io)
-* [Icomatic Demo](http://icomatic.github.io/sample-set/kit/icomatic.html)
-
-If there is enough interest I am happy to supply a screen-cast of this process, so please mention this in the comments if it's something you would find helpful. 
-
-> Kindly brought to you by [Niall O'Doherty](http://www.twitter.com/nodoherty) - [@nodoherty](http://www.twitter.com/nodoherty).
-> Errors and omissions excepted</div></article><div id="disqus_thread"></div><script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+<p>This effect has also been applied to my icons in the images above.  All without the need to update any images / sprites.</p>
+<h3 id="what-about-sprite-images-">What about sprite images?</h3>
+<p>Sprite images are still an option although I preferred not to have to specify a CSS rule and image position for every icon I wanted to use, even if I was using a sprite creation tool.</p>
+<p>I also didn&#39;t want to have to compile a custom sprite image to only include the icons being used in my application.  Out of the box, font icons seemed to be the most efficient option.</p>
+<h3 id="summary-of-resources">Summary of resources</h3>
+<ul>
+<li><a href="http://topcoat.io">Topcoat</a></li>
+<li><a href="https://github.com/topcoat/icons">Topcoat Icons</a></li>
+<li><a href="http://icomatic.io">Icomatic</a></li>
+<li><a href="http://icomatic.github.io/sample-set/kit/icomatic.html">Icomatic Demo</a></li>
+</ul>
+<p>If there is enough interest I am happy to supply a screen-cast of this process, so please mention this in the comments if it&#39;s something you would find helpful. </p>
+<blockquote>
+<p>Kindly brought to you by <a href="http://www.twitter.com/nodoherty">Niall O&#39;Doherty</a> - <a href="http://www.twitter.com/nodoherty">@nodoherty</a>.
+Errors and omissions excepted</p>
+</blockquote>
+</div></article><div id="disqus_thread"></div><script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 var disqus_shortname = 'topcoat'; // required: replace example with your forum shortname
 var disqus_title = 'Semantic Icon Font using Topcoat Icons';
 
