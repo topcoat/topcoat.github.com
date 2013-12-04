@@ -74,6 +74,7 @@ h1 a:hover,nav.main ul li a:hover{color:#000}
 .features ul li#source-sans a.vignette{background-image:url("../img/tnl-source-sans.svg")}
 .features ul li#icons a.vignette{background-image:url("../img/tnl-icons.svg")}
 .features ul li#design a.vignette{background-image:url("../img/tnl-design.png")}
+.features ul li#cdnjs a.vignette {background-image: url(../img/tnl-cdnjs.png);}
 .features ul li a.vignette{display:block;width:120px;height:120px;margin:0 30px 30px 0;float:left;background-repeat:no-repeat;background-size:cover}
 .features ul li a.vignette,#default-theme{background-color:#f9f9f9;outline:solid 1px #eee}
 #default-theme{clear:left;width:100%;height:226px;margin-bottom:80px;overflow:hidden}
@@ -148,14 +149,16 @@ form{border:1px solid #ccc;padding:10px}
 
 <p>The goal of the website is to have publicly accessible benchmark results for our users and for us to spot regressions and performance issues.</p>
 
-<h2>Key metrics</h2>
+<h2 id="key-metrics">Key metrics</h2>
 
 <ul>
-<li><p>Mean frame time (Frame time) - not frames per second (FPS) this is actually a more accurate rating of performance, a good article with an in depth explanation: <a href="http://www.mvps.org/directx/articles/fps_versus_frame_time.htm">fps versus frame time</a></p></li>
-<li><p>Load time</p></li>
+<li><p>Mean frame time (Frame time) - not frames per second (FPS) this is actually a more accurate rating of performance, a good article with an in depth explanation: <a href="http://www.mvps.org/directx/articles/fps_versus_frame_time.htm">fps versus frame time</a></p>
+</li>
+<li><p>Load time</p>
+</li>
 <li><p>Layout time</p>
-
-<p><img src="screenshot.png" alt="plot screenshot" title="Plot screenshot"/></p></li>
+<p><img src="screenshot.png" alt="plot screenshot" title="Plot screenshot"></p>
+</li>
 </ul>
 
 <p>The server can also be used offline for components development. You can make changes to a component, say for example swap box-shadow for for a dark border with reduced opacity, the plots can offer you a nicer visualisation of the performance impact.</p>
@@ -164,26 +167,25 @@ form{border:1px solid #ccc;padding:10px}
 
 <iframe class="video" src="//www.youtube.com/embed/Mhw4Sf1WWwQ" frameborder="0" allowfullscreen></iframe>
 
-<h2>How</h2>
+<h2 id="how">How</h2>
 
 <p>We are using <a href="http://www.chromium.org/developers/telemetry">Chromium Telemetry</a>. Telemetry is a python powered framework used for cross-(chrome)-platform performance testing. It abstracts launching, connecting, and opening a page and records the metrics mentioned above and many others.</p>
 
 <p>We have a Grunt task that takes results and pushes them to the server.</p>
 
-<p>The server is written in Node and uses <a href="http://www.flotcharts.org/">http://www.flotcharts.org/</a> to display the results.</p>
+<p>The server is written in Node and uses <a href="http://www.flotcharts.org/"><a href="http://www.flotcharts.org/">http://www.flotcharts.org/</a></a> to display the results.</p>
 
-<h2>Usage guide</h2>
+<h2 id="usage-guide">Usage guide</h2>
 
 <ol>
 <li><a href="http://www.chromium.org/developers/how-tos/get-the-code">chromium.org/developers/how-tos/get-the-code</a> offers step by step instructions on how to download Chromium. You will need it entirely if you want to run Telemetry so be ready for a ~1.6GB download.</li>
-<li>In <code>chromium/src/tools/perf/page_sets</code> you will find <em>**.json</em>* files which are required as input when running the telemetry tests. There is a specific boilerplate json that you will need to write in order to tell Telemetry where the page you want to benchmark is located.</li>
+<li>In <code>chromium/src/tools/perf/page_sets</code> you will find <strong>*.json</strong> files which are required as input when running the telemetry tests. There is a specific boilerplate json that you will need to write in order to tell Telemetry where the page you want to benchmark is located.</li>
 <li>To run Telemetry you will need to be in <code>chromium/src/tools/perf</code>. The command is
-<code>./run_multipage_benchmarks --browser=system loading_benchmark page_sets/topcoat_buttons-base.test.json -o /tmp/loading_benchmark_topcoat_buttons-base.txt</code>
-
-<ul>
+ <code>./run_multipage_benchmarks --browser=system loading_benchmark page_sets/topcoat_buttons-base.test.json -o /tmp/loading_benchmark_topcoat_buttons-base.txt</code><ul>
 <li><strong>loading_benchmark</strong> parameter tells Telemetry to record load time, layout time, the time it took to parse the HTML etc.</li>
 <li><strong>smoothness_benchmark</strong> parameter tells Telemetry to scroll the page while recording, this time it captures mean frame time, jank count and many others.</li>
-</ul></li>
+</ul>
+</li>
 <li>After you have the data you can use the Grunt task in the Topcoat repo to parse the files that have specified as output and submit them to your clone of Topcoat Server running locally.
 All of these steps are also shown in the <a href="http://www.youtube.com/watch?v=Mhw4Sf1WWwQ">screencast</a>.</li>
 </ol>
@@ -193,10 +195,10 @@ All of these steps are also shown in the <a href="http://www.youtube.com/watch?v
 <p>Useful links:</p>
 
 <ul>
-<li>main home page <a href="http://topcoat.io">http://topcoat.io</a></li>
-<li>github repository <a href="https://github.com/topcoat/">https://github.com/topcoat/</a></li>
-<li>Topcoat Server <a href="https://github.com/topcoat/topcoat-server">https://github.com/topcoat/topcoat-server</a></li>
-<li>more about Chromium Telemetry <a href="http://www.chromium.org/developers/telemetry">http://www.chromium.org/developers/telemetry</a></li>
+<li>main home page <a href="http://topcoat.io"><a href="http://topcoat.io">http://topcoat.io</a></a></li>
+<li>github repository <a href="https://github.com/topcoat/"><a href="https://github.com/topcoat/">https://github.com/topcoat/</a></a></li>
+<li>Topcoat Server <a href="https://github.com/topcoat/topcoat-server"><a href="https://github.com/topcoat/topcoat-server">https://github.com/topcoat/topcoat-server</a></a></li>
+<li>more about Chromium Telemetry <a href="http://www.chromium.org/developers/telemetry"><a href="http://www.chromium.org/developers/telemetry">http://www.chromium.org/developers/telemetry</a></a></li>
 </ul>
 </div></article><div id="disqus_thread"></div><script type="text/javascript">/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 var disqus_shortname = 'topcoat'; // required: replace example with your forum shortname

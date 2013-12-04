@@ -74,6 +74,7 @@ h1 a:hover,nav.main ul li a:hover{color:#000}
 .features ul li#source-sans a.vignette{background-image:url("../img/tnl-source-sans.svg")}
 .features ul li#icons a.vignette{background-image:url("../img/tnl-icons.svg")}
 .features ul li#design a.vignette{background-image:url("../img/tnl-design.png")}
+.features ul li#cdnjs a.vignette {background-image: url(../img/tnl-cdnjs.png);}
 .features ul li a.vignette{display:block;width:120px;height:120px;margin:0 30px 30px 0;float:left;background-repeat:no-repeat;background-size:cover}
 .features ul li a.vignette,#default-theme{background-color:#f9f9f9;outline:solid 1px #eee}
 #default-theme{clear:left;width:100%;height:226px;margin-bottom:80px;overflow:hidden}
@@ -146,21 +147,21 @@ form{border:1px solid #ccc;padding:10px}
 .clearfix:after{clear:both}
 .clearfix{*zoom:1}</style><script type="text/javascript">window.onload=function(){var a=document.getElementById("slide-menu-button");a.onclick=function(d){var c=document.getElementById("site");var b=c.classList;if(b.contains("open")){b.remove("open")}else{b.add("open")}}};</script></head><body><div id="wrapper"><div id="side-nav"><nav class="site"><ul><li class="selected"><a href="http://topcoat.io">Home</a></li><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io/">Benchmarks</a></li><li><a href="http://topcoat.io/blog">Blog</a></li></ul></nav></div><div id="site"><header class="main"><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav class="main"><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/v0.8.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav><button id="slide-menu-button" href="#" class="topcoat-icon-button--large--quiet"><span class="topcoat-icon--large topcoat-icon-meun-stack"></span></button></header><section id="content"><article><header><h2>Generating Documentation for CSS Components</h2><div class="author"><a href='http://www.garthdb.com/'>Garth Braithwaite</a></div><div class="date">Posted 19 Sep 2013</div></header><div id="postcontent"><p><br></p>
 
-<h3>The Problem</h3>
+<h3 id="the-problem">The Problem</h3>
 
 <p>Topcoat&#39;s final product is CSS, which, by itself, is a little tricky to work with and get excited about. CSS is the topcoat of the web, but we need HTML to support it.  Topcoat&#39;s components are always getting updated, and the documentation and HTML demos need to be changed easily to match the CSS, so we built Topdoc to automate the process.</p>
 
-<h3>Enter Topdoc</h3>
+<h3 id="enter-topdoc">Enter Topdoc</h3>
 
 <p><a href="https://github.com/topcoat/topdoc">Topdoc</a> is a CSS comment structure and a documentation-generating tool.  It can be used in the command line, or with a <a href="https://github.com/topcoat/grunt-topdoc">grunt task</a>, to generate HTML demos from CSS comments.</p>
 
 <p>Originally we hoped we could find an existing tool, but none of them quite fit our needs.  We posted a comparison on the <a href="https://github.com/topcoat/topdoc/wiki/Comparisons">wiki</a>.</p>
 
-<h3>How Does it Work?</h3>
+<h3 id="how-does-it-work-">How Does it Work?</h3>
 
 <p>We use Topdoc block comments to separate our long form CSS file into individual components.  The Topdoc comment not only acts as a delimiter, but it also provides metadata for the component.  The Topdoc tool parses the stylesheet and passes the individual components and their metadata to a Jade template, which returns HTML.</p>
 
-<h3>What Does the Metadata Look Like?</h3>
+<h3 id="what-does-the-metadata-look-like-">What Does the Metadata Look Like?</h3>
 
 <script src="https://gist.github.com/GarthDB/6606584.js"></script>
 
@@ -183,21 +184,21 @@ form{border:1px solid #ccc;padding:10px}
 <li><strong>Line 18</strong>: <code>blarg</code>: Since Topdoc uses a flexible YAML syntax, feel free to add any additional custom data you might need for your template.</li>
 </ul>
 
-<h3>Any Other Data?</h3>
+<h3 id="any-other-data-">Any Other Data?</h3>
 
 <p>Topdoc can also pass through some general data about the project to the Jade template.  This data can be placed in the <code>package.json</code> file, or just be passed through to the tool as an argument.  If data is not passed through, it will check the <code>package.json</code> file.  See the README on the Topdoc <a href="https://github.com/topcoat/topdoc">github page</a>.</p>
 
-<h3>How Are We Using Topdoc?</h3>
+<h3 id="how-are-we-using-topdoc-">How Are We Using Topdoc?</h3>
 
 <p>The <a href="http://topcoat.io/topcoat">demo page</a> on Topcoat.io is generated using Topdoc, but we also found it really helpful for testing individual components while we are working on them.  An added benefit to using it on the individual component level, it generates gh-pages for public testing.</p>
 
 <p>Topdoc is independent of the Topcoat project, and can be used with any modular css documentation. Check out Topdoc&#39;s <a href="https://github.com/topcoat/topdoc">README</a> for details on installation and usage.</p>
 
-<h3>What&#39;s Next?</h3>
+<h3 id="what-s-next-">What&#39;s Next?</h3>
 
 <p>Topdoc could really use live reloading integrated, probably using something like Grunt&#39;s <a href="https://github.com/gruntjs/grunt-contrib-watch#optionslivereload">live reload</a>.  Also it would be great to have Topdoc write the demo files to the gh-pages branch on release.</p>
 
-<h3>One More Thing</h3>
+<h3 id="one-more-thing">One More Thing</h3>
 
 <p>We have put together a few more components, and don&#39;t want to wait until the end of the cycle to release them with v0.8.0, so we&#39;re releasing them soon as v0.7.5.</p>
 
