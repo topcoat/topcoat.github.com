@@ -74,6 +74,7 @@ h1 a:hover,nav.main ul li a:hover{color:#000}
 .features ul li#source-sans a.vignette{background-image:url("../img/tnl-source-sans.svg")}
 .features ul li#icons a.vignette{background-image:url("../img/tnl-icons.svg")}
 .features ul li#design a.vignette{background-image:url("../img/tnl-design.png")}
+.features ul li#cdnjs a.vignette {background-image: url(../img/tnl-cdnjs.png);}
 .features ul li a.vignette{display:block;width:120px;height:120px;margin:0 30px 30px 0;float:left;background-repeat:no-repeat;background-size:cover}
 .features ul li a.vignette,#default-theme{background-color:#f9f9f9;outline:solid 1px #eee}
 #default-theme{clear:left;width:100%;height:226px;margin-bottom:80px;overflow:hidden}
@@ -160,24 +161,24 @@ form{border:1px solid #ccc;padding:10px}
 
 <p>It is a sweet little package, and we’re actively working on it to make it even more awesome with fresh releases every month. Our biggest goal is to start building a community around Topcoat and we’re structuring the project so contribution is super crazy simple to do. </p>
 
-<p><img src="example.png" alt="image"/></p>
+<p><img src="example.png" alt="image"></p>
 
-<h2>Performance first!</h2>
+<h2 id="performance-first-">Performance first!</h2>
 
-<p>Apps need to be fast and so Topcoat is being built with speed in mind. We’re benchmarking everything we can and plan to do even more as the project evolves. It is an early time but we’re already looking at how each CSS control impacts loading, layout, and frames per second. <br/>
+<p>Apps need to be fast and so Topcoat is being built with speed in mind. We’re benchmarking everything we can and plan to do even more as the project evolves. It is an early time but we’re already looking at how each CSS control impacts loading, layout, and frames per second. 
 It is an awesome system, totally open source, and would be great stand alone tool for teams looking to find ways to measure their own apps performance. </p>
 
-<h2>Custom builds and theming</h2>
+<h2 id="custom-builds-and-theming">Custom builds and theming</h2>
 
 <p>Topcoat contains not only CSS but also all the tools we used to build it. You can easily customize and extend Topcoat to craft it to exactly the experience you need. The controls in Topcoat CSS are authored in Stylus, and we utilize many of its features to allow for a clean separation of reset, from layout, from aesthetic, and between platforms. Each control lives in its own git repo. It is in this way we can construct builds that target specific platforms, with only the controls you need, and only for the devices you are targeting. </p>
 
 <p>Creating a completely optimized builds are crucial feature for building complex applications, and especially so when you want to do everything possible to make your app crazy fast. </p>
 
-<h2>Using Topcoat</h2>
+<h2 id="using-topcoat">Using Topcoat</h2>
 
 <p>Topcoat can be dropped into a web app and used immediately. Even better you can tune your performance down to each discrete CSS control.</p>
 
-<h3>Getting started quickly</h3>
+<h3 id="getting-started-quickly">Getting started quickly</h3>
 
 <ol>
 <li>Clone from Github or download a specific version (E.g. <code>topcoat-0.3.0</code>) from <a href="http://topcoat.io">http://topcoat.io</a></li>
@@ -185,7 +186,7 @@ It is an awesome system, totally open source, and would be great stand alone too
 <li>Holy smokes there is no step three!</li>
 </ol>
 
-<h3>Custom builds for web hackers</h3>
+<h3 id="custom-builds-for-web-hackers">Custom builds for web hackers</h3>
 
 <ol>
 <li>Fork <a href="http://github.com/Topcoat/Topcoat">http://github.com/Topcoat/Topcoat</a></li>
@@ -195,7 +196,7 @@ It is an awesome system, totally open source, and would be great stand alone too
 <li>Fork (or write your own) controls and modify <code>package.json</code> point to them</li>
 </ol>
 
-<h3>Theming for the web craftsman</h3>
+<h3 id="theming-for-the-web-craftsman">Theming for the web craftsman</h3>
 
 <ol>
 <li>Fork <a href="http://github.com/Topcoat/theme">http://github.com/Topcoat/theme</a></li>
