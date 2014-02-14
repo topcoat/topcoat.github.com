@@ -5,9 +5,9 @@
         <description><![CDATA[CSS for clean and fast web apps.]]></description>
         <link>http://topcoat.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 04 Dec 2013 18:54:45 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Feb 2014 18:21:15 GMT</lastBuildDate>
         <atom:link href="http://topcoat.io/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 04 Dec 2013 18:54:36 GMT</pubDate>
+        <pubDate>Fri, 14 Feb 2014 18:21:06 GMT</pubDate>
         <item>
             <title><![CDATA[Blog]]></title>
             <description><![CDATA[<section id="content"><section class="articlelist"><article><h2><a href="/posts/semantic-icon-font-using-topcoat-icons/">Semantic Icon Font using Topcoat Icons</a></h2><p><p>Learn how, and why, to use the CSS @font-face rule with Topcoat icons in your mobile applications</p></p><footer><a href="/posts/semantic-icon-font-using-topcoat-icons/">Read More...</a><div class="published"> 
@@ -33,7 +33,7 @@ Published 5 Jun 2013 by <a href='http://brian.io/'>Brian LeRoux</a></div></foote
             <link>http://topcoat.io/</link>
             <guid isPermaLink="true">
                 http://topcoat.io/            </guid>
-            <pubDate>Wed, 04 Dec 2013 18:52:06 GMT</pubDate>
+            <pubDate>Fri, 14 Feb 2014 18:18:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Topcoat]]></title>

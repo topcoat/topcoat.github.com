@@ -7,7 +7,6 @@
     "npm": "1.2"
   },
   "dependencies": {
-    "docpad": "~6.53.4",
     "docpad-plugin-ghpages": "~2.4.0",
     "docpad-plugin-jade": "~2.4.1",
     "docpad-plugin-stylus": "~2.4.0",
@@ -15,7 +14,8 @@
     "docpad-plugin-cleanurls": "~2.5.1",
     "markdown": "~0.5.0",
     "docpad-plugin-rss": "~2.0.1",
-    "docpad-plugin-marked": "~2.1.2"
+    "docpad-plugin-marked": "~2.1.2",
+    "docpad": "~6.63.3"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.5.3"
