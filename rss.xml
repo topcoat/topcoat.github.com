@@ -5,9 +5,9 @@
         <description><![CDATA[CSS for clean and fast web apps.]]></description>
         <link>http://topcoat.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 14 Feb 2014 18:21:15 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 Feb 2014 23:54:47 GMT</lastBuildDate>
         <atom:link href="http://topcoat.io/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 14 Feb 2014 18:21:06 GMT</pubDate>
+        <pubDate>Wed, 19 Feb 2014 23:54:37 GMT</pubDate>
         <item>
             <title><![CDATA[Blog]]></title>
             <description><![CDATA[<section id="content"><section class="articlelist"><article><h2><a href="/posts/semantic-icon-font-using-topcoat-icons/">Semantic Icon Font using Topcoat Icons</a></h2><p><p>Learn how, and why, to use the CSS @font-face rule with Topcoat icons in your mobile applications</p></p><footer><a href="/posts/semantic-icon-font-using-topcoat-icons/">Read More...</a><div class="published"> 
