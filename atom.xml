@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2014-02-19T23:54:37.302Z</updated><id>http://topcoat.io/</id><entry><title>Semantic Icon Font using Topcoat Icons</title><link href="http://topcoat.io/posts/semantic-icon-font-using-topcoat-icons/"></link><updated>2013-11-22T06:00:00.000Z</updated><id>http://topcoat.io/posts/semantic-icon-font-using-topcoat-icons/</id><content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom"><title>Topcoat</title><subtitle>CSS for clean and fast web apps.</subtitle><link href="http://topcoat.io/atom.xml" rel="self"></link><link href="http://topcoat.io"></link><updated>2014-11-18T21:31:41.271Z</updated><id>http://topcoat.io/</id><entry><title>Semantic Icon Font using Topcoat Icons</title><link href="http://topcoat.io/posts/semantic-icon-font-using-topcoat-icons/"></link><updated>2013-11-22T05:00:00.000Z</updated><id>http://topcoat.io/posts/semantic-icon-font-using-topcoat-icons/</id><content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;where-to-start-&quot;&gt;Where to start&amp;hellip;&lt;/h3&gt;
 
@@ -100,7 +100,7 @@ There is a great &lt;a href=&quot;http://icomatic.github.io/sample-set/kit/icoma
 &lt;p&gt;Kindly brought to you by &lt;a href=&quot;http://www.twitter.com/nodoherty&quot;&gt;Niall O&amp;#39;Doherty&lt;/a&gt; - &lt;a href=&quot;http://www.twitter.com/nodoherty&quot;&gt;@nodoherty&lt;/a&gt;.
 Errors and omissions excepted&lt;/p&gt;
 &lt;/blockquote&gt;
-</content><author><name>Niall O'Doherty</name><uri>http://www.niallodoherty.com</uri></author></entry><entry><title>Responsive Design Tool for TopCoat</title><link href="http://topcoat.io/posts/intel-xdk/"></link><updated>2013-10-29T00:30:00.000Z</updated><id>http://topcoat.io/posts/intel-xdk/</id><content type="html">&lt;p&gt;Intel has updated the &lt;a href=&quot;http://xdk.intel.com/&quot;&gt;Intel XDK&lt;/a&gt;, an HTML5 development IDE. This new version has a WYSIWYG UI building tool that supports TopCoat and responsive design. It also uses Brackets for code editing. Take a look and share your thoughts.&lt;/p&gt;
+</content><author><name>Niall O'Doherty</name><uri>http://www.niallodoherty.com</uri></author></entry><entry><title>Responsive Design Tool for TopCoat</title><link href="http://topcoat.io/posts/intel-xdk/"></link><updated>2013-10-28T23:30:00.000Z</updated><id>http://topcoat.io/posts/intel-xdk/</id><content type="html">&lt;p&gt;Intel has updated the &lt;a href=&quot;http://xdk.intel.com/&quot;&gt;Intel XDK&lt;/a&gt;, an HTML5 development IDE. This new version has a WYSIWYG UI building tool that supports TopCoat and responsive design. It also uses Brackets for code editing. Take a look and share your thoughts.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;app_designer_selecting_topcoat.png&quot;&gt;&lt;img src=&quot;app_designer_selecting_topcoat.png&quot; alt=&quot;electing topcoat&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -123,7 +123,7 @@ Errors and omissions excepted&lt;/p&gt;
 &lt;p&gt;Here&amp;#39;s a screencast that steps through the theme and how to tweak it.&lt;/p&gt;
 
 &lt;div class=&quot;videoWrapper&quot; style=&quot;position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0;&quot;&gt;&lt;iframe src=&quot;//player.vimeo.com/video/77716726&quot; width=&quot;500&quot; height=&quot;281&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
-</content><author><name>Garth Braithwaite</name><uri>http://www.garthdb.com/</uri></author></entry><entry><title>Mini Release 0.7.5</title><link href="http://topcoat.io/posts/mini-release-0.7.5/"></link><updated>2013-09-24T02:00:00.000Z</updated><id>http://topcoat.io/posts/mini-release-0.7.5/</id><content type="html">&lt;p&gt;0.8.0 is not due out for a week or so, but we wanted to get some components out before then.&lt;/p&gt;
+</content><author><name>Garth Braithwaite</name><uri>http://www.garthdb.com/</uri></author></entry><entry><title>Mini Release 0.7.5</title><link href="http://topcoat.io/posts/mini-release-0.7.5/"></link><updated>2013-09-24T01:00:00.000Z</updated><id>http://topcoat.io/posts/mini-release-0.7.5/</id><content type="html">&lt;p&gt;0.8.0 is not due out for a week or so, but we wanted to get some components out before then.&lt;/p&gt;
 
 &lt;p&gt;This is just a half release, but it some much requested components:&lt;/p&gt;
 
@@ -135,7 +135,7 @@ Errors and omissions excepted&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Check back in the next little bit for the v0.8.0 release, and if you&amp;#39;re not in Amsterdam right now you&amp;#39;re missing &lt;a href=&quot;http://www.twitter.com/dam&quot;&gt;Kristofer Joseph&amp;#39;s&lt;/a&gt; session at &lt;a href=&quot;http://pgday.phonegap.com/eu2013/&quot;&gt;Phone Gap EU&lt;/a&gt;.&lt;/p&gt;
-</content><author><name>Garth Braithwaite</name><uri>http://www.garthdb.com/</uri></author></entry><entry><title>Generating Documentation for CSS Components</title><link href="http://topcoat.io/posts/generating-css-component-documentation/"></link><updated>2013-09-19T23:00:00.000Z</updated><id>http://topcoat.io/posts/generating-css-component-documentation/</id><content type="html">&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+</content><author><name>Garth Braithwaite</name><uri>http://www.garthdb.com/</uri></author></entry><entry><title>Generating Documentation for CSS Components</title><link href="http://topcoat.io/posts/generating-css-component-documentation/"></link><updated>2013-09-19T22:00:00.000Z</updated><id>http://topcoat.io/posts/generating-css-component-documentation/</id><content type="html">&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;the-problem&quot;&gt;The Problem&lt;/h3&gt;
 
@@ -201,7 +201,7 @@ Errors and omissions excepted&lt;/p&gt;
 &lt;li&gt;Range&lt;/li&gt;
 &lt;li&gt;Error state for text-input&lt;/li&gt;
 &lt;/ul&gt;
-</content><author><name>Garth Braithwaite</name><uri>http://www.garthdb.com/</uri></author></entry><entry><title>Desktop Parity Party</title><link href="http://topcoat.io/posts/desktop-parity-party/"></link><updated>2013-08-30T23:00:00.000Z</updated><id>http://topcoat.io/posts/desktop-parity-party/</id><content type="html">&lt;p&gt;Topcoat 0.7.0 is out and it has some features we&amp;#39;ve been looking forward to. The main goal was parity with the &lt;a href=&quot;https://github.com/topcoat/design&quot;&gt;Topcoat Desktop Kit&lt;/a&gt;, but we also slipped in some new components, improved workflows for hacking on Topcoat, and added &lt;a href=&quot;https://github.com/ai/autoprefixer&quot;&gt;Autoprefixer&lt;/a&gt;.&lt;/p&gt;
+</content><author><name>Garth Braithwaite</name><uri>http://www.garthdb.com/</uri></author></entry><entry><title>Desktop Parity Party</title><link href="http://topcoat.io/posts/desktop-parity-party/"></link><updated>2013-08-30T22:00:00.000Z</updated><id>http://topcoat.io/posts/desktop-parity-party/</id><content type="html">&lt;p&gt;Topcoat 0.7.0 is out and it has some features we&amp;#39;ve been looking forward to. The main goal was parity with the &lt;a href=&quot;https://github.com/topcoat/design&quot;&gt;Topcoat Desktop Kit&lt;/a&gt;, but we also slipped in some new components, improved workflows for hacking on Topcoat, and added &lt;a href=&quot;https://github.com/ai/autoprefixer&quot;&gt;Autoprefixer&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;desktop-parity&quot;&gt;Desktop Parity&lt;/h2&gt;
 
@@ -239,7 +239,7 @@ Errors and omissions excepted&lt;/p&gt;
 &lt;p&gt;With Desktop Parity in place we will be focusing on improving the theming workflow for the next release. Of course we&amp;#39;ll also be adding more components, so watch the &lt;a href=&quot;http://codepen.io/Topcoat&quot;&gt;Topcoat Codepens&lt;/a&gt; to see what&amp;#39;s coming next.&lt;/p&gt;
 
 &lt;p&gt;Also, look for &lt;a href=&quot;http://twitter.com/dam&quot;&gt;Kristofer Joseph&lt;/a&gt; at &lt;a href=&quot;http://pgday.phonegap.com/eu2013/&quot;&gt;PhoneGap Day EU&lt;/a&gt; in Amsterdam on Sep 24th.&lt;/p&gt;
-</content><author><name>Garth Braithwaite</name><uri>http://www.garthdb.com/</uri></author></entry><entry><title>Topcoat components deep dive</title><link href="http://topcoat.io/posts/topcoat-components-deep-dive/"></link><updated>2013-08-22T23:00:00.000Z</updated><id>http://topcoat.io/posts/topcoat-components-deep-dive/</id><content type="html">&lt;p&gt;We have been getting a lot of people asking how they can help add components to Topcoat. What follows is an overview of our workflow as well as some more in depth explanations into some of lesser known parts of the Topcoat architecture.&lt;/p&gt;
+</content><author><name>Garth Braithwaite</name><uri>http://www.garthdb.com/</uri></author></entry><entry><title>Topcoat components deep dive</title><link href="http://topcoat.io/posts/topcoat-components-deep-dive/"></link><updated>2013-08-22T22:00:00.000Z</updated><id>http://topcoat.io/posts/topcoat-components-deep-dive/</id><content type="html">&lt;p&gt;We have been getting a lot of people asking how they can help add components to Topcoat. What follows is an overview of our workflow as well as some more in depth explanations into some of lesser known parts of the Topcoat architecture.&lt;/p&gt;
 
 &lt;p&gt;We will cover:&lt;/p&gt;
 
@@ -331,7 +331,7 @@ var-background--cta&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Thanks for reading &lt;a href=&quot;http://twitter.com/dam&quot;&gt;@dam&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;-back-to-top-toc-&quot;&gt;&lt;a href=&quot;#toc&quot;&gt;Back to top&lt;/a&gt;&lt;/h4&gt;
-</content><author><name>Kristofer Joseph</name><uri>http://kristoferjoseph.com/</uri></author></entry><entry><title>npm all the things</title><link href="http://topcoat.io/posts/npm-all-the-things/"></link><updated>2013-08-19T23:00:00.000Z</updated><id>http://topcoat.io/posts/npm-all-the-things/</id><content type="html">&lt;p&gt;Topcoat 0.6.0 is hot off the wire and we are super happy with a few of the new additions. Here is a recap of what went into this release and some of the reasoning behind it.&lt;/p&gt;
+</content><author><name>Kristofer Joseph</name><uri>http://kristoferjoseph.com/</uri></author></entry><entry><title>npm all the things</title><link href="http://topcoat.io/posts/npm-all-the-things/"></link><updated>2013-08-19T22:00:00.000Z</updated><id>http://topcoat.io/posts/npm-all-the-things/</id><content type="html">&lt;p&gt;Topcoat 0.6.0 is hot off the wire and we are super happy with a few of the new additions. Here is a recap of what went into this release and some of the reasoning behind it.&lt;/p&gt;
 
 &lt;h2 id=&quot;codepens&quot;&gt;Codepens&lt;/h2&gt;
 
@@ -356,7 +356,7 @@ var-background--cta&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&quot;coming-up-in-0-7-0&quot;&gt;Coming up in 0.7.0&lt;/h2&gt;
 
 &lt;p&gt;The focus for the next release is to tidy up our desktop components to have parity with the &lt;a href=&quot;http://github.com/topcoat/design&quot;&gt;design comps&lt;/a&gt;. Previously the focus had been on mobile components since PhoneGap users were experiencing the most need. Keep an eye on &lt;a href=&quot;http://codepen.io/Topcoat&quot;&gt;the Topcoat Codepen page&lt;/a&gt; to get a sneak peek at the components that are coming as well. As always forks are appreciated!&lt;/p&gt;
-</content><author><name>Kristofer Joseph</name><uri>http://kristoferjoseph.com/</uri></author></entry><entry><title>Benchmarks and Results for Topcoat</title><link href="http://topcoat.io/posts/benchmarks/"></link><updated>2013-07-15T20:49:00.000Z</updated><id>http://topcoat.io/posts/benchmarks/</id><content type="html">&lt;p&gt;Topcoat is built with performance in mind and for that we are striving to benchmark everything. If you visit &lt;a href=&quot;http://bench.topcoat.io&quot;&gt;bench.topcoat.io&lt;/a&gt; you will see the components from our latest release and their benchmark over time.&lt;/p&gt;
+</content><author><name>Kristofer Joseph</name><uri>http://kristoferjoseph.com/</uri></author></entry><entry><title>Benchmarks and Results for Topcoat</title><link href="http://topcoat.io/posts/benchmarks/"></link><updated>2013-07-15T19:49:00.000Z</updated><id>http://topcoat.io/posts/benchmarks/</id><content type="html">&lt;p&gt;Topcoat is built with performance in mind and for that we are striving to benchmark everything. If you visit &lt;a href=&quot;http://bench.topcoat.io&quot;&gt;bench.topcoat.io&lt;/a&gt; you will see the components from our latest release and their benchmark over time.&lt;/p&gt;
 
 &lt;p&gt;The goal of the website is to have publicly accessible benchmark results for our users and for us to spot regressions and performance issues.&lt;/p&gt;
 
@@ -411,12 +411,12 @@ All of these steps are also shown in the &lt;a href=&quot;http://www.youtube.com
 &lt;li&gt;Topcoat Server &lt;a href=&quot;https://github.com/topcoat/topcoat-server&quot;&gt;&lt;a href=&quot;https://github.com/topcoat/topcoat-server&quot;&gt;https://github.com/topcoat/topcoat-server&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;more about Chromium Telemetry &lt;a href=&quot;http://www.chromium.org/developers/telemetry&quot;&gt;&lt;a href=&quot;http://www.chromium.org/developers/telemetry&quot;&gt;http://www.chromium.org/developers/telemetry&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><author><name>Andrei Oprea</name><uri>http://github.com/piatra</uri></author></entry><entry><title>Topcoat CI Environment</title><link href="http://topcoat.io/posts/topcoat-ci/"></link><updated>2013-06-27T21:17:00.000Z</updated><id>http://topcoat.io/posts/topcoat-ci/</id><content type="html">&lt;p&gt;Today we are open-sourcing our &lt;a href=&quot;https://github.com/topcoat/topcoat-ci-config&quot;&gt;Jenkins CI configs&lt;/a&gt; on Github. With Jenkins CI environment, every commit that goes into Topcoat components triggers the chain of building, unit testing and performance benchmark testing. So if something goes wrong, we know it right away.&lt;/p&gt;
+</content><author><name>Andrei Oprea</name><uri>http://github.com/piatra</uri></author></entry><entry><title>Topcoat CI Environment</title><link href="http://topcoat.io/posts/topcoat-ci/"></link><updated>2013-06-27T20:17:00.000Z</updated><id>http://topcoat.io/posts/topcoat-ci/</id><content type="html">&lt;p&gt;Today we are open-sourcing our &lt;a href=&quot;https://github.com/topcoat/topcoat-ci-config&quot;&gt;Jenkins CI configs&lt;/a&gt; on Github. With Jenkins CI environment, every commit that goes into Topcoat components triggers the chain of building, unit testing and performance benchmark testing. So if something goes wrong, we know it right away.&lt;/p&gt;
 
 &lt;p&gt;If you are interested in setting up your own Jenkins CI environment for Topcoat, be sure to go check it out. In the topcoat-ci-config Github repo, we have Jenkins job config (xml file) for all released Topcoat components (and we will keep adding more as they are ready). To use them, you can either copy the xml file and put it into your Jenkins job folder; or you can just read the plain xml and grab the part you want.&lt;/p&gt;
 
 &lt;p&gt;We hope you will like it.&lt;/p&gt;
-</content><author><name>Yinan Liu</name><uri>http://www.linkedin.com/in/yinanliu</uri></author></entry><entry><title>Introducing Topcoat</title><link href="http://topcoat.io/posts/introducing-topcoat/"></link><updated>2013-06-05T22:21:00.000Z</updated><id>http://topcoat.io/posts/introducing-topcoat/</id><content type="html">&lt;p&gt;Topcoat is a brand new open source CSS library designed to help developers build web apps with an emphasis on speed. It evolved from the Adobe design language developed for Brackets, Edge Reflow, and feedback from the PhoneGap app developer community. &lt;/p&gt;
+</content><author><name>Yinan Liu</name><uri>http://www.linkedin.com/in/yinanliu</uri></author></entry><entry><title>Introducing Topcoat</title><link href="http://topcoat.io/posts/introducing-topcoat/"></link><updated>2013-06-05T21:21:00.000Z</updated><id>http://topcoat.io/posts/introducing-topcoat/</id><content type="html">&lt;p&gt;Topcoat is a brand new open source CSS library designed to help developers build web apps with an emphasis on speed. It evolved from the Adobe design language developed for Brackets, Edge Reflow, and feedback from the PhoneGap app developer community. &lt;/p&gt;
 
 &lt;p&gt;Topcoat includes: &lt;/p&gt;
 
