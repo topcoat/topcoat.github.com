@@ -1,31 +1,30 @@
-topcoat.github.com
-==================
+# topcoat.github.com
 
 TopCoat Organization
 
-###Adding a blog post
+### Adding a blog post
 Watch [this screencast](http://vimeo.com/topcoat/contributing-to-the-topcoat-blog).
 
-###Making Changes
+### Making Changes
 
-1. Clone the repo locally
+1. Clone the repo locally:
 
-	```
+	```shell
 	git clone git@github.com:topcoat/topcoat.github.com.git
 	```
 2. Install [DocPad](http://docpad.org/) (make sure you have [node](http://www.nodejs.org) and npm installed):
 
-	```
+	```shell
 	npm install -g docpad
 	```
 3. Install all the docpad plugins (configuration located in the `package.json` file):
 
-	```
+	```shell
 	npm install
 	```
-4. You can start up docpad to test out your changes locally
+4. You can start up docpad to test out your changes locally:
 
-	```
+	```shell
 	docpad run
 	```
 5. Open your browser and go to http://localhost:9778/
@@ -36,15 +35,15 @@ Watch [this screencast](http://vimeo.com/topcoat/contributing-to-the-topcoat-blo
 	* While docpad is running locally, it will output the files to the `out/` directory
 7. When you finish making changes, stop docpad (`⌃ + c`), and generate the static site:
 
-	```
+	```shell
 	docpad generate --env static
 	```
-8. Deploy to git
+8. Deploy to git:
 
-	```
+	```shell
 	git status
 	```
 	(to check your changes)
-	```
+	```shell
 	git commit -am 'type some descriptive message here
 	```
