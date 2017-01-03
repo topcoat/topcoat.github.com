@@ -1,0 +1,12 @@
+---
+layout: default
+---
+section#content
+	article
+		header
+			h2!= document.title
+			.author!= formatAuthor(document.author)
+			.date Posted #{formatDate(document.date)}
+
+		#postcontent!= content
+	!= partial('comments',{slug:document.slug, title:document.title, url:document.url})

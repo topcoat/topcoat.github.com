@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Topcoat]]></title>
+        <description><![CDATA[CSS for clean and fast web apps.]]></description>
+        <link>http://topcoat.io</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 18 Nov 2014 21:31:50 GMT</lastBuildDate>
+        <atom:link href="http://topcoat.io/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 18 Nov 2014 21:31:41 GMT</pubDate>
+        <item>
+            <title><![CDATA[Blog]]></title>
+            <description><![CDATA[<section id="content"><section class="articlelist"><article><h2><a href="/posts/semantic-icon-font-using-topcoat-icons/">Semantic Icon Font using Topcoat Icons</a></h2><p><p>Learn how, and why, to use the CSS @font-face rule with Topcoat icons in your mobile applications</p></p><footer><a href="/posts/semantic-icon-font-using-topcoat-icons/">Read More...</a><div class="published"> 
+Published 21 Nov 2013 by <a href='http://www.niallodoherty.com'>Niall O'Doherty</a></div></footer></article><article><h2><a href="/posts/intel-xdk/">Responsive Design Tool for TopCoat</a></h2><p><p>Intel has updated the <a href="http://xdk.intel.com/">Intel XDK</a>, an HTML5 development IDE. This new version has a WYSIWYG UI building tool that supports TopCoat and responsive design.</p></p><footer><a href="/posts/intel-xdk/">Read More...</a><div class="published"> 
+Published 28 Oct 2013 by <a href='http://xdk.intel.com'>Chris Perkins</a></div></footer></article><article><h2><a href="/posts/color-me-topcoat/">Color Me Topcoat</a></h2><p><p>Topcoat 0.8.0 is out!  This build focused on improving customization and theming workflows, specifically on optimizing colors in the theme.</p></p><footer><a href="/posts/color-me-topcoat/">Read More...</a><div class="published"> 
+Published 20 Oct 2013 by <a href='http://www.garthdb.com/'>Garth Braithwaite</a></div></footer></article><article><h2><a href="/posts/mini-release-0.7.5/">Mini Release 0.7.5</a></h2><p><p>There are too many good components to wait until 0.8.0</p></p><footer><a href="/posts/mini-release-0.7.5/">Read More...</a><div class="published"> 
+Published 23 Sep 2013 by <a href='http://www.garthdb.com/'>Garth Braithwaite</a></div></footer></article><article><h2><a href="/posts/generating-css-component-documentation/">Generating Documentation for CSS Components</a></h2><p><p>Topcoat needed HTML demos, so we built a tool for generating documentation and demos from Topcoat&#39;s CSS comments; behold, Topdoc.</p></p><footer><a href="/posts/generating-css-component-documentation/">Read More...</a><div class="published"> 
+Published 19 Sep 2013 by <a href='http://www.garthdb.com/'>Garth Braithwaite</a></div></footer></article><article><h2><a href="/posts/desktop-parity-party/">Desktop Parity Party</a></h2><p><p>Topcoat 0.7.0 is out and it has some features we&#39;ve been looking forward to. The main goal was parity with the <a href="https://github.com/topcoat/design">Topcoat Desktop Kit</a>, but we also slipped in some new components, improved workflows for hacking on Topcoat, and added <a href="https://github.com/ai/autoprefixer">Autoprefixer</a>.</p></p><footer><a href="/posts/desktop-parity-party/">Read More...</a><div class="published"> 
+Published 30 Aug 2013 by <a href='http://www.garthdb.com/'>Garth Braithwaite</a></div></footer></article><article><h2><a href="/posts/topcoat-components-deep-dive/">Topcoat components deep dive</a></h2><p><p>We have been getting a lot of people asking how they can help add components to Topcoat. What follows is an overview of our proposed workflow as well as some more in depth explanations into some of lesser known parts of the Topcoat architecture.</p></p><footer><a href="/posts/topcoat-components-deep-dive/">Read More...</a><div class="published"> 
+Published 22 Aug 2013 by <a href='http://kristoferjoseph.com/'>Kristofer Joseph</a></div></footer></article><article><h2><a href="/posts/npm-all-the-things/">npm all the things</a></h2><p><p>Topcoat 0.6.0 is hot off the wire and we are super happy with a few of the new additions. Here is a recap of what went into this release and some of the reasoning behind it.</p></p><footer><a href="/posts/npm-all-the-things/">Read More...</a><div class="published"> 
+Published 19 Aug 2013 by <a href='http://kristoferjoseph.com/'>Kristofer Joseph</a></div></footer></article><article><h2><a href="/posts/benchmarks/">Benchmarks and Results for Topcoat</a></h2><p><p>Topcoat is built with performance in mind and for that we are striving to benchmark everything. If you visit <a href="http://bench.topcoat.io">bench.topcoat.io</a> you will see the components from our latest release and their benchmark over time.</p></p><footer><a href="/posts/benchmarks/">Read More...</a><div class="published"> 
+Published 15 Jul 2013 by <a href='http://github.com/piatra'>Andrei Oprea</a></div></footer></article><article><h2><a href="/posts/topcoat-ci/">Topcoat CI Environment</a></h2><p><p>Today we are open-sourcing our <a href="https://github.com/topcoat/topcoat-ci-config">Jenkins CI configs</a> on Github. With Jenkins CI environment, every commit that goes into Topcoat components triggers the chain of building, unit testing and performance benchmark testing. So if something goes wrong, we know it right away.</p></p><footer><a href="/posts/topcoat-ci/">Read More...</a><div class="published"> 
+Published 27 Jun 2013 by <a href='http://www.linkedin.com/in/yinanliu'>Yinan Liu</a></div></footer></article><article><h2><a href="/posts/introducing-topcoat/">Introducing Topcoat</a></h2><p><p>Topcoat is a brand new open source CSS library designed to help developers build web apps with an emphasis on speed. It evolved from the Adobe design language developed for Brackets, Edge Reflow, and feedback from the PhoneGap app developer community.</p></p><footer><a href="/posts/introducing-topcoat/">Read More...</a><div class="published"> 
+Published 5 Jun 2013 by <a href='http://brian.io/'>Brian LeRoux</a></div></footer></article></section></section>]]></description>
+            <link>http://topcoat.io/blog/</link>
+            <guid isPermaLink="true">
+                http://topcoat.io/blog/            </guid>
+            <pubDate>Fri, 30 Aug 2013 21:39:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Topcoat]]></title>
+            <description><![CDATA[<section id="hero"><ul><li id="desktop-preview"></li><li id="mobile-preview"></li></ul></section><section class="features"><ul><li id="performance" class="clearfix"><a class="vignette"></a><h3>Soooo Fast!</h3><p>Performance is our #1 goal. Every component we design is <a href="http://bench.topcoat.io">benchmarked for performance</a>. You can see our results.</p></li><li id="components"><a class="vignette clearfix"></a><h3>Components Galore</h3><p>We have the building blocks to get you up and running fast. Our growing set of components were born from CSS.</p></li><li id="themes"><a class="vignette"></a><h3>Themeable</h3><p>Is that even a word? It should be! We love our theme, but we don’t want to hit your brand over the head with it. Just add colors and voila!</p></li><li id="bem"><a class="vignette"></a><h3>BEM Architecture</h3><p>We believe CSS is ready for primetime. We are basing our <a href="http://bem.info/method/">architecture on BEM</a> make your apps faster, less contextual and easier to manage.</p></li><li id="source-sans"><a class="vignette"></a><h3>Even our font is open source</h3><p>The first open source font family contribution from Adobe, Source Sans Pro. It is served on <a href="https://edgewebfonts.adobe.com/fonts#/?nameFilter=source&collection=source-sans-pro">Adobe Edge Web Fonts</a> and <a href="https://typekit.com/fonts/source-sans-pro">Adobe Typekit</a>.</p></li><li id="icons"><a class="vignette"></a><h3>Icons how you want them</h3><p>We created over <a href="https://github.com/topcoat/icons">100 icons to go with Topcoat</a>.  You can use them as SVG, PNG or semantic icon font. And yes, they are also open source.</p></li><li id="design"><a class="vignette"></a><h3>Design with Topcoat</h3><p>Even though Topcoat was designed in code. We are <a href="https://github.com/topcoat/design">including a PSD</a> with all the components on our code base.</p></li><li id="cdnjs"><a class="vignette"></a><h3>CDN Resources</h3><p>If you prefer to use a CDN to distribute your Topcoat assets then check out the <a href="http://cdnjs.com/libraries/topcoat/">Topcoat</a> and <a href="http://cdnjs.com/libraries/topcoat-icons/">Topcoat Icons</a> distributions on cdnjs.</p></li></ul><div style="clear:both;"></div></section>]]></description>
+            <link>http://topcoat.io/</link>
+            <guid isPermaLink="true">
+                http://topcoat.io/            </guid>
+            <pubDate>Fri, 14 Feb 2014 18:18:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Topcoat]]></title>
+            <description><![CDATA[<section id="content" class="narrow"><h1>You Rock!</h1><p>Thanks for signing the Topcoat Contributor License Agreement. Now that the legal stuff is out of the way we can accept your brilliant work!</p><a href="http://github.com/topcoat/topcoat" class="topcoat-button--cta">Take Me To The Project!</a></section>]]></description>
+            <link>http://topcoat.io/dev/topcoat-cla-thanks/</link>
+            <guid isPermaLink="true">
+                http://topcoat.io/dev/topcoat-cla-thanks/            </guid>
+            <pubDate>Fri, 30 Aug 2013 21:39:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Topcoat Contributor License and Distribution Agreement]]></title>
+            <description><![CDATA[<section id="content" class="narrow"><p id="pleaseread" class="well"><strong>PLEASE READ THIS AGREEMENT CAREFULLY.  BY SUBMITTING YOUR CONTRIBUTIONS (DEFINED BELOW) AND CLICKING {“ACCEPT”}, YOU ARE AGREEING TO BE BOUND BY ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT.</strong></p><p>Adobe Systems Incorporated (“Adobe”) appreciates your willingness to grant permission to use your software code checked directly into a source control system that is available by GitHub Inc (“Contributions”) in conjunction with Topcoat.  By clicking [“ACCEPT”] (“you” or “You”) hereby grant to the Adobe and to recipients of software distributed through Topcoat a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable license to use, make, have made, offer to sell, sell, import, reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute Your Contributions and such derivative works as part of Topcoat.</p><p>Just as we are respectful of your rights in the Contributions, we want to insure that it will not need to seek additional permission to use the Contributions from any third party.</p><ul><li>You represent and warrant that you are the sole owner of the Contributions and/or have sufficient rights in your Contribution to grant all rights you grant hereunder.</li><li>You represent that the Contributions are your original works of authorship, that you created the Contributions and did not copy them from another source, and no other person claims, or has the right to claim, any right in any invention or patent related to the Contributions.</li><li>You represent that you are legally entitled to grant the above license. If your employer has rights to intellectual property that you create, you represent that you have received permission to make the Contributions on behalf of that employer, or that your employer has waived such rights for the Contributions.</li><li>Finally, it means that you have not entered into any agreements that would prevent you from granting the rights provided in this Agreement.</li></ul><p>You understand that the decision to include the Contribution in any product or source repository is entirely that of Adobe and this agreement does not guarantee that the Contributions will be included in any product, technology or services.</p><p>If you become aware of any facts or circumstances related to the representation above that would make these representations inaccurate or untrue, you agree to notify Adobe promptly with any details.</p><form id="claform" action="https://docs.google.com/forms/d/1Ihw_rTfxjox9magkp5tcOFd2u2EDNHBWwmF0p2l4rWw/formResponse" method="post"><div class="control-group"><label for="entry_1630591871" class="control-label">Full Name</label><input id="entry_1630591871" type="text" name="entry.1630591871" placeholder="Gordon Freeman"/></div><div class="control-group"><label for="entry_828694085" class="control-label">Email</label><input id="entry_828694085" type="email" name="entry.828694085"/></div><div class="control-group"><label for="entry_1403120304" class="control-label">Github Username</label><input id="entry_1403120304" type="text" name="entry.1403120304"/></div><div class="control-group"><label for="entry_585243826" class="control-label">Address</label><input id="entry_585243826" type="text" name="entry.585243826"/></div><div class="control-group"><label for="entry_1805887070" class="control-label"></label><input id="entry_1805887070" type="text" name="entry.1805887070"/></div><div class="control-group"><label for="entry_393717151" class="control-label">City</label><input id="entry_393717151" type="text" name="entry.393717151"/></div><div class="control-group"><label for="entry_1805570094" class="control-label">State</label><input id="entry_1805570094" type="text" name="entry.1805570094"/></div><div class="control-group"><label for="entry_447963545" class="control-label">Zip</label><input id="entry_447963545" type="text" name="entry.447963545"/></div><div class="control-group"><label for="entry_522763684" class="control-label">Country</label><select id="entry_522763684" name="entry.522763684"><option value=""></option><option value="Afghanistan">Afghanistan</option><option value="Åland Islands">Åland Islands</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="American Samoa">American Samoa</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Anguilla">Anguilla</option><option value="Antarctica">Antarctica</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Argentina">Argentina</option><option value="Armenia">Armenia</option><option value="Aruba">Aruba</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Azerbaijan">Azerbaijan</option><option value="Bahamas">Bahamas</option><option value="Bahrain">Bahrain</option><option value="Bangladesh">Bangladesh</option><option value="Barbados">Barbados</option><option value="Belarus">Belarus</option><option value="Belgium">Belgium</option><option value="Belize">Belize</option><option value="Benin">Benin</option><option value="Bermuda">Bermuda</option><option value="Bhutan">Bhutan</option><option value="Bolivia">Bolivia</option><option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option><option value="Botswana">Botswana</option><option value="Bouvet Island">Bouvet Island</option><option value="Brazil">Brazil</option><option value="British Indian Ocean Territory">British Indian Ocean Territory</option><option value="Brunei Darussalam">Brunei Darussalam</option><option value="Bulgaria">Bulgaria</option><option value="Burkina Faso">Burkina Faso</option><option value="Burundi">Burundi</option><option value="Cambodia">Cambodia</option><option value="Cameroon">Cameroon</option><option value="Canada">Canada</option><option value="Cape Verde">Cape Verde</option><option value="Cayman Islands">Cayman Islands</option><option value="Central African Republic">Central African Republic</option><option value="Chad">Chad</option><option value="Chile">Chile</option><option value="China">China</option><option value="Christmas Island">Christmas Island</option><option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option><option value="Colombia">Colombia</option><option value="Comoros">Comoros</option><option value="Congo">Congo</option><option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option><option value="Cook Islands">Cook Islands</option><option value="Costa Rica">Costa Rica</option><option>Cote D'ivoire</option><option value="Croatia">Croatia</option><option value="Cuba">Cuba</option><option value="Cyprus">Cyprus</option><option value="Czech Republic">Czech Republic</option><option value="Denmark">Denmark</option><option value="Djibouti">Djibouti</option><option value="Dominica">Dominica</option><option value="Dominican Republic">Dominican Republic</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="El Salvador">El Salvador</option><option value="Equatorial Guinea">Equatorial Guinea</option><option value="Eritrea">Eritrea</option><option value="Estonia">Estonia</option><option value="Ethiopia">Ethiopia</option><option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option><option value="Faroe Islands">Faroe Islands</option><option value="Fiji">Fiji</option><option value="Finland">Finland</option><option value="France">France</option><option value="French Guiana">French Guiana</option><option value="French Polynesia">French Polynesia</option><option value="French Southern Territories">French Southern Territories</option><option value="Gabon">Gabon</option><option value="Gambia">Gambia</option><option value="Georgia">Georgia</option><option value="Germany">Germany</option><option value="Ghana">Ghana</option><option value="Gibraltar">Gibraltar</option><option value="Greece">Greece</option><option value="Greenland">Greenland</option><option value="Grenada">Grenada</option><option value="Guadeloupe">Guadeloupe</option><option value="Guam">Guam</option><option value="Guatemala">Guatemala</option><option value="Guernsey">Guernsey</option><option value="Guinea">Guinea</option><option value="Guinea-bissau">Guinea-bissau</option><option value="Guyana">Guyana</option><option value="Haiti">Haiti</option><option value="Heard Island and McDonald Islands">Heard Island and McDonald Islands</option><option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option><option value="Honduras">Honduras</option><option value="Hong Kong">Hong Kong</option><option value="Hungary">Hungary</option><option value="Iceland">Iceland</option><option value="India">India</option><option value="Indonesia">Indonesia</option><option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option><option value="Iraq">Iraq</option><option value="Ireland">Ireland</option><option value="Isle of Man">Isle of Man</option><option value="Israel">Israel</option><option value="Italy">Italy</option><option value="Jamaica">Jamaica</option><option value="Japan">Japan</option><option value="Jersey">Jersey</option><option value="Jordan">Jordan</option><option value="Kazakhstan">Kazakhstan</option><option value="Kenya">Kenya</option><option value="Kiribati">Kiribati</option><option>Korea, Democratic People's Republic of</option><option value="Korea, Republic of">Korea, Republic of</option><option value="Kuwait">Kuwait</option><option value="Kyrgyzstan">Kyrgyzstan</option><option>Lao People's Democratic Republic</option><option value="Latvia">Latvia</option><option value="Lebanon">Lebanon</option><option value="Lesotho">Lesotho</option><option value="Liberia">Liberia</option><option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option><option value="Liechtenstein">Liechtenstein</option><option value="Lithuania">Lithuania</option><option value="Luxembourg">Luxembourg</option><option value="Macao">Macao</option><option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option><option value="Madagascar">Madagascar</option><option value="Malawi">Malawi</option><option value="Malaysia">Malaysia</option><option value="Maldives">Maldives</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Marshall Islands">Marshall Islands</option><option value="Martinique">Martinique</option><option value="Mauritania">Mauritania</option><option value="Mauritius">Mauritius</option><option value="Mayotte">Mayotte</option><option value="Mexico">Mexico</option><option value="Micronesia, Federated States of">Micronesia, Federated States of</option><option value="Moldova, Republic of">Moldova, Republic of</option><option value="Monaco">Monaco</option><option value="Mongolia">Mongolia</option><option value="Montenegro">Montenegro</option><option value="Montserrat">Montserrat</option><option value="Morocco">Morocco</option><option value="Mozambique">Mozambique</option><option value="Myanmar">Myanmar</option><option value="Namibia">Namibia</option><option value="Nauru">Nauru</option><option value="Nepal">Nepal</option><option value="Netherlands">Netherlands</option><option value="Netherlands Antilles">Netherlands Antilles</option><option value="New Caledonia">New Caledonia</option><option value="New Zealand">New Zealand</option><option value="Nicaragua">Nicaragua</option><option value="Niger">Niger</option><option value="Nigeria">Nigeria</option><option value="Niue">Niue</option><option value="Norfolk Island">Norfolk Island</option><option value="Northern Mariana Islands">Northern Mariana Islands</option><option value="Norway">Norway</option><option value="Oman">Oman</option><option value="Pakistan">Pakistan</option><option value="Palau">Palau</option><option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option><option value="Panama">Panama</option><option value="Papua New Guinea">Papua New Guinea</option><option value="Paraguay">Paraguay</option><option value="Peru">Peru</option><option value="Philippines">Philippines</option><option value="Pitcairn">Pitcairn</option><option value="Poland">Poland</option><option value="Portugal">Portugal</option><option value="Puerto Rico">Puerto Rico</option><option value="Qatar">Qatar</option><option value="Reunion">Reunion</option><option value="Romania">Romania</option><option value="Russian Federation">Russian Federation</option><option value="Rwanda">Rwanda</option><option value="Saint Helena">Saint Helena</option><option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option><option value="Saint Lucia">Saint Lucia</option><option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option><option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option><option value="Samoa">Samoa</option><option value="San Marino">San Marino</option><option value="Sao Tome and Principe">Sao Tome and Principe</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Senegal">Senegal</option><option value="Serbia">Serbia</option><option value="Seychelles">Seychelles</option><option value="Sierra Leone">Sierra Leone</option><option value="Singapore">Singapore</option><option value="Slovakia">Slovakia</option><option value="Slovenia">Slovenia</option><option value="Solomon Islands">Solomon Islands</option><option value="Somalia">Somalia</option><option value="South Africa">South Africa</option><option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option><option value="Spain">Spain</option><option value="Sri Lanka">Sri Lanka</option><option value="Sudan">Sudan</option><option value="Suriname">Suriname</option><option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option><option value="Swaziland">Swaziland</option><option value="Sweden">Sweden</option><option value="Switzerland">Switzerland</option><option value="Syrian Arab Republic">Syrian Arab Republic</option><option value="Taiwan, Province of China">Taiwan, Province of China</option><option value="Tajikistan">Tajikistan</option><option value="Tanzania, United Republic of">Tanzania, United Republic of</option><option value="Thailand">Thailand</option><option value="Timor-leste">Timor-leste</option><option value="Togo">Togo</option><option value="Tokelau">Tokelau</option><option value="Tonga">Tonga</option><option value="Trinidad and Tobago">Trinidad and Tobago</option><option value="Tunisia">Tunisia</option><option value="Turkey">Turkey</option><option value="Turkmenistan">Turkmenistan</option><option value="Turks and Caicos Islands">Turks and Caicos Islands</option><option value="Tuvalu">Tuvalu</option><option value="Uganda">Uganda</option><option value="Ukraine">Ukraine</option><option value="United Arab Emirates">United Arab Emirates</option><option value="United Kingdom">United Kingdom</option><option value="United States">United States</option><option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option><option value="Uruguay">Uruguay</option><option value="Uzbekistan">Uzbekistan</option><option value="Vanuatu">Vanuatu</option><option value="Venezuela">Venezuela</option><option value="Viet Nam">Viet Nam</option><option value="Virgin Islands, British">Virgin Islands, British</option><option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option><option value="Wallis and Futuna">Wallis and Futuna</option><option value="Western Sahara">Western Sahara</option><option value="Yemen">Yemen</option><option value="Zambia">Zambia</option><option value="Zimbabwe">Zimbabwe</option></select></div><div class="control-group submit"><a href="#" class="topcoat-button--cta">Accept</a></div></form><script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script><script type="text/javascript">$(document).ready(function() {
+ $('.control-group.submit a.topcoat-button--cta').click(function() {  
+  $(".alert").remove();
+  $(".error").removeClass("error");
+  $(".help-inline").remove();
+  $(".add-on").remove();
+  var hasError = false;
+  var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+  var item;
+  // full name
+  item = $("#entry_1630591871").val();
+  if(item == '') {
+   invalid("#entry_1630591871");
+   hasError = true;
+  }
+  // email
+  item = $("#entry_828694085").val();
+  if(item == '') {
+   invalid("#entry_828694085");
+   hasError = true;
+  } else if(!emailReg.test(item)) {
+   invalid("#entry_828694085", "Invalid email address.");
+   hasError = true;
+  }
+  // street address
+  item = $("#entry_585243826").val();
+  if(item == '') {
+   invalid("#entry_585243826");
+   hasError = true;
+  }
+  // city
+  item = $("#entry_393717151").val();
+  if(item == '') {
+   invalid("#entry_393717151");
+   hasError = true;
+  }
+  // state / province
+  item = $("#entry_1805570094").val();
+  if(item == '') {
+   invalid("#entry_1805570094");
+   hasError = true;
+  }
+  // zip
+  item = $("#entry_447963545").val();
+  if(item == '') {
+   invalid("#entry_447963545");
+   hasError = true;
+  }
+  // country
+  item = $("#entry_522763684 option:selected").val();
+  if(item == '') {
+   invalid("#entry_522763684");
+   hasError = true;
+  }
+  if(hasError == true) {
+   $("#claform").children().first().before('<div id="required" class="alert alert-error">The following fields are required.</div>');
+   return false;
+  } else {
+   // success
+   $('#claform').submit();
+   return false
+  }
+ });
+ function invalid(input, msg) {
+  $(input).parents(".control-group").addClass("error");
+  if(msg == undefined){msg = ""};
+  $(input).after('<span class="help-inline">' + msg + '</span>');
+  $(input).after("<span class='add-on'><i class='icon-exclamation-sign'></i></span>");
+  return;
+ }
+});</script></section>]]></description>
+            <link>http://topcoat.io/dev/topcoat-cla/</link>
+            <guid isPermaLink="true">
+                http://topcoat.io/dev/topcoat-cla/            </guid>
+            <pubDate>Fri, 30 Aug 2013 21:39:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Benchmarks and Results for Topcoat]]></title>
+            <description><![CDATA[<p>Topcoat is built with performance in mind and for that we are striving to benchmark everything. If you visit <a href="http://bench.topcoat.io">bench.topcoat.io</a> you will see the components from our latest release and their benchmark over time.</p>
+
+<p>The goal of the website is to have publicly accessible benchmark results for our users and for us to spot regressions and performance issues.</p>
+
+<h2 id="key-metrics">Key metrics</h2>
+
+<ul>
+<li><p>Mean frame time (Frame time) - not frames per second (FPS) this is actually a more accurate rating of performance, a good article with an in depth explanation: <a href="http://www.mvps.org/directx/articles/fps_versus_frame_time.htm">fps versus frame time</a></p>
+</li>
+<li><p>Load time</p>
+</li>
+<li><p>Layout time</p>
+<p><img src="screenshot.png" alt="plot screenshot" title="Plot screenshot"></p>
+</li>
+</ul>
+
+<p>The server can also be used offline for components development. You can make changes to a component, say for example swap box-shadow for for a dark border with reduced opacity, the plots can offer you a nicer visualisation of the performance impact.</p>
+
+<p>There is a <a href="http://www.youtube.com/watch?v=Mhw4Sf1WWwQ">screencast</a> where you can see how to get started with using it for your own needs.</p>
+
+<iframe class="video" src="//www.youtube.com/embed/Mhw4Sf1WWwQ" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="how">How</h2>
+
+<p>We are using <a href="http://www.chromium.org/developers/telemetry">Chromium Telemetry</a>. Telemetry is a python powered framework used for cross-(chrome)-platform performance testing. It abstracts launching, connecting, and opening a page and records the metrics mentioned above and many others.</p>
+
+<p>We have a Grunt task that takes results and pushes them to the server.</p>
+
+<p>The server is written in Node and uses <a href="http://www.flotcharts.org/"><a href="http://www.flotcharts.org/">http://www.flotcharts.org/</a></a> to display the results.</p>
+
+<h2 id="usage-guide">Usage guide</h2>
+
+<ol>
+<li><a href="http://www.chromium.org/developers/how-tos/get-the-code">chromium.org/developers/how-tos/get-the-code</a> offers step by step instructions on how to download Chromium. You will need it entirely if you want to run Telemetry so be ready for a ~1.6GB download.</li>
+<li>In <code>chromium/src/tools/perf/page_sets</code> you will find <strong>*.json</strong> files which are required as input when running the telemetry tests. There is a specific boilerplate json that you will need to write in order to tell Telemetry where the page you want to benchmark is located.</li>
+<li>To run Telemetry you will need to be in <code>chromium/src/tools/perf</code>. The command is
+ <code>./run_multipage_benchmarks --browser=system loading_benchmark page_sets/topcoat_buttons-base.test.json -o /tmp/loading_benchmark_topcoat_buttons-base.txt</code><ul>
+<li><strong>loading_benchmark</strong> parameter tells Telemetry to record load time, layout time, the time it took to parse the HTML etc.</li>
+<li><strong>smoothness_benchmark</strong> parameter tells Telemetry to scroll the page while recording, this time it captures mean frame time, jank count and many others.</li>
+</ul>
+</li>
+<li>After you have the data you can use the Grunt task in the Topcoat repo to parse the files that have specified as output and submit them to your clone of Topcoat Server running locally.
+All of these steps are also shown in the <a href="http://www.youtube.com/watch?v=Mhw4Sf1WWwQ">screencast</a>.</li>
+</ol>
+
+<p>If there are any questions you can use the comments below, I&#39;m looking forward to seeing pull requests/issues reporting for the project. You can also hit me up on twitter <a href="http://twitter.com/ndreio">@ndreio</a></p>
+
+<p>Useful links:</p>
+
+<ul>
+<li>main home page <a href="http://topcoat.io"><a href="http://topcoat.io">http://topcoat.io</a></a></li>
+<li>github repository <a href="https://github.com/topcoat/"><a href="https://github.com/topcoat/">https://github.com/topcoat/</a></a></li>
+<li>Topcoat Server <a href="https://github.com/topcoat/topcoat-server"><a href="https://github.com/topcoat/topcoat-server">https://github.com/topcoat/topcoat-server</a></a></li>
+<li>more about Chromium Telemetry <a href="http://www.chromium.org/developers/telemetry"><a href="http://www.chromium.org/developers/telemetry">http://www.chromium.org/developers/telemetry</a></a></li>
+</ul>
+]]></description>
+            <link>http://topcoat.io/posts/benchmarks/</link>
+            <guid isPermaLink="true">
+                http://topcoat.io/posts/benchmarks/            </guid>
+            <dc:creator><![CDATA[ndreio]]></dc:creator>
+            <pubDate>Mon, 15 Jul 2013 19:49:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Color Me Topcoat]]></title>
+            <description><![CDATA[<p>Deep in the pits of the Topcoat Theme lived way too many colors.  It made it tricky to customize a new theme quickly.  So we leveraged the color functions from Stylus to wittle the colors down to just a few base colors:</p>
+
+<ul>
+<li>Text color</li>
+<li>Control base color</li>
+<li>Page base color</li>
+<li>Notification color</li>
+<li>Highlight color</li>
+<li>Shadow color</li>
+</ul>
+
+<p>This colors then effect the rest of the theme.  Each of the previous colors can still be declared manually if you need that control.</p>
+
+<p>Here&#39;s a screencast that steps through the theme and how to tweak it.</p>
+
+<div class="videoWrapper" style="position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0;"><iframe src="//player.vimeo.com/video/77716726" width="500" height="281" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+]]></description>
+            <link>http://topcoat.io/posts/color-me-topcoat/</link>
+            <guid isPermaLink="true">
+                http://topcoat.io/posts/color-me-topcoat/            </guid>
+            <dc:creator><![CDATA[garthdb]]></dc:creator>
+            <pubDate>Mon, 21 Oct 2013 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Desktop Parity Party]]></title>
+            <description><![CDATA[<p>Topcoat 0.7.0 is out and it has some features we&#39;ve been looking forward to. The main goal was parity with the <a href="https://github.com/topcoat/design">Topcoat Desktop Kit</a>, but we also slipped in some new components, improved workflows for hacking on Topcoat, and added <a href="https://github.com/ai/autoprefixer">Autoprefixer</a>.</p>
+
+<h2 id="desktop-parity">Desktop Parity</h2>
+
+<p>This release was primarily focused on bringing the desktop stylesheets in parity with <a href="https://github.com/topcoat/design">Topcoat Desktop Kit</a> designed by <a href="https://twitter.com/larz">Larz</a> and <a href="http://www.behance.net/nnnnic">Nic</a> from Adobe XD. This parity means additional states like focus and hover that weren&#39;t previously a priority as we were focused on mobile. It also takes into account appropriate sizing and platform specific components, like <a href="http://topcoat.io/list">List</a> and <a href="http://topcoat.io/navigation-bar">Navigation Bar</a>, which are now only included in the mobile stylesheets.</p>
+
+<h2 id="new-components">New Components</h2>
+
+<p>We have a couple of new components. <a href="http://topcoat.io/topcoat/#icon-button">Icon Button</a> has returned, as well as the addition of <a href="http://topcoat.io/topcoat/#button-bar">Button Bar</a>. Taking a look at our design repo, you&#39;ll notice we still have plenty of components left to build.  <a href="http://twitter.com/dam">Kristofer Joseph</a> put together a <a href="http://topcoat.io/posts/topcoat-components-deep-dive/">deep dive</a> on the component architecture to make it easier to get started if you&#39;d like to help contribute.</p>
+
+<h2 id="autoprefixer">Autoprefixer</h2>
+
+<p>The way Topcoat&#39;s build process has been designed; you can grab just what you need for your specific project and targeted platforms.  We&#39;ve taken that a step further by adding <a href="https://github.com/ai/autoprefixer">Autoprefixer</a>.  It uses the data from <a href="http://caniuse.com/">Can I Use</a> to let you add only the vendor specific prefixes you need.  This also frees up the source for the components to be vendor agnostic.</p>
+
+<h2 id="topdoc-0-2-0">Topdoc 0.2.0</h2>
+
+<p>We use <a href="http://github.com/topcoat/topdoc">Topdoc</a> to build the demo files from Topcoat&#39;s css. In this release we&#39;ve updated the Topdoc spec to leverage a <a href="http://nodeca.github.io/js-yaml/">YAML</a> syntax which give us improved flexibility in the component&#39;s metadata. Additionally we are now leveraging Topdoc to generate html demo files for the individual components and are publishing them on <a href="http://pages.github.com/">GitHub Pages</a> at <a href="http://topcoat.io/{">http://topcoat.io/{</a> component name }</p>
+
+<ul>
+<li><a href="http://topcoat.io/button-bar">Button Bar</a></li>
+<li><a href="http://topcoat.io/button">Button</a></li>
+<li><a href="http://topcoat.io/checkbox">Checkbox</a></li>
+<li><a href="http://topcoat.io/icon-button">Icon Button</a></li>
+<li><a href="http://topcoat.io/list">List</a> *Mobile only</li>
+<li><a href="http://topcoat.io/navigation-bar">Navigation Bar</a> *Mobile only</li>
+<li><a href="http://topcoat.io/radio-button">Radio Button</a></li>
+<li><a href="http://topcoat.io/search-input">Search Input</a></li>
+<li><a href="http://topcoat.io/text-input">Text Input</a></li>
+<li><a href="http://topcoat.io/textarea">Text Area</a></li>
+</ul>
+
+<p>I will be posting a more detailed description of Topdoc soon.</p>
+
+<h2 id="coming-up-in-0-8-0">Coming up in 0.8.0</h2>
+
+<p>With Desktop Parity in place we will be focusing on improving the theming workflow for the next release. Of course we&#39;ll also be adding more components, so watch the <a href="http://codepen.io/Topcoat">Topcoat Codepens</a> to see what&#39;s coming next.</p>
+
+<p>Also, look for <a href="http://twitter.com/dam">Kristofer Joseph</a> at <a href="http://pgday.phonegap.com/eu2013/">PhoneGap Day EU</a> in Amsterdam on Sep 24th.</p>
+]]></description>
+            <link>http://topcoat.io/posts/desktop-parity-party/</link>
+            <guid isPermaLink="true">
+                http://topcoat.io/posts/desktop-parity-party/            </guid>
+            <dc:creator><![CDATA[garthdb]]></dc:creator>
+            <pubDate>Fri, 30 Aug 2013 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Generating Documentation for CSS Components]]></title>
+            <description><![CDATA[<p><br></p>
+
+<h3 id="the-problem">The Problem</h3>
+
+<p>Topcoat&#39;s final product is CSS, which, by itself, is a little tricky to work with and get excited about. CSS is the topcoat of the web, but we need HTML to support it.  Topcoat&#39;s components are always getting updated, and the documentation and HTML demos need to be changed easily to match the CSS, so we built Topdoc to automate the process.</p>
+
+<h3 id="enter-topdoc">Enter Topdoc</h3>
+
+<p><a href="https://github.com/topcoat/topdoc">Topdoc</a> is a CSS comment structure and a documentation-generating tool.  It can be used in the command line, or with a <a href="https://github.com/topcoat/grunt-topdoc">grunt task</a>, to generate HTML demos from CSS comments.</p>
+
+<p>Originally we hoped we could find an existing tool, but none of them quite fit our needs.  We posted a comparison on the <a href="https://github.com/topcoat/topdoc/wiki/Comparisons">wiki</a>.</p>
+
+<h3 id="how-does-it-work-">How Does it Work?</h3>
+
+<p>We use Topdoc block comments to separate our long form CSS file into individual components.  The Topdoc comment not only acts as a delimiter, but it also provides metadata for the component.  The Topdoc tool parses the stylesheet and passes the individual components and their metadata to a Jade template, which returns HTML.</p>
+
+<h3 id="what-does-the-metadata-look-like-">What Does the Metadata Look Like?</h3>
+
+<script src="https://gist.github.com/GarthDB/6606584.js"></script>
+
+<p>Let&#39;s break this down:</p>
+
+<p><strong>Line 1</strong>: Topdoc comments start with topdoc on the first comment line, it makes it quick and easy to identify from other comments.</p>
+
+<p>The rest of the data uses a <a href="http://www.yaml.org/">YAML</a> friendly syntax.</p>
+
+<p>The fields can be in any order, but this is a good example for consistency&#39;s sake.</p>
+
+<p>The following are recommended and/or required fields:</p>
+
+<ul>
+<li><strong>Line 2</strong>: <code>name</code> (required): The full name of the component.  Feel free to use spaces, punctuation, etc (name: Sir Button III, esq.)</li>
+<li><strong>Line 3</strong>: <code>description</code>: Something more descriptive then the title alone.</li>
+<li><strong>Line 4</strong>: <code>modifiers</code>: These can be pseudo classes, or addition rules applied to the component. This should be a <a href="http://yaml4r.sourceforge.net/doc/page/collections_in_yaml.htm">YAML mapping</a> (<code>*modifier*:*description*</code>) which becomes a js hash.  Use the colon to separate the pseudo-class modifier from the description.</li>
+<li><strong>Line 7</strong>: <code>markup</code> (required): This is the magic; it&#39;s the html that will be used to display the component in the docs. Because YAML and HTML both have odd relationships with whitespace, this property is separated as plain text.  Just make sure to indent the code one more time than the other YAML properties.</li>
+<li><strong>Line 12</strong>: <code>tags</code>: Just some obligatory metadata. We aren&#39;t currently using them on Topcoat, but we like having the option.</li>
+<li><strong>Line 18</strong>: <code>blarg</code>: Since Topdoc uses a flexible YAML syntax, feel free to add any additional custom data you might need for your template.</li>
+</ul>
+
+<h3 id="any-other-data-">Any Other Data?</h3>
+
+<p>Topdoc can also pass through some general data about the project to the Jade template.  This data can be placed in the <code>package.json</code> file, or just be passed through to the tool as an argument.  If data is not passed through, it will check the <code>package.json</code> file.  See the README on the Topdoc <a href="https://github.com/topcoat/topdoc">github page</a>.</p>
+
+<h3 id="how-are-we-using-topdoc-">How Are We Using Topdoc?</h3>
+
+<p>The <a href="http://topcoat.io/topcoat">demo page</a> on Topcoat.io is generated using Topdoc, but we also found it really helpful for testing individual components while we are working on them.  An added benefit to using it on the individual component level, it generates gh-pages for public testing.</p>
+
+<p>Topdoc is independent of the Topcoat project, and can be used with any modular css documentation. Check out Topdoc&#39;s <a href="https://github.com/topcoat/topdoc">README</a> for details on installation and usage.</p>
+
+<h3 id="what-s-next-">What&#39;s Next?</h3>
+
+<p>Topdoc could really use live reloading integrated, probably using something like Grunt&#39;s <a href="https://github.com/gruntjs/grunt-contrib-watch#optionslivereload">live reload</a>.  Also it would be great to have Topdoc write the demo files to the gh-pages branch on release.</p>
+
+<h3 id="one-more-thing">One More Thing</h3>
+
+<p>We have put together a few more components, and don&#39;t want to wait until the end of the cycle to release them with v0.8.0, so we&#39;re releasing them soon as v0.7.5.</p>
+
+<p>The new components include:</p>
+
+<ul>
+<li>Tab Bar</li>
+<li>Notification</li>
+<li>Switch</li>
+<li>Range</li>
+<li>Error state for text-input</li>
+</ul>
+]]></description>
+            <link>http://topcoat.io/posts/generating-css-component-documentation/</link>
+            <guid isPermaLink="true">
+                http://topcoat.io/posts/generating-css-component-documentation/            </guid>
+            <dc:creator><![CDATA[garthdb]]></dc:creator>
+            <pubDate>Thu, 19 Sep 2013 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Responsive Design Tool for TopCoat]]></title>
+            <description><![CDATA[<p>Intel has updated the <a href="http://xdk.intel.com/">Intel XDK</a>, an HTML5 development IDE. This new version has a WYSIWYG UI building tool that supports TopCoat and responsive design. It also uses Brackets for code editing. Take a look and share your thoughts.</p>
+
+<p><a href="app_designer_selecting_topcoat.png"><img src="app_designer_selecting_topcoat.png" alt="electing topcoat"></a></p>
+
+<p><a href="app_designer_using_topcoat_narrow.png"><img src="app_designer_using_topcoat_narrow.png" alt="narrow"></a></p>
+
+<p><a href="app_designer_using_topcoat_wide.png"><img src="app_designer_using_topcoat_wide.png" alt="wide"></a></p>
+]]></description>
+            <link>http://topcoat.io/posts/intel-xdk/</link>
+            <guid isPermaLink="true">
+                http://topcoat.io/posts/intel-xdk/            </guid>
+            <dc:creator><![CDATA[[object Object]]]></dc:creator>
+            <pubDate>Mon, 28 Oct 2013 23:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Topcoat]]></title>
+            <description><![CDATA[<p>Topcoat is a brand new open source CSS library designed to help developers build web apps with an emphasis on speed. It evolved from the Adobe design language developed for Brackets, Edge Reflow, and feedback from the PhoneGap app developer community. </p>
+
+<p>Topcoat includes: </p>
+
+<ul>
+<li>Our design research</li>
+<li>The resulting super customizable CSS build</li>
+<li>Automatically generated style guides</li>
+<li>PSD and other design artifacts</li>
+<li>A collection of simple and clean SVG icons</li>
+<li>The beautiful Adobe Source Sans Pro font family</li>
+<li>Benchmarking tools</li>
+</ul>
+
+<p>It is a sweet little package, and we’re actively working on it to make it even more awesome with fresh releases every month. Our biggest goal is to start building a community around Topcoat and we’re structuring the project so contribution is super crazy simple to do. </p>
+
+<p><img src="example.png" alt="image"></p>
+
+<h2 id="performance-first-">Performance first!</h2>
+
+<p>Apps need to be fast and so Topcoat is being built with speed in mind. We’re benchmarking everything we can and plan to do even more as the project evolves. It is an early time but we’re already looking at how each CSS control impacts loading, layout, and frames per second. 
+It is an awesome system, totally open source, and would be great stand alone tool for teams looking to find ways to measure their own apps performance. </p>
+
+<h2 id="custom-builds-and-theming">Custom builds and theming</h2>
+
+<p>Topcoat contains not only CSS but also all the tools we used to build it. You can easily customize and extend Topcoat to craft it to exactly the experience you need. The controls in Topcoat CSS are authored in Stylus, and we utilize many of its features to allow for a clean separation of reset, from layout, from aesthetic, and between platforms. Each control lives in its own git repo. It is in this way we can construct builds that target specific platforms, with only the controls you need, and only for the devices you are targeting. </p>
+
+<p>Creating a completely optimized builds are crucial feature for building complex applications, and especially so when you want to do everything possible to make your app crazy fast. </p>
+
+<h2 id="using-topcoat">Using Topcoat</h2>
+
+<p>Topcoat can be dropped into a web app and used immediately. Even better you can tune your performance down to each discrete CSS control.</p>
+
+<h3 id="getting-started-quickly">Getting started quickly</h3>
+
+<ol>
+<li>Clone from Github or download a specific version (E.g. <code>topcoat-0.3.0</code>) from <a href="http://topcoat.io">http://topcoat.io</a></li>
+<li>Reference the /css (Protip: look in /doc for usage guides.)</li>
+<li>Holy smokes there is no step three!</li>
+</ol>
+
+<h3 id="custom-builds-for-web-hackers">Custom builds for web hackers</h3>
+
+<ol>
+<li>Fork <a href="http://github.com/Topcoat/Topcoat">http://github.com/Topcoat/Topcoat</a></li>
+<li>Install Node and run <code>npm install -g grunt-cli &amp;&amp; npm install .</code></li>
+<li>Modify <code>package.json</code> to point to only the controls you need</li>
+<li>Run <code>grunt</code> to generate your custom build</li>
+<li>Fork (or write your own) controls and modify <code>package.json</code> point to them</li>
+</ol>
+
+<h3 id="theming-for-the-web-craftsman">Theming for the web craftsman</h3>
+
+<ol>
+<li>Fork <a href="http://github.com/Topcoat/theme">http://github.com/Topcoat/theme</a></li>
+<li>Modify various variables files (We are going to simplify this further!)</li>
+<li>Modify <code>./topcoat-X.X.X/package.json</code> to point to your theme and run <code>grunt</code></li>
+</ol>
+
+<p>We need your help! Topcoat is totally open source software. There are bugs, and we’re still solidifying our architecture, so there are MANY ways to contribute!</p>
+
+<ul>
+<li>Our main home is <a href="http://topcoat.io">http://topcoat.io</a> </li>
+<li>Learn everything else about Topcoat on our wiki: <a href="https://github.com/topcoat/topcoat/wiki">https://github.com/topcoat/topcoat/wiki</a></li>
+<li>Chat us up on our mailing list: <a href="http://groups.google.com/group/topcoat">http://groups.google.com/group/topcoat</a></li>
+<li>Request features, and file bugs, in our issue tracker. Note each control in Topcoat has its own git repo, thus versions, and therefore issue trackers too. <a href="http://github.com/topcoat">http://github.com/topcoat</a></li>
+<li>Tweet us up on the Twitters: <a href="http://twitter.com/topcoat">http://twitter.com/topcoat</a></li>
+<li>Follow the lead hacker Kristofer Joseph too: <a href="http://twitter.com/dam">http://twitter.com/dam</a></li>
+</ul>
+
+<p>Join us in making it easier than ever to craft fast apps using web standards that look as good as they feel.</p>
+]]></description>
+            <link>http://topcoat.io/posts/introducing-topcoat/</link>
+            <guid isPermaLink="true">
+                http://topcoat.io/posts/introducing-topcoat/            </guid>
+            <dc:creator><![CDATA[brianleroux]]></dc:creator>
+            <pubDate>Wed, 05 Jun 2013 21:21:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

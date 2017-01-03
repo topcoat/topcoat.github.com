@@ -1,0 +1,237 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><meta name="generator" content="DocPad v6.63.3" /><title>Topcoat Contributor License and Distribution Agreement</title><style>/* normalize.css v2.0.1 | MIT License | git.io/normalize */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+[hidden]{display:none}
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+body{margin:0}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+dfn{font-style:italic}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}
+pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0;}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}
+button,input{line-height:normal}
+button,html input[type="button"],/* 1 */,input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+button[disabled],input[disabled]{cursor:default}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top;}
+table{border-collapse:collapse;border-spacing:0}
+
+/* Topcoat Button */
+.button,.topcoat-button,.topcoat-button--quiet,.topcoat-button--large,.topcoat-button--large--quiet,.topcoat-button--cta,.topcoat-button--large--cta{position:relative;display:inline-block;vertical-align:top;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-background-clip:padding-box;background-clip:padding-box;padding:0;margin:0;font:inherit;color:inherit;background:transparent;border:0;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-decoration:none}.button--quiet{background:transparent;border:1px solid transparent;-webkit-box-shadow:none;box-shadow:none}.button--disabled,.topcoat-button:disabled,.topcoat-button--quiet:disabled,.topcoat-button--large:disabled,.topcoat-button--large--quiet:disabled,.topcoat-button--cta:disabled,.topcoat-button--large--cta:disabled{opacity:.3;cursor:default;pointer-events:none}.topcoat-button,.topcoat-button--quiet,.topcoat-button--large,.topcoat-button--large--quiet,.topcoat-button--cta,.topcoat-button--large--cta{padding:0 1.25rem;font-size:16px;font-weight:400;line-height:3rem;letter-spacing:1px;color:#454545;text-shadow:0 1px #fff;vertical-align:top;background-color:#e5e9e8;-webkit-box-shadow:inset 0 1px #fff;box-shadow:inset 0 1px #fff;border:1px solid #9daca9;border-radius:6px}.topcoat-button:hover,.topcoat-button--quiet:hover,.topcoat-button--large:hover,.topcoat-button--large--quiet:hover{background-color:#eff1f1}.topcoat-button:focus,.topcoat-button--quiet:focus,.topcoat-button--quiet:hover:focus,.topcoat-button--large:focus,.topcoat-button--large--quiet:focus,.topcoat-button--large--quiet:hover:focus,.topcoat-button--cta:focus,.topcoat-button--large--cta:focus{border:1px solid #0036ff;-webkit-box-shadow:inset 0 1px rgba(255,255,255,.36),0 0 0 2px #6fb5f1;box-shadow:inset 0 1px rgba(255,255,255,.36),0 0 0 2px #6fb5f1;outline:0}.topcoat-button:active,.topcoat-button--large:active{border:1px solid #9daca9;background-color:#d2d6d6;-webkit-box-shadow:inset 0 1px rgba(0,0,0,.1);box-shadow:inset 0 1px rgba(0,0,0,.1)}.topcoat-button--quiet{background:transparent;border:1px solid transparent;-webkit-box-shadow:none;box-shadow:none}.topcoat-button--quiet:hover,.topcoat-button--large--quiet:hover{text-shadow:0 1px #fff;border:1px solid #9daca9;-webkit-box-shadow:inset 0 1px #fff;box-shadow:inset 0 1px #fff}.topcoat-button--quiet:active,.topcoat-button--quiet:focus:active,.topcoat-button--large--quiet:active,.topcoat-button--large--quiet:focus:active{color:#454545;text-shadow:0 1px #fff;background-color:#d2d6d6;border:1px solid #9daca9;-webkit-box-shadow:inset 0 1px rgba(0,0,0,.1);box-shadow:inset 0 1px rgba(0,0,0,.1)}.topcoat-button--large,.topcoat-button--large--quiet{font-size:1.3rem;font-weight:400;line-height:4.375rem;padding:0 1.25rem}.topcoat-button--large--quiet{background:transparent;border:1px solid transparent;-webkit-box-shadow:none;box-shadow:none}.topcoat-button--cta,.topcoat-button--large--cta{border:1px solid #134f7f;background-color:#288edf;-webkit-box-shadow:inset 0 1px rgba(255,255,255,.36);box-shadow:inset 0 1px rgba(255,255,255,.36);color:#fff;font-weight:500;text-shadow:0 -1px rgba(0,0,0,.36)}.topcoat-button--cta:hover,.topcoat-button--large--cta:hover{background-color:#4ca1e4}.topcoat-button--cta:active,.topcoat-button--large--cta:active{background-color:#1e7dc8;-webkit-box-shadow:inset 0 1px rgba(0,0,0,.12);box-shadow:inset 0 1px rgba(0,0,0,.12)}.topcoat-button--large--cta{font-size:1.3rem;font-weight:400;line-height:4.375rem;padding:0 1.25rem}
+
+*{-webkit-box-sizing:border-box;-moz-box-sizeing:border-box;box-sizing:border-box}
+html{height:100%}
+body{font-family:"Source Sans Pro","source-sans-pro","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:100;color:#666;font-size:16px;line-height:1.375em;background:#fff;-webkit-text-size-adjust:100%;min-height:100%;box-sizing:border-box;padding-bottom:120px;position:relative}
+a{color:#308dde;text-decoration:none}
+a:hover{color:#065cbb}
+h1,h2,h3,h4{margin:0;padding:0;font-style:normal}
+h1,h2,h3,h4,header p{text-rendering:optimizeLegibility}
+h1,h1 a{color:#464646;font-size:2.05em;line-height:.6em;letter-spacing:-.065em;font-weight:600}
+h3{font-size:1.6em;font-weight:300;color:#464646}
+#wrapper{max-width:1036px;padding:40px 40px 0;margin:0 auto}
+header{position:relative}
+#side-nav,#slide-menu-button{display:none}
+header p{color:#999}
+nav ul,footer ul,.features ul,#hero ul{list-style:none;margin:0;padding:0}
+nav.main ul li,.features ul li{float:left}
+nav.main ul li{margin:0 0 0 55px}
+nav.main ul{position:absolute;top:9px;right:0}
+nav a{color:#7f7f7f;font-size:1.3em;line-height:3rem}
+h1 a:hover,nav.main ul li a:hover{color:#000}
+#hero{display:block;max-width:100%;height:310px;margin:80px 0 120px;background:transparent url("../img/hero-devices.png") right 50% no-repeat;background-size:contain}
+#hero ul li,#hero ul li a{display:block;height:310px;text-align:center}
+#hero ul li{float:left}
+#hero ul li#desktop-preview{width:56%}
+#hero ul li#mobile-preview{width:44%}
+#hero ul li a{width:100%}
+#hero ul li .popover{top:-20px;opacity:0;-moz-transition-property:opacity,top;-moz-transition-duration:.14s;-moz-transition-timing-function:ease-out;-webkit-transition-property:opacity,top;-webkit-transition-duration:.14s;-webkit-transition-timing-function:ease-out}
+#hero ul li:hover .popover{top:-34px;opacity:1}
+.features ul li{width:50%;display:block;padding-bottom:50px}
+.features ul li p{padding:0 55px 0 0}
+.features ul li#performance a.vignette{background-image:url("../img/vignette-performance.svg")}
+.features ul li#components a.vignette{background-image:url("../img/tnl-components.png")}
+.features ul li#themes a.vignette{background-image:url("../img/tnl-themes.png")}
+.features ul li#bem a.vignette{background-image:url("../img/tnl-bem.svg")}
+.features ul li#source-sans a.vignette{background-image:url("../img/tnl-source-sans.svg")}
+.features ul li#icons a.vignette{background-image:url("../img/tnl-icons.svg")}
+.features ul li#design a.vignette{background-image:url("../img/tnl-design.png")}
+.features ul li#cdnjs a.vignette {background-image: url(../img/tnl-cdnjs.png);}
+.features ul li a.vignette{display:block;width:120px;height:120px;margin:0 30px 30px 0;float:left;background-repeat:no-repeat;background-size:cover}
+.features ul li a.vignette,#default-theme{background-color:#f9f9f9;outline:solid 1px #eee}
+#default-theme{clear:left;width:100%;height:226px;margin-bottom:80px;overflow:hidden}
+#default-theme img{width:1036px;height:226px}
+footer.site{bottom:40px;width:100%;left:0}
+footer.site ul{max-width:500px;min-width:320px;margin:0 auto}
+footer.site ul li{float:left;width:33.333333333%;margin:0;text-align:center}
+footer.site ul li a{display:block;width:100%;height:44px;background-repeat:no-repeat;background-color:transparent;background-size:contain;background-position:50% 50%}
+footer.site ul li#twitter a{background-image:url("../img/icn-twitter.png")}
+footer.site ul li#github a{background-image:url("../img/icn-github.png")}
+footer.site ul li#adobe a{background-image:url("../img/icn-adobe.png")}
+.popover{position:relative;margin:0 auto;display:block;border:1px solid rgba(0,0,0,0.35);border-radius:5px;background:#dfe2e2;box-shadow:0 9px 18px 0 rgba(0,0,0,0.48),inset 0 0 0 1px rgba(255,255,255,0.75);width:200px}
+.popover .arrow,.popover .top-arrow,.popover .bottom-arrow,.popover .left-arrow,.popover .right-arrow{position:absolute;top:0;width:30px;height:14px;background:-webkit-image-set(url("../img/popover_arrow.png") 1x,url("../img/popover_arrow@2x.png") 2x)}
+.popover .top-arrow{top:0;left:47%;margin:-13px 0 0 0}
+.popover .bottom-arrow{top:100%;left:47%;margin:-1px 0 0 0;-webkit-transform:rotate(180deg)}
+.popover .left-arrow{top:40%;left:-21px;margin:0;-webkit-transform:rotate(-90deg)}
+.popover .right-arrow{top:38%;left:97%;margin:0;-webkit-transform:rotate(90deg)}
+.popover .content{padding:15px}
+@media screen and (max-width: 1000px) and (min-width: 522px){nav.main{position:relative}
+nav.main ul{margin:0 auto;position:relative;text-align:center;height:auto}
+header.main{text-align:center}
+nav.main ul li{display:inline-block;margin:0 25px;float:none}
+nav.main ul li.download{display:none}
+#hero{margin:10px 0 40px}
+}@media screen and (max-width: 550px){body{padding-bottom:0}
+#wrapper{padding:0;width:100%;overflow-x:hidden}
+#site{background:#fff;top:0;left:0;padding:40px 0 0;width:100%;position:relative;z-index:10;transition:all .2s ease-out;-webkit-transition:all .2s ease-out;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0)}
+#site.open{transform:translate3d(250px,0,0);-webkit-transform:translate3d(250px,0,0)}
+header.main{text-align:center;}
+header.main h1,header.main p{display:block}
+header.main h1{font-size:1.4em}
+#hero{height:205px;background:transparent url("../img/hero-mobile.png") right 50% no-repeat;background-size:490px 205px;margin:40px 0;padding:0}
+#hero ul li{height:205px}
+#hero ul li#desktop-preview{width:66%}
+#hero ul li#mobile-preview{width:34%}
+nav.main,.git-ribbon,#hero ul li .popover{display:none}
+.features ul li h3{line-height:1.2em;margin:0}
+.features ul li{display:block;float:none;width:100%;clear:left;padding:20px}
+.features ul li p{padding:0;width:60%;float:left;margin-bottom:55px}
+.features ul li a.vignette{width:80px;height:80px}
+#slide-menu-button{position:absolute;top:0;left:10px;display:inline-block;vertical-align:top;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-background-clip:padding;-moz-background-clip:padding;background-clip:padding-box;padding:0;margin:0;font:inherit;color:inherit;background:transparent;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;padding:0 .5rem;line-height:2rem;letter-spacing:1px;color:#454545;text-shadow:0 1px #fff;vertical-align:baseline;-webkit-box-shadow:inset 0 1px #fff;box-shadow:inset 0 1px #fff;-webkit-border-radius:3px;border-radius:3px;width:2.6rem;height:2.6rem;line-height:2.6rem;border:1px solid transparent;-webkit-box-shadow:none;box-shadow:none;}
+#slide-menu-button:disabled,#slide-menu-button.is-disabled{opacity:.3;cursor:default;pointer-events:none}
+#slide-menu-button:active,#slide-menu-button.is-active{color:#454545;text-shadow:0 1px #fff;background-color:#d3d7d7;border:1px solid #a5a8a8;-webkit-box-shadow:inset 0 1px rgba(0,0,0,0.12);box-shadow:inset 0 1px rgba(0,0,0,0.12)}
+#slide-menu-button span{background-repeat:no-repeat;background-image:url("../img/listview_icon.svg");position:relative;top:-2px;display:inline-block;vertical-align:top;overflow:hidden;vertical-align:middle;width:24px;height:24px}
+#side-nav{display:block;background:#4a4d4e;position:fixed;width:100%;z-index:1;height:100%;left:0;top:0;}
+#side-nav ul{list-style:none;margin:0;padding:0}
+#side-nav li a{color:#f0f1f1;display:block;height:46px;font-size:16px;-moz-box-sizing:border-box;box-sizing:border-box;padding:12px 0 0 20px;text-decoration:none}
+#side-nav nav.site,#side-nav #sideNav .combo{border-bottom:1px solid #58595a;-moz-box-sizing:border-box;box-sizing:border-box;padding:10px;display:block}
+footer.site ul{text-align:center}
+footer.site ul li{display:inline-block;margin:0;text-align:center;float:none;width:85px;height:85px}
+}section#content{margin-top:80px;}
+section#content article{font-size:18px;font-weight:200;line-height:180%;border-bottom:1px solid #eaeaea;max-width:940px;box-sizing:border-box;padding:0 60px 50px;margin-bottom:40px;}
+section#content article img{width:100%;height:auto}
+section#content article footer{float:none;clear:both;height:auto}
+section#content article h2{font-weight:100;font-size:37px;letter-spacing:-2px;margin-bottom:28px;}
+section#content article h2 a{color:#373435}
+section#content article p{margin:20px 0}
+section#content article .published{font-size:16px;color:#a7a7a7}
+#disqus_thread{box-sizing:border-box;padding:0 20px 60px;width:100%}
+iframe.video{max-width:480px;width:100%;position:relative;margin:20px auto;height:360px;display:block}
+@media screen and (max-width: 522px){section#content article{padding:0 30px 30px}
+}#content.narrow{max-width:500px}
+label.control-label{display:inline-block;width:120px;text-align:right;margin-right:10px}
+.control-group{margin-bottom:10px}
+.control-group.submit{margin:20px 132px 0}
+form{border:1px solid #ccc;padding:10px}
+.error label{color:#f00;font-weight:bold}
+#required{padding-bottom:5px;color:#f00;font-weight:bold}
+.clearfix:before,.clearfix:after{content:" ";display:table}
+.clearfix:after{clear:both}
+.clearfix{*zoom:1}</style><script type="text/javascript">window.onload=function(){var a=document.getElementById("slide-menu-button");a.onclick=function(d){var c=document.getElementById("site");var b=c.classList;if(b.contains("open")){b.remove("open")}else{b.add("open")}}};</script></head><body><div id="wrapper"><div id="side-nav"><nav class="site"><ul><li class="selected"><a href="http://topcoat.io">Home</a></li><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io/">Benchmarks</a></li><li><a href="http://topcoat.io/blog">Blog</a></li></ul></nav></div><div id="site"><header class="main"><h1><a href="/">Topcoat</a></h1><p>CSS for clean and fast web apps.</p><nav class="main"><ul><li><a href="http://topcoat.io/topcoat">Demo</a></li><li><a href="http://bench.topcoat.io">Benchmarks</a></li><li><a href="/blog">Blog</a></li><li class="download"><a href="https://github.com/topcoat/topcoat/archive/v0.8.0.zip" onClick="_gaq.push(['_trackEvent', 'download', 'click',,, false]);" class="topcoat-button--cta">Download</a></li></ul></nav><button id="slide-menu-button" href="#" class="topcoat-icon-button--large--quiet"><span class="topcoat-icon--large topcoat-icon-meun-stack"></span></button></header><section id="content" class="narrow"><p id="pleaseread" class="well"><strong>PLEASE READ THIS AGREEMENT CAREFULLY.  BY SUBMITTING YOUR CONTRIBUTIONS (DEFINED BELOW) AND CLICKING {“ACCEPT”}, YOU ARE AGREEING TO BE BOUND BY ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT.</strong></p><p>Adobe Systems Incorporated (“Adobe”) appreciates your willingness to grant permission to use your software code checked directly into a source control system that is available by GitHub Inc (“Contributions”) in conjunction with Topcoat.  By clicking [“ACCEPT”] (“you” or “You”) hereby grant to the Adobe and to recipients of software distributed through Topcoat a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable license to use, make, have made, offer to sell, sell, import, reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute Your Contributions and such derivative works as part of Topcoat.</p><p>Just as we are respectful of your rights in the Contributions, we want to insure that it will not need to seek additional permission to use the Contributions from any third party.</p><ul><li>You represent and warrant that you are the sole owner of the Contributions and/or have sufficient rights in your Contribution to grant all rights you grant hereunder.</li><li>You represent that the Contributions are your original works of authorship, that you created the Contributions and did not copy them from another source, and no other person claims, or has the right to claim, any right in any invention or patent related to the Contributions.</li><li>You represent that you are legally entitled to grant the above license. If your employer has rights to intellectual property that you create, you represent that you have received permission to make the Contributions on behalf of that employer, or that your employer has waived such rights for the Contributions.</li><li>Finally, it means that you have not entered into any agreements that would prevent you from granting the rights provided in this Agreement.</li></ul><p>You understand that the decision to include the Contribution in any product or source repository is entirely that of Adobe and this agreement does not guarantee that the Contributions will be included in any product, technology or services.</p><p>If you become aware of any facts or circumstances related to the representation above that would make these representations inaccurate or untrue, you agree to notify Adobe promptly with any details.</p><form id="claform" action="https://docs.google.com/forms/d/1Ihw_rTfxjox9magkp5tcOFd2u2EDNHBWwmF0p2l4rWw/formResponse" method="post"><div class="control-group"><label for="entry_1630591871" class="control-label">Full Name</label><input id="entry_1630591871" type="text" name="entry.1630591871" placeholder="Gordon Freeman"/></div><div class="control-group"><label for="entry_828694085" class="control-label">Email</label><input id="entry_828694085" type="email" name="entry.828694085"/></div><div class="control-group"><label for="entry_1403120304" class="control-label">Github Username</label><input id="entry_1403120304" type="text" name="entry.1403120304"/></div><div class="control-group"><label for="entry_585243826" class="control-label">Address</label><input id="entry_585243826" type="text" name="entry.585243826"/></div><div class="control-group"><label for="entry_1805887070" class="control-label"></label><input id="entry_1805887070" type="text" name="entry.1805887070"/></div><div class="control-group"><label for="entry_393717151" class="control-label">City</label><input id="entry_393717151" type="text" name="entry.393717151"/></div><div class="control-group"><label for="entry_1805570094" class="control-label">State</label><input id="entry_1805570094" type="text" name="entry.1805570094"/></div><div class="control-group"><label for="entry_447963545" class="control-label">Zip</label><input id="entry_447963545" type="text" name="entry.447963545"/></div><div class="control-group"><label for="entry_522763684" class="control-label">Country</label><select id="entry_522763684" name="entry.522763684"><option value=""></option><option value="Afghanistan">Afghanistan</option><option value="Åland Islands">Åland Islands</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="American Samoa">American Samoa</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Anguilla">Anguilla</option><option value="Antarctica">Antarctica</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Argentina">Argentina</option><option value="Armenia">Armenia</option><option value="Aruba">Aruba</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Azerbaijan">Azerbaijan</option><option value="Bahamas">Bahamas</option><option value="Bahrain">Bahrain</option><option value="Bangladesh">Bangladesh</option><option value="Barbados">Barbados</option><option value="Belarus">Belarus</option><option value="Belgium">Belgium</option><option value="Belize">Belize</option><option value="Benin">Benin</option><option value="Bermuda">Bermuda</option><option value="Bhutan">Bhutan</option><option value="Bolivia">Bolivia</option><option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option><option value="Botswana">Botswana</option><option value="Bouvet Island">Bouvet Island</option><option value="Brazil">Brazil</option><option value="British Indian Ocean Territory">British Indian Ocean Territory</option><option value="Brunei Darussalam">Brunei Darussalam</option><option value="Bulgaria">Bulgaria</option><option value="Burkina Faso">Burkina Faso</option><option value="Burundi">Burundi</option><option value="Cambodia">Cambodia</option><option value="Cameroon">Cameroon</option><option value="Canada">Canada</option><option value="Cape Verde">Cape Verde</option><option value="Cayman Islands">Cayman Islands</option><option value="Central African Republic">Central African Republic</option><option value="Chad">Chad</option><option value="Chile">Chile</option><option value="China">China</option><option value="Christmas Island">Christmas Island</option><option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option><option value="Colombia">Colombia</option><option value="Comoros">Comoros</option><option value="Congo">Congo</option><option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option><option value="Cook Islands">Cook Islands</option><option value="Costa Rica">Costa Rica</option><option>Cote D'ivoire</option><option value="Croatia">Croatia</option><option value="Cuba">Cuba</option><option value="Cyprus">Cyprus</option><option value="Czech Republic">Czech Republic</option><option value="Denmark">Denmark</option><option value="Djibouti">Djibouti</option><option value="Dominica">Dominica</option><option value="Dominican Republic">Dominican Republic</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="El Salvador">El Salvador</option><option value="Equatorial Guinea">Equatorial Guinea</option><option value="Eritrea">Eritrea</option><option value="Estonia">Estonia</option><option value="Ethiopia">Ethiopia</option><option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option><option value="Faroe Islands">Faroe Islands</option><option value="Fiji">Fiji</option><option value="Finland">Finland</option><option value="France">France</option><option value="French Guiana">French Guiana</option><option value="French Polynesia">French Polynesia</option><option value="French Southern Territories">French Southern Territories</option><option value="Gabon">Gabon</option><option value="Gambia">Gambia</option><option value="Georgia">Georgia</option><option value="Germany">Germany</option><option value="Ghana">Ghana</option><option value="Gibraltar">Gibraltar</option><option value="Greece">Greece</option><option value="Greenland">Greenland</option><option value="Grenada">Grenada</option><option value="Guadeloupe">Guadeloupe</option><option value="Guam">Guam</option><option value="Guatemala">Guatemala</option><option value="Guernsey">Guernsey</option><option value="Guinea">Guinea</option><option value="Guinea-bissau">Guinea-bissau</option><option value="Guyana">Guyana</option><option value="Haiti">Haiti</option><option value="Heard Island and McDonald Islands">Heard Island and McDonald Islands</option><option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option><option value="Honduras">Honduras</option><option value="Hong Kong">Hong Kong</option><option value="Hungary">Hungary</option><option value="Iceland">Iceland</option><option value="India">India</option><option value="Indonesia">Indonesia</option><option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option><option value="Iraq">Iraq</option><option value="Ireland">Ireland</option><option value="Isle of Man">Isle of Man</option><option value="Israel">Israel</option><option value="Italy">Italy</option><option value="Jamaica">Jamaica</option><option value="Japan">Japan</option><option value="Jersey">Jersey</option><option value="Jordan">Jordan</option><option value="Kazakhstan">Kazakhstan</option><option value="Kenya">Kenya</option><option value="Kiribati">Kiribati</option><option>Korea, Democratic People's Republic of</option><option value="Korea, Republic of">Korea, Republic of</option><option value="Kuwait">Kuwait</option><option value="Kyrgyzstan">Kyrgyzstan</option><option>Lao People's Democratic Republic</option><option value="Latvia">Latvia</option><option value="Lebanon">Lebanon</option><option value="Lesotho">Lesotho</option><option value="Liberia">Liberia</option><option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option><option value="Liechtenstein">Liechtenstein</option><option value="Lithuania">Lithuania</option><option value="Luxembourg">Luxembourg</option><option value="Macao">Macao</option><option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option><option value="Madagascar">Madagascar</option><option value="Malawi">Malawi</option><option value="Malaysia">Malaysia</option><option value="Maldives">Maldives</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Marshall Islands">Marshall Islands</option><option value="Martinique">Martinique</option><option value="Mauritania">Mauritania</option><option value="Mauritius">Mauritius</option><option value="Mayotte">Mayotte</option><option value="Mexico">Mexico</option><option value="Micronesia, Federated States of">Micronesia, Federated States of</option><option value="Moldova, Republic of">Moldova, Republic of</option><option value="Monaco">Monaco</option><option value="Mongolia">Mongolia</option><option value="Montenegro">Montenegro</option><option value="Montserrat">Montserrat</option><option value="Morocco">Morocco</option><option value="Mozambique">Mozambique</option><option value="Myanmar">Myanmar</option><option value="Namibia">Namibia</option><option value="Nauru">Nauru</option><option value="Nepal">Nepal</option><option value="Netherlands">Netherlands</option><option value="Netherlands Antilles">Netherlands Antilles</option><option value="New Caledonia">New Caledonia</option><option value="New Zealand">New Zealand</option><option value="Nicaragua">Nicaragua</option><option value="Niger">Niger</option><option value="Nigeria">Nigeria</option><option value="Niue">Niue</option><option value="Norfolk Island">Norfolk Island</option><option value="Northern Mariana Islands">Northern Mariana Islands</option><option value="Norway">Norway</option><option value="Oman">Oman</option><option value="Pakistan">Pakistan</option><option value="Palau">Palau</option><option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option><option value="Panama">Panama</option><option value="Papua New Guinea">Papua New Guinea</option><option value="Paraguay">Paraguay</option><option value="Peru">Peru</option><option value="Philippines">Philippines</option><option value="Pitcairn">Pitcairn</option><option value="Poland">Poland</option><option value="Portugal">Portugal</option><option value="Puerto Rico">Puerto Rico</option><option value="Qatar">Qatar</option><option value="Reunion">Reunion</option><option value="Romania">Romania</option><option value="Russian Federation">Russian Federation</option><option value="Rwanda">Rwanda</option><option value="Saint Helena">Saint Helena</option><option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option><option value="Saint Lucia">Saint Lucia</option><option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option><option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option><option value="Samoa">Samoa</option><option value="San Marino">San Marino</option><option value="Sao Tome and Principe">Sao Tome and Principe</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Senegal">Senegal</option><option value="Serbia">Serbia</option><option value="Seychelles">Seychelles</option><option value="Sierra Leone">Sierra Leone</option><option value="Singapore">Singapore</option><option value="Slovakia">Slovakia</option><option value="Slovenia">Slovenia</option><option value="Solomon Islands">Solomon Islands</option><option value="Somalia">Somalia</option><option value="South Africa">South Africa</option><option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option><option value="Spain">Spain</option><option value="Sri Lanka">Sri Lanka</option><option value="Sudan">Sudan</option><option value="Suriname">Suriname</option><option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option><option value="Swaziland">Swaziland</option><option value="Sweden">Sweden</option><option value="Switzerland">Switzerland</option><option value="Syrian Arab Republic">Syrian Arab Republic</option><option value="Taiwan, Province of China">Taiwan, Province of China</option><option value="Tajikistan">Tajikistan</option><option value="Tanzania, United Republic of">Tanzania, United Republic of</option><option value="Thailand">Thailand</option><option value="Timor-leste">Timor-leste</option><option value="Togo">Togo</option><option value="Tokelau">Tokelau</option><option value="Tonga">Tonga</option><option value="Trinidad and Tobago">Trinidad and Tobago</option><option value="Tunisia">Tunisia</option><option value="Turkey">Turkey</option><option value="Turkmenistan">Turkmenistan</option><option value="Turks and Caicos Islands">Turks and Caicos Islands</option><option value="Tuvalu">Tuvalu</option><option value="Uganda">Uganda</option><option value="Ukraine">Ukraine</option><option value="United Arab Emirates">United Arab Emirates</option><option value="United Kingdom">United Kingdom</option><option value="United States">United States</option><option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option><option value="Uruguay">Uruguay</option><option value="Uzbekistan">Uzbekistan</option><option value="Vanuatu">Vanuatu</option><option value="Venezuela">Venezuela</option><option value="Viet Nam">Viet Nam</option><option value="Virgin Islands, British">Virgin Islands, British</option><option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option><option value="Wallis and Futuna">Wallis and Futuna</option><option value="Western Sahara">Western Sahara</option><option value="Yemen">Yemen</option><option value="Zambia">Zambia</option><option value="Zimbabwe">Zimbabwe</option></select></div><div class="control-group submit"><a href="#" class="topcoat-button--cta">Accept</a></div></form><script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script><script type="text/javascript">$(document).ready(function() {
+ $('.control-group.submit a.topcoat-button--cta').click(function() {  
+  $(".alert").remove();
+  $(".error").removeClass("error");
+  $(".help-inline").remove();
+  $(".add-on").remove();
+  var hasError = false;
+  var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+  var item;
+  // full name
+  item = $("#entry_1630591871").val();
+  if(item == '') {
+   invalid("#entry_1630591871");
+   hasError = true;
+  }
+  // email
+  item = $("#entry_828694085").val();
+  if(item == '') {
+   invalid("#entry_828694085");
+   hasError = true;
+  } else if(!emailReg.test(item)) {
+   invalid("#entry_828694085", "Invalid email address.");
+   hasError = true;
+  }
+  // street address
+  item = $("#entry_585243826").val();
+  if(item == '') {
+   invalid("#entry_585243826");
+   hasError = true;
+  }
+  // city
+  item = $("#entry_393717151").val();
+  if(item == '') {
+   invalid("#entry_393717151");
+   hasError = true;
+  }
+  // state / province
+  item = $("#entry_1805570094").val();
+  if(item == '') {
+   invalid("#entry_1805570094");
+   hasError = true;
+  }
+  // zip
+  item = $("#entry_447963545").val();
+  if(item == '') {
+   invalid("#entry_447963545");
+   hasError = true;
+  }
+  // country
+  item = $("#entry_522763684 option:selected").val();
+  if(item == '') {
+   invalid("#entry_522763684");
+   hasError = true;
+  }
+  if(hasError == true) {
+   $("#claform").children().first().before('<div id="required" class="alert alert-error">The following fields are required.</div>');
+   return false;
+  } else {
+   // success
+   $('#claform').submit();
+   return false
+  }
+ });
+ function invalid(input, msg) {
+  $(input).parents(".control-group").addClass("error");
+  if(msg == undefined){msg = ""};
+  $(input).after('<span class="help-inline">' + msg + '</span>');
+  $(input).after("<span class='add-on'><i class='icon-exclamation-sign'></i></span>");
+  return;
+ }
+});</script></section><footer class="site"><ul><li id="twitter"><a href="http://twitter.com/topcoat"></a></li><li id="github"><a href="http://github.com/topcoat"></a></li><li id="adobe"><a href="http://html.adobe.com"></a></li></ul></footer></div></div><script type="text/javascript">// Add a script element as a child of the body
+function downloadJSAtOnload() {
+    var edgewebfontselement = document.createElement("script");
+    edgewebfontselement.src = "//use.edgefonts.net/source-sans-pro.js";
+    edgewebfontselement.type = "text/javascript";
+    document.body.appendChild(edgewebfontselement);
+}
+// Check for browser support of event handling capability
+if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script><script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-48096523-1', 'topcoat.io');
+ga('send', 'pageview');</script></body></html>
