@@ -44,6 +44,10 @@ docpadConfig = {
 				name: "Niall O'Doherty"
 				twitter: "nodoherty"
 				url: "http://github.com/nodoherty"
+			kruyvanna:
+				name: "Kruy Vanna"
+				twitter: "Onsen_UI"
+				url: "http://github.com/onsenui/"
 		formatDate: (postdate) ->
 			monthsArray = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 			curr_date = postdate.getDate()
