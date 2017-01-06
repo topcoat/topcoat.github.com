@@ -1,44 +1,42 @@
 $iceberg-blue: #42B6CC; //taken from Adobe Illustrator Design File
 $rocket-purple: #695899; //taken from Adobe Illustrator Design File
 $white: #FFFFFF;
-$sphere-brown: #333333;//taken from Adobe Illustrator Design File
-section
+$sphere-brown: #333333; //taken from Adobe Illustrator Design File
 
-{
-.header
-{
-  position:  relative;
+section {
+  .header {
+    position: relative;
+  }
+  //font-size: 18px;
+  width: 100%;
 }
-//font-size: 18px;
-width: 100%;
+
+.topcoat {
+  background: $iceberg-blue;
+  height: 500px;
 }
-.topcoat 
-{
-background: $iceberg-blue;
-height: 500px;
+
+.what-is-topcoat {
+  background: $white;
+  height: 500px;
 }
-.what-is-topcoat
-{
-background: $white;
-height: 500px;
+
+.fast {
+  background: $rocket-purple;
+  height: 500px;
 }
-.fast
-{
-background: $rocket-purple;
-height: 500px;
+
+.css {
+  background: $sphere-brown;
+  height: 500px;
 }
-.css
-{
-background: $sphere-brown;
-height: 500px;
+
+.design {
+  background: $iceberg-blue;
+  height: 500px;
 }
-.design
-{
-background: $iceberg-blue;
-height: 500px;
-}
-.get-now
-{
-background: $white;
-height: 500px;
+
+.get-now {
+  background: $white;
+  height: 500px;
 }
