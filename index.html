@@ -1,15 +1,36 @@
 <!-- Header / Top of Page -->
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Topcoat</title>
   <link rel="stylesheet" type="text/css" href="/css/styles.css" />
 </head>
-<!-- Top of Page -->
-
 <body>
+<!--header-->
+<section id="header" class="header">
+<header id="site-header" class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="bounds">
+    <div class="site-header__logo">
+      <h1>
+        <a href="/">
+         {% include assets/logo.svg %}
+          <span itemprop="name">Topcoat</span>
+        </a>
+      </h1>
+    </div>
+    <nav class="site-header__nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <ul>
+        <li><a itemprop="url" href="/about(todo)/">About</a></li>
+        <li><a itemprop="url" href="/demo(todo)/">Demo</a></li>
+        <li><a itemprop="url" href="/blog(todo)">Blog</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- Top of Page -->
 <!-- Section 0: top blue portion/icebergs in background -->
 <section id="topcoat" class="topcoat">
 <figure> <img src="/assets/iceberg.svg"  width="400" height="400" />
