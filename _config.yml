@@ -30,6 +30,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - LICENSE
 sass:
   sass_dir: _sass
   style: compressed
