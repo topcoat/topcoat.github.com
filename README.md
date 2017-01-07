@@ -49,7 +49,9 @@ Watch [this screencast](http://vimeo.com/topcoat/contributing-to-the-topcoat-blo
   ```sh
   git status
   ```
+
   (to check your changes)
+
   ```sh
   git commit -am 'type some descriptive message here
   ```
