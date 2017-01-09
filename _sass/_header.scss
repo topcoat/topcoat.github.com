@@ -7,8 +7,8 @@
   top: 0;
   background: white;
   overflow: hidden;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 
   a {
     color: #999;
@@ -32,7 +32,7 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding: 0 20px 0 20px;
+    padding: 0 20px;
   }
 }
 
