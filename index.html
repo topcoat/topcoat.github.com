@@ -5,37 +5,33 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
   <title>Topcoat</title>
   <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+  <script type ="text/javascript" async src ="http://www.google-analytics.js"></script> <!--script to make microdata work with google -->
 </head>
 <body>
 <!--header-->
 <section id="header" class="header">
-<header id="site-header" class="site-header" itemscope itemtype="http://schema.org/WPHeader">
-  <div class="bounds">
-    <div class="site-header__logo">
-      <h1>
-        <a href="/">
-         {% include assets/logo.svg %}
-          <span itemprop="name">Topcoat</span>
-        </a>
-      </h1>
-    </div>
-    <nav class="site-header__nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
-      <ul>
-        <li><a itemprop="url" href="/about(todo)/">About</a></li>
-        <li><a itemprop="url" href="/demo(todo)/">Demo</a></li>
-        <li><a itemprop="url" href="/blog(todo)">Blog</a></li>
-      </ul>
-    </nav>
-  </div>
+<header itemscope itemtype="http://schema.org/WPHeader">
+<div class="wrap">
+{% include logo.svg %}
+ <a href="/"> </a>
+<nav>
+  <a itemprop="url" href="/about(todo)/">About</a>
+  <a itemprop="url" href="/demo(todo)/">Demo</a>
+  <a itemprop="url" href="/blog(todo)">Blog</a>
+  <a class="button" href="https://github.com/topcoat/topcoat.github.com">Download</a>
+</nav>
+</div>
+::after
 </header>
+</section>
 <!-- Top of Page -->
 <!-- Section 0: top blue portion/icebergs in background -->
 <section id="topcoat" class="topcoat">
-<figure> <img src="/assets/iceberg.svg"  width="400" height="400" />
+<figure> <img src="/assets/iceberg.svg"  width="400" height="400" /> </figure>
 <h1>Topcoat</h1>
 <h2> CSS for clean and fast web apps. </h2>
 <figure> <img src="/assets/logo.svg"  width="400" height="400" />
@@ -98,9 +94,9 @@
   <section id="footer" class="footer">
     <footer>
       <hr class="line">
-      <a href="www.twitter.com"> <img src="/assets/twitter-icon.svg" alt="topcoat" style="width:42px;height:42px;border:0;"> </a>
-      <a href="www.github.com"> <img src="/assets/github-icon.svg" alt="topcoat" style="width:42px;height:42px;border:0;"> </a>
-      <a href="www.adobe.com"> <img src="/assets/adobe-icon.svg" alt="topcoat" style="width:42px;height:42px;border:0;"> </a>
+      <a href="http://www.twitter.com"> <img src="/assets/twitter-icon.svg" alt="topcoat" style="width:42px;height:42px;border:0;"> </a>
+      <a href="http://www.github.com"> <img src="/assets/github-icon.svg" alt="topcoat" style="width:42px;height:42px;border:0;"> </a>
+      <a href="http://www.adobe.com"> <img src="/assets/adobe-icon.svg" alt="topcoat" style="width:42px;height:42px;border:0;"> </a>
     </footer>
   </section>
 </body>
