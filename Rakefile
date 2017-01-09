@@ -203,7 +203,7 @@ end
 desc "build and test website"
 task :html_proofer do
   sh "bundle exec jekyll build"
-  HTMLProofer.check_directory("./_site-test", {
+  HTMLProofer.check_directory("./_site", {
     :empty_alt_ignore => true,
     :url_ignore => [
       'http://localhost:4000'
@@ -225,12 +225,13 @@ desc "Lint SCSS"
 SCSSLint::RakeTask.new do |t|
 end
 
-# rake lint
+# rake markdown_lint
 desc "Markdown Lint"
 task :markdown_lint do
   sh "bundle exec mdl ./ -r ~MD002,~MD013,~MD026,~MD028"
 end
 
+# rake lint
 desc "All lints"
 task :lint do
   Rake::Task["markdown_lint"].invoke
