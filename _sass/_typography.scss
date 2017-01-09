@@ -1,3 +1,14 @@
+//Colors
+$gray-dark: #333333;
+
 h1 {
-  font-size: 14px;
+  font-size: 80px;
+  font-family: Helvetica, Arial, Sans-Serif;
+  color: $gray-dark;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: Helvetica, Arial, Sans-Serif;
+  color: $gray-dark;
 }
